@@ -1,0 +1,10 @@
+build/
+install/
+log/
+*.zip
+__pycache__/
+build/
+install/
+log/
+*.zip
+__pycache__/
