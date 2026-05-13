@@ -1,0 +1,61 @@
+[0.684s] Invoking command in '/home/jack/work/build/hiwin_libmodbus': CMAKE_PREFIX_PATH=/home/jack/work/install/hiwin_interfaces:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/detect_interface:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble LD_LIBRARY_PATH=/home/jack/work/install/hiwin_interfaces/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/detect_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --build /home/jack/work/build/hiwin_libmodbus -- -j16 -l16
+[0.799s] [ 42%] Built target hiwin_libmodbus
+[0.821s] [ 42%] Built target ament_cmake_python_copy_hiwin_libmodbus
+[0.852s] [ 57%] Built target hiwin_libmodbus_ctype_wrapper
+[0.862s] [ 71%] Built target hiwin_libmodbus_node
+[0.863s] [ 85%] Built target hiwinlibmodbus_server
+[0.881s] [100%] Built target hiwinmodbus_server
+[1.101s] running egg_info
+[1.126s] writing hiwin_libmodbus.egg-info/PKG-INFO
+[1.126s] writing dependency_links to hiwin_libmodbus.egg-info/dependency_links.txt
+[1.126s] writing top-level names to hiwin_libmodbus.egg-info/top_level.txt
+[1.192s] reading manifest file 'hiwin_libmodbus.egg-info/SOURCES.txt'
+[1.193s] writing manifest file 'hiwin_libmodbus.egg-info/SOURCES.txt'
+[1.235s] [100%] Built target ament_cmake_python_build_hiwin_libmodbus_egg
+[1.258s] Invoked command in '/home/jack/work/build/hiwin_libmodbus' returned '0': CMAKE_PREFIX_PATH=/home/jack/work/install/hiwin_interfaces:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/detect_interface:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble LD_LIBRARY_PATH=/home/jack/work/install/hiwin_interfaces/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/detect_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --build /home/jack/work/build/hiwin_libmodbus -- -j16 -l16
+[1.258s] Invoking command in '/home/jack/work/build/hiwin_libmodbus': CMAKE_PREFIX_PATH=/home/jack/work/install/hiwin_interfaces:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/detect_interface:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble LD_LIBRARY_PATH=/home/jack/work/install/hiwin_interfaces/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/detect_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --install /home/jack/work/build/hiwin_libmodbus
+[1.265s] -- Install configuration: ""
+[1.265s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/include
+[1.265s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/include/hiwin_libmodbus
+[1.265s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/include/hiwin_libmodbus/visibility_control.h
+[1.265s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/include/hiwin_libmodbus/hiwin_libmodbus.hpp
+[1.265s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/lib/libhiwin_libmodbus.so
+[1.265s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/lib/libhiwin_libmodbus_ctype_wrapper.so
+[1.265s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/lib/hiwin_libmodbus/hiwinmodbus_server
+[1.266s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/lib/hiwin_libmodbus/hiwinlibmodbus_server
+[1.266s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/lib/hiwin_libmodbus/hiwin_libmodbus_node
+[1.266s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/pythonpath.sh
+[1.266s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/pythonpath.dsv
+[1.267s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus-0.0.0-py3.10.egg-info
+[1.267s] -- Installing: /home/jack/work/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus-0.0.0-py3.10.egg-info/top_level.txt
+[1.267s] -- Installing: /home/jack/work/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus-0.0.0-py3.10.egg-info/PKG-INFO
+[1.267s] -- Installing: /home/jack/work/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.267s] -- Installing: /home/jack/work/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.267s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus
+[1.267s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus/__init__.py
+[1.267s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus/hiwin_libmodbus.py
+[1.335s] Listing '/home/jack/work/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus'...
+[1.340s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/lib/hiwin_libmodbus/Hiwin_API_test.py
+[1.340s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/library_path.sh
+[1.341s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/library_path.dsv
+[1.341s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/share/ament_index/resource_index/package_run_dependencies/hiwin_libmodbus
+[1.341s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/share/ament_index/resource_index/parent_prefix_path/hiwin_libmodbus
+[1.341s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/ament_prefix_path.sh
+[1.341s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/ament_prefix_path.dsv
+[1.341s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/path.sh
+[1.341s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/path.dsv
+[1.343s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/local_setup.bash
+[1.343s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/local_setup.sh
+[1.343s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/local_setup.zsh
+[1.343s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/local_setup.dsv
+[1.343s] -- Installing: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/package.dsv
+[1.343s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/share/ament_index/resource_index/packages/hiwin_libmodbus
+[1.343s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/export_hiwin_libmodbusExport.cmake
+[1.343s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/export_hiwin_libmodbusExport-noconfig.cmake
+[1.343s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.343s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/ament_cmake_export_libraries-extras.cmake
+[1.343s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/ament_cmake_export_targets-extras.cmake
+[1.343s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/hiwin_libmodbusConfig.cmake
+[1.343s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/hiwin_libmodbusConfig-version.cmake
+[1.344s] -- Up-to-date: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/package.xml
+[1.347s] Invoked command in '/home/jack/work/build/hiwin_libmodbus' returned '0': CMAKE_PREFIX_PATH=/home/jack/work/install/hiwin_interfaces:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/detect_interface:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble LD_LIBRARY_PATH=/home/jack/work/install/hiwin_interfaces/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/detect_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --install /home/jack/work/build/hiwin_libmodbus

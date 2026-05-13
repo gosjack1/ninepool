@@ -1,0 +1,43 @@
+[0.018s] Invoking command in '/home/jack/work/build/visp_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble /usr/bin/cmake /home/jack/work/src/vision_visp/visp_bridge -DCMAKE_INSTALL_PREFIX=/home/jack/work/install/visp_bridge
+[0.090s] -- The C compiler identification is GNU 11.4.0
+[0.179s] -- The CXX compiler identification is GNU 11.4.0
+[0.188s] -- Detecting C compiler ABI info
+[0.295s] -- Detecting C compiler ABI info - done
+[0.300s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.300s] -- Detecting C compile features
+[0.301s] -- Detecting C compile features - done
+[0.304s] -- Detecting CXX compiler ABI info
+[0.388s] -- Detecting CXX compiler ABI info - done
+[0.396s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.396s] -- Detecting CXX compile features
+[0.397s] -- Detecting CXX compile features - done
+[0.399s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.737s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.817s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.850s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.854s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.862s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.872s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.886s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.917s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.940s] -- Configuring incomplete, errors occurred!
+[0.940s] See also "/home/jack/work/build/visp_bridge/CMakeFiles/CMakeOutput.log".
+[0.940s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[0.940s]   By not providing "Findcamera_calibration_parsers.cmake" in
+[0.940s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[0.940s]   configuration file provided by "camera_calibration_parsers", but CMake did
+[0.941s]   not find one.
+[0.941s] 
+[0.941s]   Could not find a package configuration file provided by
+[0.941s]   "camera_calibration_parsers" with any of the following names:
+[0.941s] 
+[0.941s]     camera_calibration_parsersConfig.cmake
+[0.941s]     camera_calibration_parsers-config.cmake
+[0.941s] 
+[0.941s]   Add the installation prefix of "camera_calibration_parsers" to
+[0.941s]   CMAKE_PREFIX_PATH or set "camera_calibration_parsers_DIR" to a directory
+[0.941s]   containing one of the above files.  If "camera_calibration_parsers"
+[0.941s]   provides a separate development package or SDK, be sure it has been
+[0.941s]   installed.
+[0.941s] 
+[0.941s] [0m

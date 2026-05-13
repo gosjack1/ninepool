@@ -1,0 +1,222 @@
+[0.034s] Invoking command in '/home/jack/work/build/visp_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble /usr/bin/cmake --build /home/jack/work/build/visp_bridge -- -j16 -l16
+[0.098s] [35m[1mConsolidate compiler generated dependencies of target visp_bridge[0m
+[0.165s] [ 16%] [32mBuilding CXX object src/CMakeFiles/visp_bridge.dir/camera.cpp.o[0m
+[0.169s] [ 33%] [32mBuilding CXX object src/CMakeFiles/visp_bridge.dir/3dpose.cpp.o[0m
+[0.169s] [ 50%] [32mBuilding CXX object src/CMakeFiles/visp_bridge.dir/image.cpp.o[0m
+[2.423s] In file included from [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/camera.cpp:46[m[K:
+[2.423s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/../include/visp_bridge/camera.h:58:1:[m[K [01;31m[Kerror: [m[K‘[01m[KvpCameraParameters[m[K’ does not name a type
+[2.423s]    58 | [01;31m[KvpCameraParameters[m[K toVispCameraParameters(const sensor_msgs::msg::CameraInfo &cam_info);
+[2.423s]       | [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.426s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/../include/visp_bridge/camera.h:64:1:[m[K [01;31m[Kerror: [m[K‘[01m[KvpCameraParameters[m[K’ does not name a type
+[2.426s]    64 | [01;31m[KvpCameraParameters[m[K toVispCameraParameters(const sensor_msgs::msg::CameraInfo::ConstSharedPtr &cam_info);
+[2.426s]       | [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.427s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/../include/visp_bridge/camera.h:72:53:[m[K [01;31m[Kerror: [m[K‘[01m[KvpCameraParameters[m[K’ was not declared in this scope; did you mean ‘[01m[Kvisp::vpCameraParameters[m[K’?
+[2.427s]    72 | sensor_msgs::msg::CameraInfo toSensorMsgsCameraInfo([01;31m[KvpCameraParameters[m[K &cam_info, unsigned int cam_image_width,
+[2.427s]       |                                                     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.427s]       |                                                     [32m[Kvisp::vpCameraParameters[m[K
+[2.428s] In file included from [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/../include/visp_bridge/camera.h:49[m[K,
+[2.428s]                  from [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/camera.cpp:46[m[K:
+[2.428s] [01m[K/opt/ros/humble/include/visp3/core/vpCameraParameters.h:310:19:[m[K [01;36m[Knote: [m[K‘[01m[Kvisp::vpCameraParameters[m[K’ declared here
+[2.428s]   310 | class VISP_EXPORT [01;36m[KvpCameraParameters[m[K
+[2.428s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.433s] In file included from [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/camera.cpp:46[m[K:
+[2.433s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/../include/visp_bridge/camera.h:72:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kcam_info[m[K’ was not declared in this scope
+[2.433s]    72 | sensor_msgs::msg::CameraInfo toSensorMsgsCameraInfo(vpCameraParameters &[01;31m[Kcam_info[m[K, unsigned int cam_image_width,
+[2.433s]       |                                                                         [01;31m[K^~~~~~~~[m[K
+[2.433s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/../include/visp_bridge/camera.h:72:83:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kunsigned[m[K’
+[2.433s]    72 | sensor_msgs::msg::CameraInfo toSensorMsgsCameraInfo(vpCameraParameters &cam_info, [01;31m[Kunsigned[m[K int cam_image_width,
+[2.434s]       |                                                                                   [01;31m[K^~~~~~~~[m[K
+[2.434s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/../include/visp_bridge/camera.h:73:53:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kunsigned[m[K’
+[2.434s]    73 |                                                     [01;31m[Kunsigned[m[K int cam_image_height);
+[2.434s]       |                                                     [01;31m[K^~~~~~~~[m[K
+[2.436s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/camera.cpp:50:1:[m[K [01;31m[Kerror: [m[K‘[01m[KvpCameraParameters[m[K’ does not name a type
+[2.436s]    50 | [01;31m[KvpCameraParameters[m[K toVispCameraParameters(const sensor_msgs::msg::CameraInfo &cam_info)
+[2.436s]       | [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.439s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/camera.cpp:84:1:[m[K [01;31m[Kerror: [m[K‘[01m[KvpCameraParameters[m[K’ does not name a type
+[2.439s]    84 | [01;31m[KvpCameraParameters[m[K toVispCameraParameters(const sensor_msgs::msg::CameraInfo::ConstSharedPtr &cam_info)
+[2.439s]       | [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.440s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/camera.cpp:118:30:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Ksensor_msgs::msg::CameraInfo visp_bridge::toSensorMsgsCameraInfo[m[K’
+[2.440s]   118 | sensor_msgs::msg::CameraInfo [01;31m[KtoSensorMsgsCameraInfo[m[K(vpCameraParameters &cam_info, unsigned int cam_image_width,
+[2.440s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.441s] In file included from [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/camera.cpp:46[m[K:
+[2.441s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/../include/visp_bridge/camera.h:72:30:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::CameraInfo visp_bridge::toSensorMsgsCameraInfo[m[K’ previously declared here
+[2.441s]    72 | sensor_msgs::msg::CameraInfo [01;36m[KtoSensorMsgsCameraInfo[m[K(vpCameraParameters &cam_info, unsigned int cam_image_width,
+[2.441s]       |                              [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.441s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/camera.cpp:118:53:[m[K [01;31m[Kerror: [m[K‘[01m[KvpCameraParameters[m[K’ was not declared in this scope; did you mean ‘[01m[Kvisp::vpCameraParameters[m[K’?
+[2.441s]   118 | sensor_msgs::msg::CameraInfo toSensorMsgsCameraInfo([01;31m[KvpCameraParameters[m[K &cam_info, unsigned int cam_image_width,
+[2.442s]       |                                                     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.442s]       |                                                     [32m[Kvisp::vpCameraParameters[m[K
+[2.442s] In file included from [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/../include/visp_bridge/camera.h:49[m[K,
+[2.442s]                  from [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/camera.cpp:46[m[K:
+[2.442s] [01m[K/opt/ros/humble/include/visp3/core/vpCameraParameters.h:310:19:[m[K [01;36m[Knote: [m[K‘[01m[Kvisp::vpCameraParameters[m[K’ declared here
+[2.442s]   310 | class VISP_EXPORT [01;36m[KvpCameraParameters[m[K
+[2.443s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.446s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/camera.cpp:118:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kcam_info[m[K’ was not declared in this scope
+[2.446s]   118 | sensor_msgs::msg::CameraInfo toSensorMsgsCameraInfo(vpCameraParameters &[01;31m[Kcam_info[m[K, unsigned int cam_image_width,
+[2.446s]       |                                                                         [01;31m[K^~~~~~~~[m[K
+[2.447s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/camera.cpp:118:83:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kunsigned[m[K’
+[2.447s]   118 | sensor_msgs::msg::CameraInfo toSensorMsgsCameraInfo(vpCameraParameters &cam_info, [01;31m[Kunsigned[m[K int cam_image_width,
+[2.447s]       |                                                                                   [01;31m[K^~~~~~~~[m[K
+[2.447s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/camera.cpp:119:53:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kunsigned[m[K’
+[2.447s]   119 |                                                     [01;31m[Kunsigned[m[K int cam_image_height)
+[2.447s]       |                                                     [01;31m[K^~~~~~~~[m[K
+[2.550s] In file included from [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/3dpose.cpp:50[m[K:
+[2.550s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/../include/visp_bridge/3dpose.h:59:1:[m[K [01;31m[Kerror: [m[K‘[01m[KvpHomogeneousMatrix[m[K’ does not name a type
+[2.550s]    59 | [01;31m[KvpHomogeneousMatrix[m[K toVispHomogeneousMatrix(const geometry_msgs::msg::Transform &trans);
+[2.550s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.552s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/../include/visp_bridge/3dpose.h:65:1:[m[K [01;31m[Kerror: [m[K‘[01m[KvpHomogeneousMatrix[m[K’ does not name a type
+[2.552s]    65 | [01;31m[KvpHomogeneousMatrix[m[K toVispHomogeneousMatrix(const geometry_msgs::msg::Transform::ConstSharedPtr &trans);
+[2.552s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.554s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/../include/visp_bridge/3dpose.h:72:1:[m[K [01;31m[Kerror: [m[K‘[01m[KvpHomogeneousMatrix[m[K’ does not name a type
+[2.554s]    72 | [01;31m[KvpHomogeneousMatrix[m[K toVispHomogeneousMatrix(const geometry_msgs::msg::Pose &pose);
+[2.554s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.556s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/../include/visp_bridge/3dpose.h:79:1:[m[K [01;31m[Kerror: [m[K‘[01m[KvpHomogeneousMatrix[m[K’ does not name a type
+[2.556s]    79 | [01;31m[KvpHomogeneousMatrix[m[K toVispHomogeneousMatrix(const geometry_msgs::msg::Pose::ConstSharedPtr &pose);
+[2.557s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.558s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/../include/visp_bridge/3dpose.h:86:61:[m[K [01;31m[Kerror: [m[K‘[01m[KvpHomogeneousMatrix[m[K’ does not name a type
+[2.559s]    86 | geometry_msgs::msg::Transform toGeometryMsgsTransform(const [01;31m[KvpHomogeneousMatrix[m[K &mat);
+[2.559s]       |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.561s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/../include/visp_bridge/3dpose.h:93:51:[m[K [01;31m[Kerror: [m[K‘[01m[KvpHomogeneousMatrix[m[K’ does not name a type
+[2.561s]    93 | geometry_msgs::msg::Pose toGeometryMsgsPose(const [01;31m[KvpHomogeneousMatrix[m[K &mat);
+[2.561s]       |                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.563s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/3dpose.cpp:54:1:[m[K [01;31m[Kerror: [m[K‘[01m[KvpHomogeneousMatrix[m[K’ does not name a type
+[2.563s]    54 | [01;31m[KvpHomogeneousMatrix[m[K toVispHomogeneousMatrix(const geometry_msgs::msg::Pose &pose)
+[2.563s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.565s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/3dpose.cpp:64:1:[m[K [01;31m[Kerror: [m[K‘[01m[KvpHomogeneousMatrix[m[K’ does not name a type
+[2.565s]    64 | [01;31m[KvpHomogeneousMatrix[m[K toVispHomogeneousMatrix(const geometry_msgs::msg::Pose::ConstSharedPtr &pose)
+[2.565s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.567s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/3dpose.cpp:74:1:[m[K [01;31m[Kerror: [m[K‘[01m[KvpHomogeneousMatrix[m[K’ does not name a type
+[2.568s]    74 | [01;31m[KvpHomogeneousMatrix[m[K toVispHomogeneousMatrix(const geometry_msgs::msg::Transform &trans)
+[2.568s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.570s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/3dpose.cpp:84:1:[m[K [01;31m[Kerror: [m[K‘[01m[KvpHomogeneousMatrix[m[K’ does not name a type
+[2.570s]    84 | [01;31m[KvpHomogeneousMatrix[m[K toVispHomogeneousMatrix(const geometry_msgs::msg::Transform::ConstSharedPtr &trans)
+[2.570s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.572s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/3dpose.cpp:94:61:[m[K [01;31m[Kerror: [m[K‘[01m[KvpHomogeneousMatrix[m[K’ does not name a type
+[2.572s]    94 | geometry_msgs::msg::Transform toGeometryMsgsTransform(const [01;31m[KvpHomogeneousMatrix[m[K &mat)
+[2.572s]       |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.573s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/3dpose.cpp:[m[K In function ‘[01m[Kgeometry_msgs::msg::Transform visp_bridge::toGeometryMsgsTransform(const int&)[m[K’:
+[2.573s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/3dpose.cpp:97:3:[m[K [01;31m[Kerror: [m[K‘[01m[KvpQuaternionVector[m[K’ was not declared in this scope; did you mean ‘[01m[Kvisp::vpQuaternionVector[m[K’?
+[2.573s]    97 |   [01;31m[KvpQuaternionVector[m[K q;
+[2.573s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.573s]       |   [32m[Kvisp::vpQuaternionVector[m[K
+[2.574s] In file included from [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/3dpose.cpp:46[m[K:
+[2.574s] [01m[K/opt/ros/humble/include/visp3/core/vpQuaternionVector.h:105:19:[m[K [01;36m[Knote: [m[K‘[01m[Kvisp::vpQuaternionVector[m[K’ declared here
+[2.574s]   105 | class VISP_EXPORT [01;36m[KvpQuaternionVector[m[K : public vpRotationVector
+[2.574s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.574s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/3dpose.cpp:98:7:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kextract[m[K’ in ‘[01m[Kmat[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[2.574s]    98 |   mat.[01;31m[Kextract[m[K(q);
+[2.574s]       |       [01;31m[K^~~~~~~[m[K
+[2.576s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/3dpose.cpp:98:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kq[m[K’ was not declared in this scope
+[2.576s]    98 |   mat.extract([01;31m[Kq[m[K);
+[2.577s]       |               [01;31m[K^[m[K
+[2.577s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/3dpose.cpp:104:28:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kconst int[int][m[K’ for array subscript
+[2.577s]   104 |   trans.translation.x = mat[01;31m[K[[m[K0][3];
+[2.577s]       |                            [01;31m[K^[m[K
+[2.577s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/3dpose.cpp:105:28:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kconst int[int][m[K’ for array subscript
+[2.577s]   105 |   trans.translation.y = mat[01;31m[K[[m[K1][3];
+[2.577s]       |                            [01;31m[K^[m[K
+[2.578s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/3dpose.cpp:106:28:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kconst int[int][m[K’ for array subscript
+[2.578s]   106 |   trans.translation.z = mat[01;31m[K[[m[K2][3];
+[2.578s]       |                            [01;31m[K^[m[K
+[2.579s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/3dpose.cpp:[m[K At global scope:
+[2.579s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/3dpose.cpp:111:51:[m[K [01;31m[Kerror: [m[K‘[01m[KvpHomogeneousMatrix[m[K’ does not name a type
+[2.579s]   111 | geometry_msgs::msg::Pose toGeometryMsgsPose(const [01;31m[KvpHomogeneousMatrix[m[K &mat)
+[2.580s]       |                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.580s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/3dpose.cpp:[m[K In function ‘[01m[Kgeometry_msgs::msg::Pose visp_bridge::toGeometryMsgsPose(const int&)[m[K’:
+[2.580s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/3dpose.cpp:115:3:[m[K [01;31m[Kerror: [m[K‘[01m[KvpThetaUVector[m[K’ was not declared in this scope; did you mean ‘[01m[Kvisp::vpThetaUVector[m[K’?
+[2.580s]   115 |   [01;31m[KvpThetaUVector[m[K tu(mat);
+[2.580s]       |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.581s]       |   [32m[Kvisp::vpThetaUVector[m[K
+[2.581s] In file included from [01m[K/opt/ros/humble/include/visp3/core/vpHomogeneousMatrix.h:62[m[K,
+[2.581s]                  from [01m[K/opt/ros/humble/include/visp3/core/vpRotationMatrix.h:44[m[K,
+[2.582s]                  from [01m[K/opt/ros/humble/include/visp3/core/vpQuaternionVector.h:45[m[K,
+[2.582s]                  from [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/3dpose.cpp:46[m[K:
+[2.582s] [01m[K/opt/ros/humble/include/visp3/core/vpThetaUVector.h:171:19:[m[K [01;36m[Knote: [m[K‘[01m[Kvisp::vpThetaUVector[m[K’ declared here
+[2.582s]   171 | class VISP_EXPORT [01;36m[KvpThetaUVector[m[K : public vpRotationVector
+[2.582s]       |                   [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.582s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/3dpose.cpp:116:3:[m[K [01;31m[Kerror: [m[K‘[01m[KvpColVector[m[K’ was not declared in this scope; did you mean ‘[01m[Kvisp::vpColVector[m[K’?
+[2.583s]   116 |   [01;31m[KvpColVector[m[K u;
+[2.583s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.583s]       |   [32m[Kvisp::vpColVector[m[K
+[2.583s] In file included from [01m[K/opt/ros/humble/include/visp3/core/vpThetaUVector.h:43[m[K,
+[2.583s]                  from [01m[K/opt/ros/humble/include/visp3/core/vpHomogeneousMatrix.h:62[m[K,
+[2.584s]                  from [01m[K/opt/ros/humble/include/visp3/core/vpRotationMatrix.h:44[m[K,
+[2.584s]                  from [01m[K/opt/ros/humble/include/visp3/core/vpQuaternionVector.h:45[m[K,
+[2.584s]                  from [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/3dpose.cpp:46[m[K:
+[2.584s] [01m[K/opt/ros/humble/include/visp3/core/vpColVector.h:190:19:[m[K [01;36m[Knote: [m[K‘[01m[Kvisp::vpColVector[m[K’ declared here
+[2.584s]   190 | class VISP_EXPORT [01;36m[KvpColVector[m[K : public vpArray2D<double>
+[2.584s]       |                   [01;36m[K^~~~~~~~~~~[m[K
+[2.584s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/3dpose.cpp:118:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktu[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+[2.585s]   118 |   [01;31m[Ktu[m[K.extract(theta, u);
+[2.585s]       |   [01;31m[K^~[m[K
+[2.585s]       |   [32m[Ktm[m[K
+[2.587s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/3dpose.cpp:118:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ku[m[K’ was not declared in this scope
+[2.587s]   118 |   tu.extract(theta, [01;31m[Ku[m[K);
+[2.587s]       |                     [01;31m[K^[m[K
+[2.587s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/3dpose.cpp:129:24:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kconst int[int][m[K’ for array subscript
+[2.587s]   129 |   pose.position.x = mat[01;31m[K[[m[K0][3];
+[2.587s]       |                        [01;31m[K^[m[K
+[2.587s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/3dpose.cpp:130:24:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kconst int[int][m[K’ for array subscript
+[2.588s]   130 |   pose.position.y = mat[01;31m[K[[m[K1][3];
+[2.588s]       |                        [01;31m[K^[m[K
+[2.588s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/3dpose.cpp:131:24:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kconst int[int][m[K’ for array subscript
+[2.588s]   131 |   pose.position.z = mat[01;31m[K[[m[K2][3];
+[2.588s]       |                        [01;31m[K^[m[K
+[2.763s] In file included from [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/image.cpp:50[m[K:
+[2.763s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/../include/visp_bridge/image.h:59:49:[m[K [01;31m[Kerror: [m[K‘[01m[KvpImage[m[K’ does not name a type
+[2.763s]    59 | sensor_msgs::msg::Image toSensorMsgsImage(const [01;31m[KvpImage[m[K<unsigned char> &src);
+[2.764s]       |                                                 [01;31m[K^~~~~~~[m[K
+[2.764s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/../include/visp_bridge/image.h:59:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+[2.764s]    59 | sensor_msgs::msg::Image toSensorMsgsImage(const vpImage[01;31m[K<[m[Kunsigned char> &src);
+[2.764s]       |                                                        [01;31m[K^[m[K
+[2.766s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/../include/visp_bridge/image.h:60:49:[m[K [01;31m[Kerror: [m[K‘[01m[KvpImage[m[K’ does not name a type
+[2.766s]    60 | sensor_msgs::msg::Image toSensorMsgsImage(const [01;31m[KvpImage[m[K<vpRGBa> &src);
+[2.766s]       |                                                 [01;31m[K^~~~~~~[m[K
+[2.766s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/../include/visp_bridge/image.h:60:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+[2.766s]    60 | sensor_msgs::msg::Image toSensorMsgsImage(const vpImage[01;31m[K<[m[KvpRGBa> &src);
+[2.766s]       |                                                        [01;31m[K^[m[K
+[2.768s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/../include/visp_bridge/image.h:66:1:[m[K [01;31m[Kerror: [m[K‘[01m[KvpImage[m[K’ does not name a type
+[2.768s]    66 | [01;31m[KvpImage[m[K<unsigned char> toVispImage(const sensor_msgs::msg::Image &src);
+[2.769s]       | [01;31m[K^~~~~~~[m[K
+[2.771s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/../include/visp_bridge/image.h:67:1:[m[K [01;31m[Kerror: [m[K‘[01m[KvpImage[m[K’ does not name a type
+[2.771s]    67 | [01;31m[KvpImage[m[K<vpRGBa> toVispImageRGBa(const sensor_msgs::msg::Image &src);
+[2.771s]       | [01;31m[K^~~~~~~[m[K
+[2.773s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/image.cpp:54:49:[m[K [01;31m[Kerror: [m[K‘[01m[KvpImage[m[K’ does not name a type
+[2.773s]    54 | sensor_msgs::msg::Image toSensorMsgsImage(const [01;31m[KvpImage[m[K<unsigned char> &src)
+[2.773s]       |                                                 [01;31m[K^~~~~~~[m[K
+[2.774s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/image.cpp:54:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+[2.774s]    54 | sensor_msgs::msg::Image toSensorMsgsImage(const vpImage[01;31m[K<[m[Kunsigned char> &src)
+[2.774s]       |                                                        [01;31m[K^[m[K
+[2.777s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/image.cpp:[m[K In function ‘[01m[Ksensor_msgs::msg::Image visp_bridge::toSensorMsgsImage(int)[m[K’:
+[2.777s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/image.cpp:57:15:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrc[m[K’ was not declared in this scope
+[2.778s]    57 |   dst.width = [01;31m[Ksrc[m[K.getWidth();
+[2.778s]       |               [01;31m[K^~~[m[K
+[2.780s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/image.cpp:[m[K At global scope:
+[2.781s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/image.cpp:67:1:[m[K [01;31m[Kerror: [m[K‘[01m[KvpImage[m[K’ does not name a type
+[2.781s]    67 | [01;31m[KvpImage[m[K<unsigned char> toVispImage(const sensor_msgs::msg::Image &src)
+[2.781s]       | [01;31m[K^~~~~~~[m[K
+[2.783s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/image.cpp:95:1:[m[K [01;31m[Kerror: [m[K‘[01m[KvpImage[m[K’ does not name a type
+[2.783s]    95 | [01;31m[KvpImage[m[K<vpRGBa> toVispImageRGBa(const sensor_msgs::msg::Image &src)
+[2.783s]       | [01;31m[K^~~~~~~[m[K
+[2.786s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/image.cpp:125:49:[m[K [01;31m[Kerror: [m[K‘[01m[KvpImage[m[K’ does not name a type
+[2.786s]   125 | sensor_msgs::msg::Image toSensorMsgsImage(const [01;31m[KvpImage[m[K<vpRGBa> &src)
+[2.786s]       |                                                 [01;31m[K^~~~~~~[m[K
+[2.786s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/image.cpp:125:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+[2.786s]   125 | sensor_msgs::msg::Image toSensorMsgsImage(const vpImage[01;31m[K<[m[KvpRGBa> &src)
+[2.787s]       |                                                        [01;31m[K^[m[K
+[2.787s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/image.cpp:125:25:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Ksensor_msgs::msg::Image visp_bridge::toSensorMsgsImage(int)[m[K’
+[2.787s]   125 | sensor_msgs::msg::Image [01;31m[KtoSensorMsgsImage[m[K(const vpImage<vpRGBa> &src)
+[2.787s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.787s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/image.cpp:54:25:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::Image visp_bridge::toSensorMsgsImage(int)[m[K’ previously defined here
+[2.787s]    54 | sensor_msgs::msg::Image [01;36m[KtoSensorMsgsImage[m[K(const vpImage<unsigned char> &src)
+[2.788s]       |                         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[2.790s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/image.cpp:[m[K In function ‘[01m[Ksensor_msgs::msg::Image visp_bridge::toSensorMsgsImage(int)[m[K’:
+[2.790s] [01m[K/home/jack/work/src/vision_visp/visp_bridge/src/image.cpp:128:15:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrc[m[K’ was not declared in this scope
+[2.791s]   128 |   dst.width = [01;31m[Ksrc[m[K.getWidth();
+[2.791s]       |               [01;31m[K^~~[m[K
+[3.439s] gmake[2]: *** [src/CMakeFiles/visp_bridge.dir/build.make:76: src/CMakeFiles/visp_bridge.dir/3dpose.cpp.o] Error 1
+[3.439s] gmake[2]: *** Waiting for unfinished jobs....
+[3.493s] gmake[2]: *** [src/CMakeFiles/visp_bridge.dir/build.make:90: src/CMakeFiles/visp_bridge.dir/camera.cpp.o] Error 1
+[3.638s] gmake[2]: *** [src/CMakeFiles/visp_bridge.dir/build.make:104: src/CMakeFiles/visp_bridge.dir/image.cpp.o] Error 1
+[3.638s] gmake[1]: *** [CMakeFiles/Makefile2:170: src/CMakeFiles/visp_bridge.dir/all] Error 2
+[3.638s] gmake: *** [Makefile:146: all] Error 2

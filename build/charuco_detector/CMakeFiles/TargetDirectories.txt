@@ -1,0 +1,11 @@
+/home/jack/work/build/charuco_detector/CMakeFiles/uninstall.dir
+/home/jack/work/build/charuco_detector/CMakeFiles/charuco_detector_uninstall.dir
+/home/jack/work/build/charuco_detector/CMakeFiles/charuco_detector_core.dir
+/home/jack/work/build/charuco_detector/CMakeFiles/charuco_detector_node.dir
+/home/jack/work/build/charuco_detector/CMakeFiles/test.dir
+/home/jack/work/build/charuco_detector/CMakeFiles/edit_cache.dir
+/home/jack/work/build/charuco_detector/CMakeFiles/rebuild_cache.dir
+/home/jack/work/build/charuco_detector/CMakeFiles/list_install_components.dir
+/home/jack/work/build/charuco_detector/CMakeFiles/install.dir
+/home/jack/work/build/charuco_detector/CMakeFiles/install/local.dir
+/home/jack/work/build/charuco_detector/CMakeFiles/install/strip.dir

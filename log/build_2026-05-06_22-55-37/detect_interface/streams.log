@@ -1,0 +1,174 @@
+[0.024s] Invoking command in '/home/jack/work/build/detect_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble /usr/bin/cmake --build /home/jack/work/build/detect_interface -- -j16 -l16
+[0.141s] [  2%] Built target detect_interface__rs
+[0.147s] [ 12%] Built target detect_interface__rosidl_generator_c
+[0.147s] [  2%] Built target ament_cmake_python_copy_detect_interface
+[0.148s] [ 15%] Built target detect_interface__cpp
+[0.204s] [ 35%] Built target detect_interface__rosidl_typesupport_fastrtps_cpp
+[0.204s] [ 25%] Built target detect_interface__rosidl_typesupport_c
+[0.216s] [ 45%] Built target detect_interface__rosidl_typesupport_fastrtps_c
+[0.216s] [ 55%] Built target detect_interface__rosidl_typesupport_introspection_cpp
+[0.221s] [ 65%] Built target detect_interface__rosidl_typesupport_introspection_c
+[0.226s] [ 75%] Built target detect_interface__rosidl_typesupport_cpp
+[0.279s] [ 75%] Built target detect_interface
+[0.326s] [ 77%] Built target detect_interface__py
+[0.359s] [ 85%] Built target detect_interface__rosidl_generator_py
+[0.387s] [ 90%] Built target detect_interface__rosidl_typesupport_fastrtps_c__pyext
+[0.390s] [ 95%] Built target detect_interface__rosidl_typesupport_introspection_c__pyext
+[0.393s] [100%] Built target detect_interface__rosidl_typesupport_c__pyext
+[0.424s] running egg_info
+[0.439s] writing detect_interface.egg-info/PKG-INFO
+[0.439s] writing dependency_links to detect_interface.egg-info/dependency_links.txt
+[0.439s] writing top-level names to detect_interface.egg-info/top_level.txt
+[0.486s] reading manifest file 'detect_interface.egg-info/SOURCES.txt'
+[0.489s] writing manifest file 'detect_interface.egg-info/SOURCES.txt'
+[0.526s] [100%] Built target ament_cmake_python_build_detect_interface_egg
+[0.550s] Invoked command in '/home/jack/work/build/detect_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble /usr/bin/cmake --build /home/jack/work/build/detect_interface -- -j16 -l16
+[0.550s] Invoking command in '/home/jack/work/build/detect_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble /usr/bin/cmake --install /home/jack/work/build/detect_interface
+[0.560s] -- Install configuration: ""
+[0.560s] -- Up-to-date: /home/jack/work/install/detect_interface/share/ament_index/resource_index/rosidl_interfaces/detect_interface
+[0.560s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface
+[0.560s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg
+[0.561s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/rosidl_generator_c__visibility_control.h
+[0.561s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detection_results.h
+[0.561s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/bounding_box.h
+[0.561s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail
+[0.561s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/bounding_box__functions.h
+[0.561s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/bounding_box__type_support.h
+[0.561s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/detection_results__functions.h
+[0.561s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/bounding_box__struct.h
+[0.561s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/detection_results__type_support.h
+[0.561s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/detection_results__struct.h
+[0.561s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/bounding_box__functions.c
+[0.561s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/detection_results__functions.c
+[0.562s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/environment/library_path.sh
+[0.562s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/environment/library_path.dsv
+[0.562s] -- Up-to-date: /home/jack/work/install/detect_interface/lib/libdetect_interface__rosidl_generator_c.so
+[0.562s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface
+[0.562s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg
+[0.563s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.563s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail
+[0.563s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/bounding_box__rosidl_typesupport_fastrtps_c.h
+[0.563s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/detection_results__rosidl_typesupport_fastrtps_c.h
+[0.563s] -- Up-to-date: /home/jack/work/install/detect_interface/lib/libdetect_interface__rosidl_typesupport_fastrtps_c.so
+[0.564s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface
+[0.564s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg
+[0.564s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/bounding_box.hpp
+[0.564s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.564s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail
+[0.564s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/detection_results__struct.hpp
+[0.564s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/bounding_box__type_support.hpp
+[0.564s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/bounding_box__struct.hpp
+[0.564s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/detection_results__traits.hpp
+[0.565s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/detection_results__builder.hpp
+[0.565s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/bounding_box__traits.hpp
+[0.565s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/bounding_box__builder.hpp
+[0.565s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/detection_results__type_support.hpp
+[0.565s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detection_results.hpp
+[0.565s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface
+[0.565s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg
+[0.565s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.566s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail
+[0.566s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/bounding_box__rosidl_typesupport_fastrtps_cpp.hpp
+[0.566s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/dds_fastrtps
+[0.566s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/detection_results__rosidl_typesupport_fastrtps_cpp.hpp
+[0.566s] -- Up-to-date: /home/jack/work/install/detect_interface/lib/libdetect_interface__rosidl_typesupport_fastrtps_cpp.so
+[0.566s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface
+[0.567s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg
+[0.567s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.567s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail
+[0.567s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/detection_results__type_support.c
+[0.567s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/bounding_box__rosidl_typesupport_introspection_c.h
+[0.567s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/bounding_box__type_support.c
+[0.567s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/detection_results__rosidl_typesupport_introspection_c.h
+[0.568s] -- Up-to-date: /home/jack/work/install/detect_interface/lib/libdetect_interface__rosidl_typesupport_introspection_c.so
+[0.568s] -- Up-to-date: /home/jack/work/install/detect_interface/lib/libdetect_interface__rosidl_typesupport_c.so
+[0.568s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface
+[0.568s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg
+[0.568s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail
+[0.568s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/bounding_box__rosidl_typesupport_introspection_cpp.hpp
+[0.569s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/detection_results__rosidl_typesupport_introspection_cpp.hpp
+[0.569s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/bounding_box__type_support.cpp
+[0.569s] -- Up-to-date: /home/jack/work/install/detect_interface/include/detect_interface/detect_interface/msg/detail/detection_results__type_support.cpp
+[0.569s] -- Up-to-date: /home/jack/work/install/detect_interface/lib/libdetect_interface__rosidl_typesupport_introspection_cpp.so
+[0.569s] -- Up-to-date: /home/jack/work/install/detect_interface/lib/libdetect_interface__rosidl_typesupport_cpp.so
+[0.570s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/environment/pythonpath.sh
+[0.570s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/environment/pythonpath.dsv
+[0.570s] -- Up-to-date: /home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages/detect_interface-0.0.0-py3.10.egg-info
+[0.570s] -- Installing: /home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages/detect_interface-0.0.0-py3.10.egg-info/top_level.txt
+[0.571s] -- Installing: /home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages/detect_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[0.571s] -- Installing: /home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages/detect_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.571s] -- Installing: /home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages/detect_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.571s] -- Up-to-date: /home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages/detect_interface
+[0.571s] -- Up-to-date: /home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages/detect_interface/__init__.py
+[0.571s] -- Up-to-date: /home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages/detect_interface/_detect_interface_s.ep.rosidl_typesupport_introspection_c.c
+[0.571s] -- Up-to-date: /home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages/detect_interface/detect_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.572s] -- Up-to-date: /home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages/detect_interface/detect_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.572s] -- Up-to-date: /home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages/detect_interface/libdetect_interface__rosidl_generator_py.so
+[0.572s] -- Up-to-date: /home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages/detect_interface/_detect_interface_s.ep.rosidl_typesupport_c.c
+[0.572s] -- Up-to-date: /home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages/detect_interface/detect_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.572s] -- Up-to-date: /home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages/detect_interface/msg
+[0.572s] -- Up-to-date: /home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages/detect_interface/msg/__init__.py
+[0.572s] -- Up-to-date: /home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages/detect_interface/msg/_bounding_box.py
+[0.572s] -- Up-to-date: /home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages/detect_interface/msg/_detection_results.py
+[0.573s] -- Up-to-date: /home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages/detect_interface/msg/_bounding_box_s.c
+[0.573s] -- Up-to-date: /home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages/detect_interface/msg/_detection_results_s.c
+[0.573s] -- Up-to-date: /home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages/detect_interface/_detect_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.616s] Listing '/home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages/detect_interface'...
+[0.616s] Listing '/home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages/detect_interface/msg'...
+[0.624s] -- Up-to-date: /home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages/detect_interface/detect_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.624s] -- Up-to-date: /home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages/detect_interface/detect_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.624s] -- Up-to-date: /home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages/detect_interface/detect_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.624s] -- Up-to-date: /home/jack/work/install/detect_interface/lib/libdetect_interface__rosidl_generator_py.so
+[0.624s] -- Up-to-date: /home/jack/work/install/detect_interface/share/ament_index/resource_index/rust_packages/detect_interface
+[0.624s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/rust
+[0.624s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/rust/Cargo.toml
+[0.624s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/rust/src
+[0.624s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/rust/src/msg.rs
+[0.624s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/rust/src/msg
+[0.625s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/rust/src/msg/rmw.rs
+[0.625s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/rust/src/lib.rs
+[0.625s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/rust/build.rs
+[0.625s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/msg/DetectionResults.idl
+[0.625s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/msg/BoundingBox.idl
+[0.625s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/msg/DetectionResults.msg
+[0.625s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/msg/BoundingBox.msg
+[0.625s] -- Up-to-date: /home/jack/work/install/detect_interface/share/ament_index/resource_index/package_run_dependencies/detect_interface
+[0.625s] -- Up-to-date: /home/jack/work/install/detect_interface/share/ament_index/resource_index/parent_prefix_path/detect_interface
+[0.625s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/environment/ament_prefix_path.sh
+[0.625s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/environment/ament_prefix_path.dsv
+[0.625s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/environment/path.sh
+[0.625s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/environment/path.dsv
+[0.625s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/local_setup.bash
+[0.625s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/local_setup.sh
+[0.625s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/local_setup.zsh
+[0.625s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/local_setup.dsv
+[0.625s] -- Installing: /home/jack/work/install/detect_interface/share/detect_interface/package.dsv
+[0.625s] -- Up-to-date: /home/jack/work/install/detect_interface/share/ament_index/resource_index/packages/detect_interface
+[0.626s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/cmake/export_detect_interface__rosidl_generator_cExport.cmake
+[0.626s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/cmake/export_detect_interface__rosidl_generator_cExport-noconfig.cmake
+[0.626s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/cmake/export_detect_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[0.626s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/cmake/export_detect_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.626s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/cmake/export_detect_interface__rosidl_generator_cppExport.cmake
+[0.626s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/cmake/export_detect_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.626s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/cmake/export_detect_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.626s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/cmake/detect_interface__rosidl_typesupport_introspection_cExport.cmake
+[0.626s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/cmake/detect_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.630s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/cmake/detect_interface__rosidl_typesupport_cExport.cmake
+[0.630s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/cmake/detect_interface__rosidl_typesupport_cExport-noconfig.cmake
+[0.630s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/cmake/detect_interface__rosidl_typesupport_introspection_cppExport.cmake
+[0.630s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/cmake/detect_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.630s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/cmake/detect_interface__rosidl_typesupport_cppExport.cmake
+[0.630s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/cmake/detect_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[0.630s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/cmake/export_detect_interface__rosidl_generator_pyExport.cmake
+[0.630s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/cmake/export_detect_interface__rosidl_generator_pyExport-noconfig.cmake
+[0.630s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/cmake/rosidl_cmake-extras.cmake
+[0.630s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.630s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.630s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[0.630s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/cmake/ament_cmake_export_targets-extras.cmake
+[0.630s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.630s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.630s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/cmake/detect_interfaceConfig.cmake
+[0.630s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/cmake/detect_interfaceConfig-version.cmake
+[0.630s] -- Up-to-date: /home/jack/work/install/detect_interface/share/detect_interface/package.xml
+[0.638s] Invoked command in '/home/jack/work/build/detect_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble /usr/bin/cmake --install /home/jack/work/build/detect_interface

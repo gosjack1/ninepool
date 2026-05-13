@@ -1,0 +1,8 @@
+setup.py
+charuco_detector_interfaces/__init__.py
+charuco_detector_interfaces.egg-info/PKG-INFO
+charuco_detector_interfaces.egg-info/SOURCES.txt
+charuco_detector_interfaces.egg-info/dependency_links.txt
+charuco_detector_interfaces.egg-info/top_level.txt
+charuco_detector_interfaces/srv/__init__.py
+charuco_detector_interfaces/srv/_eye2base.py

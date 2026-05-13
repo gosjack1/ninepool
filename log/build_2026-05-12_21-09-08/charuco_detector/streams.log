@@ -1,0 +1,113 @@
+[0.011s] Invoking command in '/home/jack/work/build/charuco_detector': CMAKE_PREFIX_PATH=/home/jack/work/install/charuco_detector_interfaces:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/hiwin_interfaces:/home/jack/work/install/detect_interface:/home/jack/work/install/charuco_detector:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble LD_LIBRARY_PATH=/home/jack/work/install/charuco_detector_interfaces/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/hiwin_interfaces/lib:/home/jack/work/install/detect_interface/lib:/home/jack/work/install/charuco_detector/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --build /home/jack/work/build/charuco_detector -- -j16 -l16
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target charuco_detector_core[0m
+[0.060s] [ 50%] Built target charuco_detector_core
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target charuco_detector_node[0m
+[0.085s] [100%] Built target charuco_detector_node
+[0.094s] Invoked command in '/home/jack/work/build/charuco_detector' returned '0': CMAKE_PREFIX_PATH=/home/jack/work/install/charuco_detector_interfaces:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/hiwin_interfaces:/home/jack/work/install/detect_interface:/home/jack/work/install/charuco_detector:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble LD_LIBRARY_PATH=/home/jack/work/install/charuco_detector_interfaces/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/hiwin_interfaces/lib:/home/jack/work/install/detect_interface/lib:/home/jack/work/install/charuco_detector/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --build /home/jack/work/build/charuco_detector -- -j16 -l16
+[0.101s] Invoking command in '/home/jack/work/build/charuco_detector': CMAKE_PREFIX_PATH=/home/jack/work/install/charuco_detector_interfaces:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/hiwin_interfaces:/home/jack/work/install/detect_interface:/home/jack/work/install/charuco_detector:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble LD_LIBRARY_PATH=/home/jack/work/install/charuco_detector_interfaces/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/hiwin_interfaces/lib:/home/jack/work/install/detect_interface/lib:/home/jack/work/install/charuco_detector/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --install /home/jack/work/build/charuco_detector
+[0.106s] -- Install configuration: ""
+[0.106s] -- Up-to-date: /home/jack/work/install/charuco_detector/include/charuco_detector/
+[0.107s] -- Up-to-date: /home/jack/work/install/charuco_detector/include/charuco_detector//charuco_detector.hpp
+[0.107s] -- Up-to-date: /home/jack/work/install/charuco_detector/lib/libcharuco_detector_core.so
+[0.107s] -- Up-to-date: /home/jack/work/install/charuco_detector/include/
+[0.107s] -- Up-to-date: /home/jack/work/install/charuco_detector/include//ini
+[0.107s] -- Up-to-date: /home/jack/work/install/charuco_detector/include//ini/ini.h
+[0.107s] -- Up-to-date: /home/jack/work/install/charuco_detector/include//charuco_detector
+[0.107s] -- Up-to-date: /home/jack/work/install/charuco_detector/include//charuco_detector/charuco_detector.hpp
+[0.107s] -- Up-to-date: /home/jack/work/install/charuco_detector/lib/charuco_detector/charuco_detector_node
+[0.107s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector/launch
+[0.107s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector/launch/hand_eye_calibration.launch.py
+[0.107s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector/launch/ur5_hand_eye_calibration.launch
+[0.107s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector/launch/ur5_eye_in_hand.launch
+[0.108s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector/launch/charuco_detector (another copy).launch
+[0.108s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector/launch/ur5_eye_to_hand.launch
+[0.108s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector/launch/charuco_detector.launch (copy).py
+[0.108s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector/launch/charuco_detector.launch.py
+[0.108s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector/launch/charuco_detector (copy).launch
+[0.108s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector/launch/draft.launch.py
+[0.108s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector/package.xml
+[0.108s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//launch
+[0.108s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//launch/hand_eye_calibration.launch.py
+[0.108s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//launch/ur5_hand_eye_calibration.launch
+[0.109s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//launch/ur5_eye_in_hand.launch
+[0.109s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//launch/charuco_detector (another copy).launch
+[0.109s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//launch/ur5_eye_to_hand.launch
+[0.109s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//launch/charuco_detector.launch (copy).py
+[0.109s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//launch/charuco_detector.launch.py
+[0.109s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//launch/charuco_detector (copy).launch
+[0.109s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//launch/draft.launch.py
+[0.109s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config
+[0.109s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/hand_eye_calibration
+[0.109s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/hand_eye_calibration/realsense_eye_in_hand.ini
+[0.109s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/hand_eye_calibration/eye_to_hand_calibration (copy).ini
+[0.109s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/hand_eye_calibration/eye_in_hand_calibration.ini
+[0.110s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/hand_eye_calibration/eye_to_hand_calibration.ini
+[0.111s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/hand_eye_calibration/hand_eye_calibration (copy).ini
+[0.111s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/hand_eye_calibration/master_hand_eye_calibration.ini
+[0.111s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/hand_eye_calibration/top_hand_eye_calibration.ini
+[0.111s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/hand_eye_calibration/sub_hand_eye_calibration.ini
+[0.111s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/hand_eye_calibration/hand_in_eye_calibration (manual).ini
+[0.111s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/hand_eye_calibration.ini
+[0.112s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration
+[0.112s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/camera_calibration (3rd copy).ini
+[0.112s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/calibration.yaml
+[0.112s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic
+[0.112s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-28.jpg
+[0.112s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-22.jpg
+[0.112s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-9.jpg
+[0.112s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-10.jpg
+[0.112s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-17.jpg
+[0.113s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-5.jpg
+[0.113s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-12.jpg
+[0.113s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-19.jpg
+[0.113s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-11.jpg
+[0.113s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-6.jpg
+[0.113s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-1.jpg
+[0.113s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-16.jpg
+[0.113s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-26.jpg
+[0.113s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-29.jpg
+[0.114s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-8.jpg
+[0.114s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-18.jpg
+[0.114s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-7.jpg
+[0.114s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-14.jpg
+[0.114s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-21.jpg
+[0.114s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-27.jpg
+[0.114s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-30.jpg
+[0.115s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-24.jpg
+[0.115s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-15.jpg
+[0.115s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-4.jpg
+[0.115s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-25.jpg
+[0.115s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-20.jpg
+[0.115s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-3.jpg
+[0.115s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-13.jpg
+[0.115s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-2.jpg
+[0.116s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-23.jpg
+[0.116s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/camera_calibration (no1).ini
+[0.116s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/camera_calibration.ini
+[0.116s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/calibration.pckl
+[0.116s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/camera_calibration (another copy).ini
+[0.116s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//config/ros.yaml
+[0.117s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//yaml
+[0.117s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//yaml/charuco.yaml
+[0.117s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//yaml/charuco (copy).yaml
+[0.117s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector/environment/library_path.sh
+[0.117s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector/environment/library_path.dsv
+[0.118s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/ament_index/resource_index/package_run_dependencies/charuco_detector
+[0.118s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/ament_index/resource_index/parent_prefix_path/charuco_detector
+[0.118s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector/environment/ament_prefix_path.sh
+[0.118s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector/environment/ament_prefix_path.dsv
+[0.118s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector/environment/path.sh
+[0.118s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector/environment/path.dsv
+[0.118s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector/local_setup.bash
+[0.119s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector/local_setup.sh
+[0.119s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector/local_setup.zsh
+[0.119s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector/local_setup.dsv
+[0.120s] -- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector/package.dsv
+[0.120s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/ament_index/resource_index/packages/charuco_detector
+[0.120s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.120s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.120s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector/cmake/ament_cmake_export_libraries-extras.cmake
+[0.120s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector/cmake/charuco_detectorConfig.cmake
+[0.120s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector/cmake/charuco_detectorConfig-version.cmake
+[0.120s] -- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector/package.xml
+[0.120s] Invoked command in '/home/jack/work/build/charuco_detector' returned '0': CMAKE_PREFIX_PATH=/home/jack/work/install/charuco_detector_interfaces:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/hiwin_interfaces:/home/jack/work/install/detect_interface:/home/jack/work/install/charuco_detector:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble LD_LIBRARY_PATH=/home/jack/work/install/charuco_detector_interfaces/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/hiwin_interfaces/lib:/home/jack/work/install/detect_interface/lib:/home/jack/work/install/charuco_detector/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --install /home/jack/work/build/charuco_detector

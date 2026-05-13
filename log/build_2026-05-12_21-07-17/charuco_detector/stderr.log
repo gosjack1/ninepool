@@ -1,0 +1,49 @@
+In file included from [01m[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/include/charuco_detector/charuco_detector.hpp:20[m[K,
+                 from [01m[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/src/charuco_detector.cpp:9[m[K:
+[01m[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/include/ini/ini.h:264:6:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  264 |      [01;35m[Kconst[m[K bool BoolConverter(std::string s) const;
+      |      [01;35m[K^~~~~[m[K
+[01m[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/include/ini/ini.h:466:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  466 |  inline [01;35m[Kconst[m[K bool INIReader::BoolConverter(std::string s) const {
+      |         [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/include/charuco_detector/charuco_detector.hpp:39[m[K,
+                 from [01m[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/src/charuco_detector.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+   32 | arning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+      |                                                                      [01;36m[K^[m[K
+
+[01m[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/src/charuco_detector.cpp:[m[K In member function ‘[01m[Kvoid ChArUcoDetector::imageCallback(const ConstSharedPtr&)[m[K’:
+[01m[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/src/charuco_detector.cpp:309:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  309 |                         sensor_msgs::msg::Image::Ptr [01;35m[Kimage_results_msg[m[K = cv_bridge::CvImage(_msg->header, "bgr8", image_results).toImageMsg();
+      |                                                      [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+                 from [01m[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/include/charuco_detector/charuco_detector.hpp:34[m[K,
+                 from [01m[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/src/charuco_detector.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:171:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  171 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+[01m[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/src/charuco_detector.cpp:312:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  312 |                         sensor_msgs::msg::Image::Ptr [01;35m[Kimage_filtered_msg[m[K = cv_bridge::CvImage(_msg->header, "mono8", image_grayscale).toImageMsg();
+      |                                                      [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+                 from [01m[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/include/charuco_detector/charuco_detector.hpp:34[m[K,
+                 from [01m[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/src/charuco_detector.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:171:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  171 |     [01;36m[KPtr[m[K;
+      |     [01;36m[K^~~[m[K
+In file included from [01m[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/include/charuco_detector/charuco_detector.hpp:20[m[K,
+                 from [01m[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/src/charuco_detector_node.cpp:11[m[K:
+[01m[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/include/ini/ini.h:264:6:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  264 |      [01;35m[Kconst[m[K bool BoolConverter(std::string s) const;
+      |      [01;35m[K^~~~~[m[K
+[01m[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/include/ini/ini.h:466:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  466 |  inline [01;35m[Kconst[m[K bool INIReader::BoolConverter(std::string s) const {
+      |         [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/include/charuco_detector/charuco_detector.hpp:39[m[K,
+                 from [01m[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/src/charuco_detector_node.cpp:11[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+   32 | arning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+      |                                                                      [01;36m[K^[m[K
+

@@ -1,0 +1,2 @@
+source;share/visp_bridge/environment/ament_prefix_path.sh
+source;share/visp_bridge/environment/path.sh

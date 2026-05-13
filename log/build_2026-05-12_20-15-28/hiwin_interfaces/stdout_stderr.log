@@ -1,0 +1,35 @@
+[  2%] Built target hiwin_interfaces__rs
+[ 15%] Built target hiwin_interfaces__cpp
+[ 15%] Built target hiwin_interfaces__rosidl_generator_c
+[ 15%] Built target ament_cmake_python_copy_hiwin_interfaces
+[ 37%] Built target hiwin_interfaces__rosidl_typesupport_fastrtps_c
+[ 37%] Built target hiwin_interfaces__rosidl_typesupport_introspection_c
+[ 45%] Built target hiwin_interfaces__rosidl_typesupport_c
+[ 55%] Built target hiwin_interfaces__rosidl_typesupport_introspection_cpp
+[ 65%] Built target hiwin_interfaces__rosidl_typesupport_cpp
+[ 75%] Built target hiwin_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 75%] Built target hiwin_interfaces
+[ 77%] Built target hiwin_interfaces__py
+[ 80%] [32mBuilding C object CMakeFiles/hiwin_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hiwin_interfaces/srv/_hiwinmodbus_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/hiwin_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hiwin_interfaces/srv/_robot_command_s.c.o[0m
+[01m[K/home/jack/work/build/hiwin_interfaces/rosidl_generator_py/hiwin_interfaces/srv/_hiwinmodbus_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+   11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/hiwin_interfaces__rosidl_generator_py.dir/build.make:76: CMakeFiles/hiwin_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hiwin_interfaces/srv/_hiwinmodbus_s.c.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/jack/work/build/hiwin_interfaces/rosidl_generator_py/hiwin_interfaces/srv/_robot_command_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+   11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/hiwin_interfaces__rosidl_generator_py.dir/build.make:90: CMakeFiles/hiwin_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hiwin_interfaces/srv/_robot_command_s.c.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:494: CMakeFiles/hiwin_interfaces__rosidl_generator_py.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+running egg_info
+writing hiwin_interfaces.egg-info/PKG-INFO
+writing dependency_links to hiwin_interfaces.egg-info/dependency_links.txt
+writing top-level names to hiwin_interfaces.egg-info/top_level.txt
+reading manifest file 'hiwin_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'hiwin_interfaces.egg-info/SOURCES.txt'
+[ 82%] Built target ament_cmake_python_build_hiwin_interfaces_egg
+gmake: *** [Makefile:146: all] Error 2

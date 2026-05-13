@@ -1,0 +1,193 @@
+[0.028s] Invoking command in '/home/jack/work/build/hiwin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble /usr/bin/cmake --build /home/jack/work/build/hiwin_interfaces -- -j16 -l16
+[0.081s] [  2%] Built target hiwin_interfaces__rs
+[0.086s] [ 12%] Built target hiwin_interfaces__rosidl_generator_c
+[0.092s] [ 15%] Built target hiwin_interfaces__cpp
+[0.115s] [ 15%] Built target ament_cmake_python_copy_hiwin_interfaces
+[0.135s] [ 25%] Built target hiwin_interfaces__rosidl_typesupport_c
+[0.142s] [ 35%] Built target hiwin_interfaces__rosidl_typesupport_fastrtps_c
+[0.143s] [ 45%] Built target hiwin_interfaces__rosidl_typesupport_introspection_c
+[0.147s] [ 55%] Built target hiwin_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.150s] [ 72%] Built target hiwin_interfaces__rosidl_typesupport_introspection_cpp
+[0.150s] [ 75%] Built target hiwin_interfaces__rosidl_typesupport_cpp
+[0.185s] [ 75%] Built target hiwin_interfaces
+[0.216s] [ 77%] Built target hiwin_interfaces__py
+[0.252s] [ 80%] [32mBuilding C object CMakeFiles/hiwin_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hiwin_interfaces/srv/_hiwinmodbus_s.c.o[0m
+[0.253s] [ 82%] [32mBuilding C object CMakeFiles/hiwin_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hiwin_interfaces/srv/_robot_command_s.c.o[0m
+[0.564s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/hiwin_interfaces/libhiwin_interfaces__rosidl_generator_py.so[0m
+[0.632s] [ 85%] Built target hiwin_interfaces__rosidl_generator_py
+[0.671s] running egg_info
+[0.682s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/hiwin_interfaces/hiwin_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[0.689s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/hiwin_interfaces/hiwin_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[0.689s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/hiwin_interfaces/hiwin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[0.716s] writing hiwin_interfaces.egg-info/PKG-INFO
+[0.716s] writing dependency_links to hiwin_interfaces.egg-info/dependency_links.txt
+[0.716s] writing top-level names to hiwin_interfaces.egg-info/top_level.txt
+[0.776s] [ 95%] Built target hiwin_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.789s] [ 97%] Built target hiwin_interfaces__rosidl_typesupport_c__pyext
+[0.798s] [100%] Built target hiwin_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.839s] reading manifest file 'hiwin_interfaces.egg-info/SOURCES.txt'
+[0.840s] writing manifest file 'hiwin_interfaces.egg-info/SOURCES.txt'
+[0.890s] [100%] Built target ament_cmake_python_build_hiwin_interfaces_egg
+[0.909s] Invoked command in '/home/jack/work/build/hiwin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble /usr/bin/cmake --build /home/jack/work/build/hiwin_interfaces -- -j16 -l16
+[0.911s] Invoking command in '/home/jack/work/build/hiwin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble /usr/bin/cmake --install /home/jack/work/build/hiwin_interfaces
+[0.952s] -- Install configuration: ""
+[0.952s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/ament_index/resource_index/rosidl_interfaces/hiwin_interfaces
+[0.952s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces
+[0.952s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/msg
+[0.953s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.953s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv
+[0.953s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/robot_command.h
+[0.953s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail
+[0.953s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/robot_command__type_support.h
+[0.953s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/hiwinmodbus__functions.c
+[0.953s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/hiwinmodbus__functions.h
+[0.954s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/hiwinmodbus__type_support.h
+[0.954s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/robot_command__functions.h
+[0.954s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/robot_command__functions.c
+[0.954s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/hiwinmodbus__struct.h
+[0.955s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/robot_command__struct.h
+[0.955s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/hiwinmodbus.h
+[0.955s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/environment/library_path.sh
+[0.955s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/environment/library_path.dsv
+[0.955s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/lib/libhiwin_interfaces__rosidl_generator_c.so
+[0.956s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces
+[0.956s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/msg
+[0.956s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.956s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv
+[0.956s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail
+[0.956s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/robot_command__rosidl_typesupport_fastrtps_c.h
+[0.956s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/hiwinmodbus__rosidl_typesupport_fastrtps_c.h
+[0.956s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/lib/libhiwin_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.956s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces
+[0.956s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/msg
+[0.956s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.956s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv
+[0.956s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/robot_command.hpp
+[0.956s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/hiwinmodbus.hpp
+[0.957s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail
+[0.957s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/robot_command__type_support.hpp
+[0.957s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/robot_command__struct.hpp
+[0.957s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/robot_command__builder.hpp
+[0.957s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/hiwinmodbus__type_support.hpp
+[0.957s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/robot_command__traits.hpp
+[0.957s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/hiwinmodbus__builder.hpp
+[0.957s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/hiwinmodbus__struct.hpp
+[0.957s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/hiwinmodbus__traits.hpp
+[0.957s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces
+[0.957s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/msg
+[0.957s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.957s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv
+[0.957s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail
+[0.957s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/hiwinmodbus__rosidl_typesupport_fastrtps_cpp.hpp
+[0.957s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/dds_fastrtps
+[0.958s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/robot_command__rosidl_typesupport_fastrtps_cpp.hpp
+[0.958s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/lib/libhiwin_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.958s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces
+[0.958s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/msg
+[0.958s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.958s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv
+[0.958s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail
+[0.958s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/hiwinmodbus__type_support.c
+[0.958s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/hiwinmodbus__rosidl_typesupport_introspection_c.h
+[0.958s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/robot_command__type_support.c
+[0.958s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/robot_command__rosidl_typesupport_introspection_c.h
+[0.958s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/lib/libhiwin_interfaces__rosidl_typesupport_introspection_c.so
+[0.958s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/lib/libhiwin_interfaces__rosidl_typesupport_c.so
+[0.958s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces
+[0.958s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv
+[0.958s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail
+[0.959s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/hiwinmodbus__type_support.cpp
+[0.959s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/hiwinmodbus__rosidl_typesupport_introspection_cpp.hpp
+[0.959s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/robot_command__rosidl_typesupport_introspection_cpp.hpp
+[0.959s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/include/hiwin_interfaces/hiwin_interfaces/srv/detail/robot_command__type_support.cpp
+[0.959s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/lib/libhiwin_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.959s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/lib/libhiwin_interfaces__rosidl_typesupport_cpp.so
+[0.959s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/environment/pythonpath.sh
+[0.959s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/environment/pythonpath.dsv
+[0.959s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces-0.0.0-py3.10.egg-info
+[0.959s] -- Installing: /home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.959s] -- Installing: /home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.959s] -- Installing: /home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.959s] -- Installing: /home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.959s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces
+[0.959s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/__init__.py
+[0.959s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/_hiwin_interfaces_s.ep.rosidl_typesupport_c.c
+[0.960s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/_hiwin_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.960s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/_hiwin_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.960s] -- Installing: /home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/hiwin_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.960s] -- Installing: /home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/hiwin_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.960s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/srv
+[0.960s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/srv/__init__.py
+[0.960s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/srv/_robot_command_s.c
+[0.960s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/srv/_hiwinmodbus_s.c
+[0.960s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/srv/_robot_command.py
+[0.960s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/srv/_hiwinmodbus.py
+[0.960s] -- Installing: /home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/libhiwin_interfaces__rosidl_generator_py.so
+[0.960s] -- Installing: /home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/hiwin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.995s] Listing '/home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces'...
+[0.995s] Listing '/home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/srv'...
+[1.004s] -- Installing: /home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/hiwin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.004s] -- Set runtime path of "/home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/hiwin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[1.004s] -- Installing: /home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/hiwin_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.004s] -- Set runtime path of "/home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/hiwin_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[1.005s] -- Installing: /home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/hiwin_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.006s] -- Set runtime path of "/home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages/hiwin_interfaces/hiwin_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[1.006s] -- Installing: /home/jack/work/install/hiwin_interfaces/lib/libhiwin_interfaces__rosidl_generator_py.so
+[1.006s] -- Set runtime path of "/home/jack/work/install/hiwin_interfaces/lib/libhiwin_interfaces__rosidl_generator_py.so" to ""
+[1.006s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/ament_index/resource_index/rust_packages/hiwin_interfaces
+[1.006s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/rust
+[1.006s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/rust/Cargo.toml
+[1.006s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/rust/src
+[1.006s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/rust/src/srv
+[1.006s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/rust/src/srv/rmw.rs
+[1.006s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/rust/src/srv.rs
+[1.006s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/rust/src/lib.rs
+[1.006s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/rust/build.rs
+[1.006s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/srv/Hiwinmodbus.idl
+[1.007s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/srv/RobotCommand.idl
+[1.007s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/srv/Hiwinmodbus.srv
+[1.007s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/srv/Hiwinmodbus_Request.msg
+[1.007s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/srv/Hiwinmodbus_Response.msg
+[1.007s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/srv/RobotCommand.srv
+[1.007s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/srv/RobotCommand_Request.msg
+[1.007s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/srv/RobotCommand_Response.msg
+[1.007s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/ament_index/resource_index/package_run_dependencies/hiwin_interfaces
+[1.007s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/ament_index/resource_index/parent_prefix_path/hiwin_interfaces
+[1.007s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/environment/ament_prefix_path.sh
+[1.007s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/environment/ament_prefix_path.dsv
+[1.007s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/environment/path.sh
+[1.007s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/environment/path.dsv
+[1.007s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/local_setup.bash
+[1.007s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/local_setup.sh
+[1.007s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/local_setup.zsh
+[1.007s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/local_setup.dsv
+[1.007s] -- Installing: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/package.dsv
+[1.007s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/ament_index/resource_index/packages/hiwin_interfaces
+[1.008s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/cmake/export_hiwin_interfaces__rosidl_generator_cExport.cmake
+[1.008s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/cmake/export_hiwin_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.008s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/cmake/export_hiwin_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.008s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/cmake/export_hiwin_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.008s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/cmake/export_hiwin_interfaces__rosidl_generator_cppExport.cmake
+[1.008s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/cmake/export_hiwin_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.008s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/cmake/export_hiwin_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.008s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/cmake/hiwin_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.008s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/cmake/hiwin_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.008s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/cmake/hiwin_interfaces__rosidl_typesupport_cExport.cmake
+[1.008s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/cmake/hiwin_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.008s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/cmake/hiwin_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.008s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/cmake/hiwin_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.008s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/cmake/hiwin_interfaces__rosidl_typesupport_cppExport.cmake
+[1.008s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/cmake/hiwin_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.008s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/cmake/export_hiwin_interfaces__rosidl_generator_pyExport.cmake
+[1.008s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/cmake/export_hiwin_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.008s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.008s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.009s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.009s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.009s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.009s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.009s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.009s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/cmake/hiwin_interfacesConfig.cmake
+[1.009s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/cmake/hiwin_interfacesConfig-version.cmake
+[1.009s] -- Up-to-date: /home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/package.xml
+[1.062s] Invoked command in '/home/jack/work/build/hiwin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble /usr/bin/cmake --install /home/jack/work/build/hiwin_interfaces

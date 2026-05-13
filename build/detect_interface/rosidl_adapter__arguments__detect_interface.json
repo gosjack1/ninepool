@@ -1,0 +1,7 @@
+{
+  "package_name": "detect_interface",
+  "non_idl_tuples": [
+    "/home/jack/work/src/pool/detect/detect_interface:msg/DetectionResults.msg",
+    "/home/jack/work/src/pool/detect/detect_interface:msg/BoundingBox.msg"
+  ]
+}

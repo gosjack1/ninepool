@@ -1,0 +1,11 @@
+source;share/charuco_detector/hook/cmake_prefix_path.ps1
+source;share/charuco_detector/hook/cmake_prefix_path.dsv
+source;share/charuco_detector/hook/cmake_prefix_path.sh
+source;share/charuco_detector/hook/ld_library_path_lib.ps1
+source;share/charuco_detector/hook/ld_library_path_lib.dsv
+source;share/charuco_detector/hook/ld_library_path_lib.sh
+source;share/charuco_detector/local_setup.bash
+source;share/charuco_detector/local_setup.dsv
+source;share/charuco_detector/local_setup.ps1
+source;share/charuco_detector/local_setup.sh
+source;share/charuco_detector/local_setup.zsh

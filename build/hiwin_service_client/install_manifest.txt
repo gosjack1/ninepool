@@ -1,0 +1,15 @@
+/home/jack/work/install/hiwin_service_client/share/ament_index/resource_index/package_run_dependencies/hiwin_service_client
+/home/jack/work/install/hiwin_service_client/share/ament_index/resource_index/parent_prefix_path/hiwin_service_client
+/home/jack/work/install/hiwin_service_client/share/hiwin_service_client/environment/ament_prefix_path.sh
+/home/jack/work/install/hiwin_service_client/share/hiwin_service_client/environment/ament_prefix_path.dsv
+/home/jack/work/install/hiwin_service_client/share/hiwin_service_client/environment/path.sh
+/home/jack/work/install/hiwin_service_client/share/hiwin_service_client/environment/path.dsv
+/home/jack/work/install/hiwin_service_client/share/hiwin_service_client/local_setup.bash
+/home/jack/work/install/hiwin_service_client/share/hiwin_service_client/local_setup.sh
+/home/jack/work/install/hiwin_service_client/share/hiwin_service_client/local_setup.zsh
+/home/jack/work/install/hiwin_service_client/share/hiwin_service_client/local_setup.dsv
+/home/jack/work/install/hiwin_service_client/share/hiwin_service_client/package.dsv
+/home/jack/work/install/hiwin_service_client/share/ament_index/resource_index/packages/hiwin_service_client
+/home/jack/work/install/hiwin_service_client/share/hiwin_service_client/cmake/hiwin_service_clientConfig.cmake
+/home/jack/work/install/hiwin_service_client/share/hiwin_service_client/cmake/hiwin_service_clientConfig-version.cmake
+/home/jack/work/install/hiwin_service_client/share/hiwin_service_client/package.xml

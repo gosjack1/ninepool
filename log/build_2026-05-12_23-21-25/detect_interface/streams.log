@@ -1,0 +1,36 @@
+[0.047s] Invoking command in '/home/jack/work/build/detect_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble /usr/bin/cmake --build /home/jack/work/build/detect_interface -- -j16 -l16
+[0.157s] [  2%] Built target detect_interface__rs
+[0.173s] [ 12%] Built target detect_interface__rosidl_generator_c
+[0.174s] [ 15%] Built target detect_interface__cpp
+[0.225s] [ 15%] Built target ament_cmake_python_copy_detect_interface
+[0.249s] [ 25%] Built target detect_interface__rosidl_typesupport_cpp
+[0.259s] [ 37%] Built target detect_interface__rosidl_typesupport_fastrtps_cpp
+[0.261s] [ 45%] Built target detect_interface__rosidl_typesupport_introspection_cpp
+[0.278s] [ 55%] Built target detect_interface__rosidl_typesupport_introspection_c
+[0.287s] [ 65%] Built target detect_interface__rosidl_typesupport_c
+[0.303s] [ 75%] Built target detect_interface__rosidl_typesupport_fastrtps_c
+[0.356s] [ 75%] Built target detect_interface
+[0.409s] [ 77%] Built target detect_interface__py
+[0.484s] [ 80%] [32mBuilding C object CMakeFiles/detect_interface__rosidl_generator_py.dir/rosidl_generator_py/detect_interface/msg/_detection_results_s.c.o[0m
+[0.494s] [ 82%] [32mBuilding C object CMakeFiles/detect_interface__rosidl_generator_py.dir/rosidl_generator_py/detect_interface/msg/_bounding_box_s.c.o[0m
+[0.654s] running egg_info
+[0.655s] [01m[K/home/jack/work/build/detect_interface/rosidl_generator_py/detect_interface/msg/_detection_results_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[0.655s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[0.655s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.655s] compilation terminated.
+[0.657s] gmake[2]: *** [CMakeFiles/detect_interface__rosidl_generator_py.dir/build.make:76: CMakeFiles/detect_interface__rosidl_generator_py.dir/rosidl_generator_py/detect_interface/msg/_detection_results_s.c.o] Error 1
+[0.657s] gmake[2]: *** Waiting for unfinished jobs....
+[0.659s] [01m[K/home/jack/work/build/detect_interface/rosidl_generator_py/detect_interface/msg/_bounding_box_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[0.667s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[0.667s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.667s] compilation terminated.
+[0.667s] writing detect_interface.egg-info/PKG-INFO
+[0.667s] gmake[2]: *** [CMakeFiles/detect_interface__rosidl_generator_py.dir/build.make:90: CMakeFiles/detect_interface__rosidl_generator_py.dir/rosidl_generator_py/detect_interface/msg/_bounding_box_s.c.o] Error 1
+[0.667s] gmake[1]: *** [CMakeFiles/Makefile2:494: CMakeFiles/detect_interface__rosidl_generator_py.dir/all] Error 2
+[0.667s] gmake[1]: *** Waiting for unfinished jobs....
+[0.667s] writing dependency_links to detect_interface.egg-info/dependency_links.txt
+[0.668s] writing top-level names to detect_interface.egg-info/top_level.txt
+[0.711s] reading manifest file 'detect_interface.egg-info/SOURCES.txt'
+[0.712s] writing manifest file 'detect_interface.egg-info/SOURCES.txt'
+[0.742s] [ 82%] Built target ament_cmake_python_build_detect_interface_egg
+[0.743s] gmake: *** [Makefile:146: all] Error 2

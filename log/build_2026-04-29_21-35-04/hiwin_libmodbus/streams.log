@@ -1,0 +1,190 @@
+[0.012s] Invoking command in '/home/jack/work/build/hiwin_libmodbus': CMAKE_PREFIX_PATH=/home/jack/work/install/hiwin_interfaces:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/detect_interface:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble LD_LIBRARY_PATH=/home/jack/work/install/hiwin_interfaces/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/detect_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake /home/jack/work/src/Hiwin_libmodbus/hiwin_libmodbus -DCMAKE_INSTALL_PREFIX=/home/jack/work/install/hiwin_libmodbus
+[0.068s] -- The C compiler identification is GNU 11.4.0
+[0.128s] -- The CXX compiler identification is GNU 11.4.0
+[0.137s] -- Detecting C compiler ABI info
+[0.220s] -- Detecting C compiler ABI info - done
+[0.225s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.225s] -- Detecting C compile features
+[0.225s] -- Detecting C compile features - done
+[0.228s] -- Detecting CXX compiler ABI info
+[0.307s] -- Detecting CXX compiler ABI info - done
+[0.314s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.314s] -- Detecting CXX compile features
+[0.315s] -- Detecting CXX compile features - done
+[0.316s] [0mLibmodbus path dir = /home/jack/work/src/Hiwin_libmodbus/libmodbus[0m
+[0.318s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.724s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.853s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.867s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.916s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.920s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.928s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.938s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.950s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.986s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.988s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.008s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.015s] -- Looking for pthread.h
+[1.081s] -- Looking for pthread.h - found
+[1.081s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.154s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.155s] -- Found Threads: TRUE  
+[1.196s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.223s] -- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.246s] -- Found hiwin_interfaces: 0.0.0 (/home/jack/work/install/hiwin_interfaces/share/hiwin_interfaces/cmake)
+[1.337s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.402s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.402s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jack/work/src/Hiwin_libmodbus/hiwin_libmodbus/include>
+[1.403s] -- Configured cppcheck exclude dirs and/or files: 
+[1.403s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.403s] -- Added test 'lint_cmake' to check CMake code style
+[1.404s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.405s] -- Added test 'uncrustify' to check C / C++ code style
+[1.405s] -- Configured uncrustify additional arguments: 
+[1.405s] -- Added test 'xmllint' to check XML markup files
+[1.407s] -- Configuring done
+[1.419s] -- Generating done
+[1.424s] -- Build files have been written to: /home/jack/work/build/hiwin_libmodbus
+[1.430s] Invoked command in '/home/jack/work/build/hiwin_libmodbus' returned '0': CMAKE_PREFIX_PATH=/home/jack/work/install/hiwin_interfaces:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/detect_interface:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble LD_LIBRARY_PATH=/home/jack/work/install/hiwin_interfaces/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/detect_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake /home/jack/work/src/Hiwin_libmodbus/hiwin_libmodbus -DCMAKE_INSTALL_PREFIX=/home/jack/work/install/hiwin_libmodbus
+[1.432s] Invoking command in '/home/jack/work/build/hiwin_libmodbus': CMAKE_PREFIX_PATH=/home/jack/work/install/hiwin_interfaces:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/detect_interface:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble LD_LIBRARY_PATH=/home/jack/work/install/hiwin_interfaces/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/detect_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --build /home/jack/work/build/hiwin_libmodbus -- -j16 -l16
+[1.479s] [  7%] [32mBuilding C object CMakeFiles/hiwin_libmodbus.dir/home/jack/work/src/Hiwin_libmodbus/libmodbus/src/modbus.c.o[0m
+[1.479s] [ 14%] [32mBuilding C object CMakeFiles/hiwin_libmodbus.dir/home/jack/work/src/Hiwin_libmodbus/libmodbus/src/modbus-tcp.c.o[0m
+[1.480s] [ 21%] [32mBuilding CXX object CMakeFiles/hiwin_libmodbus.dir/src/hiwin_libmodbus.cpp.o[0m
+[1.481s] [ 35%] [32mBuilding C object CMakeFiles/hiwin_libmodbus.dir/home/jack/work/src/Hiwin_libmodbus/libmodbus/src/modbus-data.c.o[0m
+[1.481s] [ 35%] [32mBuilding C object CMakeFiles/hiwin_libmodbus.dir/home/jack/work/src/Hiwin_libmodbus/libmodbus/src/modbus-rtu.c.o[0m
+[1.490s] [ 35%] Built target ament_cmake_python_copy_hiwin_libmodbus
+[1.503s] [01m[K/home/jack/work/src/Hiwin_libmodbus/libmodbus/src/modbus-tcp.c:[m[K In function ‘[01m[K_modbus_tcp_prepare_response_tid[m[K’:
+[1.503s] [01m[K/home/jack/work/src/Hiwin_libmodbus/libmodbus/src/modbus-tcp.c:154:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.504s]   154 | static int _modbus_tcp_prepare_response_tid(const uint8_t *req, [01;35m[Kint *req_length[m[K)
+[1.504s]       |                                                                 [01;35m[K~~~~~^~~~~~~~~~[m[K
+[1.504s] [01m[K/home/jack/work/src/Hiwin_libmodbus/libmodbus/src/modbus-tcp.c:[m[K In function ‘[01m[K_modbus_tcp_check_integrity[m[K’:
+[1.504s] [01m[K/home/jack/work/src/Hiwin_libmodbus/libmodbus/src/modbus-tcp.c:189:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kctx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.504s]   189 | static int _modbus_tcp_check_integrity([01;35m[Kmodbus_t *ctx[m[K, uint8_t *msg, const int msg_length)
+[1.504s]       |                                        [01;35m[K~~~~~~~~~~^~~[m[K
+[1.504s] [01m[K/home/jack/work/src/Hiwin_libmodbus/libmodbus/src/modbus-tcp.c:189:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.504s]   189 | static int _modbus_tcp_check_integrity(modbus_t *ctx, [01;35m[Kuint8_t *msg[m[K, const int msg_length)
+[1.504s]       |                                                       [01;35m[K~~~~~~~~~^~~[m[K
+[1.504s] [01m[K/home/jack/work/src/Hiwin_libmodbus/libmodbus/src/modbus-tcp.c:[m[K In function ‘[01m[K_modbus_tcp_pre_check_confirmation[m[K’:
+[1.504s] [01m[K/home/jack/work/src/Hiwin_libmodbus/libmodbus/src/modbus-tcp.c:197:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krsp_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.504s]   197 |                                               [01;35m[Kint rsp_length[m[K)
+[1.505s]       |                                               [01;35m[K~~~~^~~~~~~~~~[m[K
+[1.507s] [01m[K/home/jack/work/src/Hiwin_libmodbus/libmodbus/src/modbus-tcp.c:[m[K In function ‘[01m[Kmodbus_tcp_accept[m[K’:
+[1.507s] [01m[K/home/jack/work/src/Hiwin_libmodbus/libmodbus/src/modbus-tcp.c:706:14:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kaccept4[m[K’; did you mean ‘[01m[Kaccept[m[K’? [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+[1.507s]   706 |     ctx->s = [01;35m[Kaccept4[m[K(*s, (struct sockaddr *) &addr, &addrlen, SOCK_CLOEXEC);
+[1.507s]       |              [01;35m[K^~~~~~~[m[K
+[1.507s]       |              [32m[Kaccept[m[K
+[1.507s] [01m[K/home/jack/work/src/Hiwin_libmodbus/libmodbus/src/modbus-tcp.c:[m[K In function ‘[01m[K_modbus_tcp_select[m[K’:
+[1.507s] [01m[K/home/jack/work/src/Hiwin_libmodbus/libmodbus/src/modbus-tcp.c:762:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klength_to_read[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.507s]   762 | _modbus_tcp_select(modbus_t *ctx, fd_set *rset, struct timeval *tv, [01;35m[Kint length_to_read[m[K)
+[1.507s]       |                                                                     [01;35m[K~~~~^~~~~~~~~~~~~~[m[K
+[1.510s] [01m[K/home/jack/work/src/Hiwin_libmodbus/libmodbus/src/modbus-rtu.c:[m[K In function ‘[01m[K_modbus_rtu_prepare_response_tid[m[K’:
+[1.510s] [01m[K/home/jack/work/src/Hiwin_libmodbus/libmodbus/src/modbus-rtu.c:132:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.510s]   132 | static int _modbus_rtu_prepare_response_tid([01;35m[Kconst uint8_t *req[m[K, int *req_length)
+[1.510s]       |                                             [01;35m[K~~~~~~~~~~~~~~~^~~[m[K
+[1.511s] [01m[K/home/jack/work/src/Hiwin_libmodbus/libmodbus/src/modbus-rtu.c:[m[K In function ‘[01m[K_modbus_rtu_pre_check_confirmation[m[K’:
+[1.511s] [01m[K/home/jack/work/src/Hiwin_libmodbus/libmodbus/src/modbus-rtu.c:328:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krsp_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.511s]   328 |                                               [01;35m[Kint rsp_length[m[K)
+[1.511s]       |                                               [01;35m[K~~~~^~~~~~~~~~[m[K
+[1.512s] [01m[K/home/jack/work/src/Hiwin_libmodbus/libmodbus/src/modbus.c:[m[K In function ‘[01m[K_modbus_receive_msg[m[K’:
+[1.512s] [01m[K/home/jack/work/src/Hiwin_libmodbus/libmodbus/src/modbus.c:487:20:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+[1.512s]   487 |                 if [01;35m[K([m[Klength_to_read != 0) {
+[1.512s]       |                    [01;35m[K^[m[K
+[1.512s] [01m[K/home/jack/work/src/Hiwin_libmodbus/libmodbus/src/modbus.c:491:13:[m[K [01;36m[Knote: [m[Khere
+[1.512s]   491 |             [01;36m[Kcase[m[K _STEP_META:
+[1.512s]       |             [01;36m[K^~~~[m[K
+[1.513s] [01m[K/home/jack/work/src/Hiwin_libmodbus/libmodbus/src/modbus-rtu.c:[m[K In function ‘[01m[K_modbus_rtu_select[m[K’:
+[1.513s] [01m[K/home/jack/work/src/Hiwin_libmodbus/libmodbus/src/modbus-rtu.c:1133:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klength_to_read[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.513s]  1133 | _modbus_rtu_select(modbus_t *ctx, fd_set *rset, struct timeval *tv, [01;35m[Kint length_to_read[m[K)
+[1.513s]       |                                                                     [01;35m[K~~~~^~~~~~~~~~~~~~[m[K
+[1.691s] running egg_info
+[1.691s] creating hiwin_libmodbus.egg-info
+[1.701s] writing hiwin_libmodbus.egg-info/PKG-INFO
+[1.701s] writing dependency_links to hiwin_libmodbus.egg-info/dependency_links.txt
+[1.702s] writing top-level names to hiwin_libmodbus.egg-info/top_level.txt
+[1.702s] writing manifest file 'hiwin_libmodbus.egg-info/SOURCES.txt'
+[1.732s] reading manifest file 'hiwin_libmodbus.egg-info/SOURCES.txt'
+[1.732s] writing manifest file 'hiwin_libmodbus.egg-info/SOURCES.txt'
+[1.749s] [ 42%] [32m[1mLinking CXX shared library libhiwin_libmodbus.so[0m
+[1.754s] [ 42%] Built target ament_cmake_python_build_hiwin_libmodbus_egg
+[1.808s] [ 42%] Built target hiwin_libmodbus
+[1.824s] [ 50%] [32mBuilding CXX object CMakeFiles/hiwinlibmodbus_server.dir/src/hiwinlibmodbus_server.cpp.o[0m
+[1.826s] [ 57%] [32mBuilding CXX object CMakeFiles/hiwin_libmodbus_ctype_wrapper.dir/src/hiwin_libmodbus_ctype_wrapper.cpp.o[0m
+[1.826s] [ 64%] [32mBuilding CXX object CMakeFiles/hiwin_libmodbus_node.dir/src/hiwin_libmodbus_node.cpp.o[0m
+[1.828s] [ 71%] [32mBuilding CXX object CMakeFiles/hiwinmodbus_server.dir/src/hiwinmodbus_server.cpp.o[0m
+[1.856s] [ 78%] [32m[1mLinking CXX executable hiwin_libmodbus_node[0m
+[1.905s] [ 78%] Built target hiwin_libmodbus_node
+[2.045s] [ 85%] [32m[1mLinking CXX shared library libhiwin_libmodbus_ctype_wrapper.so[0m
+[2.119s] [ 85%] Built target hiwin_libmodbus_ctype_wrapper
+[3.628s] [01m[K/home/jack/work/src/Hiwin_libmodbus/hiwin_libmodbus/src/hiwinlibmodbus_server.cpp:[m[K In member function ‘[01m[Kvoid HiwinlibmodbusServiceServer::hiwinmodbus_execute(std::shared_ptr<hiwin_interfaces::srv::RobotCommand_Request_<std::allocator<void> > >, std::shared_ptr<hiwin_interfaces::srv::RobotCommand_Response_<std::allocator<void> > >)[m[K’:
+[3.628s] [01m[K/home/jack/work/src/Hiwin_libmodbus/hiwin_libmodbus/src/hiwinlibmodbus_server.cpp:113:34:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[3.628s]   113 |                 [01;35m[Krequest->holding == false[m[K;
+[3.628s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.628s] [01m[K/home/jack/work/src/Hiwin_libmodbus/hiwin_libmodbus/src/hiwinlibmodbus_server.cpp:146:34:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[3.628s]   146 |                 [01;35m[Krequest->holding == false[m[K;
+[3.628s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.628s] [01m[K/home/jack/work/src/Hiwin_libmodbus/hiwin_libmodbus/src/hiwinlibmodbus_server.cpp:152:34:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[3.628s]   152 |                 [01;35m[Krequest->holding == false[m[K;
+[3.628s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.628s] [01m[K/home/jack/work/src/Hiwin_libmodbus/hiwin_libmodbus/src/hiwinlibmodbus_server.cpp:158:34:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[3.628s]   158 |                 [01;35m[Krequest->holding == false[m[K;
+[3.629s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.629s] [01m[K/home/jack/work/src/Hiwin_libmodbus/hiwin_libmodbus/src/hiwinlibmodbus_server.cpp:162:34:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[3.629s]   162 |                 [01;35m[Krequest->holding == false[m[K;
+[3.629s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[4.503s] [ 92%] [32m[1mLinking CXX executable hiwinmodbus_server[0m
+[4.622s] [100%] [32m[1mLinking CXX executable hiwinlibmodbus_server[0m
+[4.630s] [100%] Built target hiwinmodbus_server
+[4.745s] [100%] Built target hiwinlibmodbus_server
+[4.757s] Invoked command in '/home/jack/work/build/hiwin_libmodbus' returned '0': CMAKE_PREFIX_PATH=/home/jack/work/install/hiwin_interfaces:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/detect_interface:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble LD_LIBRARY_PATH=/home/jack/work/install/hiwin_interfaces/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/detect_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --build /home/jack/work/build/hiwin_libmodbus -- -j16 -l16
+[4.759s] Invoking command in '/home/jack/work/build/hiwin_libmodbus': CMAKE_PREFIX_PATH=/home/jack/work/install/hiwin_interfaces:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/detect_interface:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble LD_LIBRARY_PATH=/home/jack/work/install/hiwin_interfaces/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/detect_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --install /home/jack/work/build/hiwin_libmodbus
+[4.766s] -- Install configuration: ""
+[4.766s] -- Installing: /home/jack/work/install/hiwin_libmodbus/include
+[4.766s] -- Installing: /home/jack/work/install/hiwin_libmodbus/include/hiwin_libmodbus
+[4.766s] -- Installing: /home/jack/work/install/hiwin_libmodbus/include/hiwin_libmodbus/visibility_control.h
+[4.767s] -- Installing: /home/jack/work/install/hiwin_libmodbus/include/hiwin_libmodbus/hiwin_libmodbus.hpp
+[4.767s] -- Installing: /home/jack/work/install/hiwin_libmodbus/lib/libhiwin_libmodbus.so
+[4.767s] -- Installing: /home/jack/work/install/hiwin_libmodbus/lib/libhiwin_libmodbus_ctype_wrapper.so
+[4.767s] -- Set runtime path of "/home/jack/work/install/hiwin_libmodbus/lib/libhiwin_libmodbus_ctype_wrapper.so" to ""
+[4.767s] -- Installing: /home/jack/work/install/hiwin_libmodbus/lib/hiwin_libmodbus/hiwinmodbus_server
+[4.768s] -- Set runtime path of "/home/jack/work/install/hiwin_libmodbus/lib/hiwin_libmodbus/hiwinmodbus_server" to ""
+[4.768s] -- Installing: /home/jack/work/install/hiwin_libmodbus/lib/hiwin_libmodbus/hiwinlibmodbus_server
+[4.769s] -- Set runtime path of "/home/jack/work/install/hiwin_libmodbus/lib/hiwin_libmodbus/hiwinlibmodbus_server" to ""
+[4.769s] -- Installing: /home/jack/work/install/hiwin_libmodbus/lib/hiwin_libmodbus/hiwin_libmodbus_node
+[4.769s] -- Set runtime path of "/home/jack/work/install/hiwin_libmodbus/lib/hiwin_libmodbus/hiwin_libmodbus_node" to ""
+[4.769s] -- Installing: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/pythonpath.sh
+[4.769s] -- Installing: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/pythonpath.dsv
+[4.769s] -- Installing: /home/jack/work/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus-0.0.0-py3.10.egg-info
+[4.769s] -- Installing: /home/jack/work/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus-0.0.0-py3.10.egg-info/top_level.txt
+[4.769s] -- Installing: /home/jack/work/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus-0.0.0-py3.10.egg-info/PKG-INFO
+[4.769s] -- Installing: /home/jack/work/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.769s] -- Installing: /home/jack/work/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.769s] -- Installing: /home/jack/work/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus
+[4.769s] -- Installing: /home/jack/work/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus/__init__.py
+[4.769s] -- Installing: /home/jack/work/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus/hiwin_libmodbus.py
+[4.804s] Listing '/home/jack/work/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus'...
+[4.804s] Compiling '/home/jack/work/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus/__init__.py'...
+[4.804s] Compiling '/home/jack/work/install/hiwin_libmodbus/local/lib/python3.10/dist-packages/hiwin_libmodbus/hiwin_libmodbus.py'...
+[4.808s] -- Installing: /home/jack/work/install/hiwin_libmodbus/lib/hiwin_libmodbus/Hiwin_API_test.py
+[4.808s] -- Installing: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/library_path.sh
+[4.808s] -- Installing: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/library_path.dsv
+[4.808s] -- Installing: /home/jack/work/install/hiwin_libmodbus/share/ament_index/resource_index/package_run_dependencies/hiwin_libmodbus
+[4.808s] -- Installing: /home/jack/work/install/hiwin_libmodbus/share/ament_index/resource_index/parent_prefix_path/hiwin_libmodbus
+[4.808s] -- Installing: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/ament_prefix_path.sh
+[4.808s] -- Installing: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/ament_prefix_path.dsv
+[4.808s] -- Installing: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/path.sh
+[4.809s] -- Installing: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/environment/path.dsv
+[4.809s] -- Installing: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/local_setup.bash
+[4.809s] -- Installing: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/local_setup.sh
+[4.809s] -- Installing: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/local_setup.zsh
+[4.809s] -- Installing: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/local_setup.dsv
+[4.809s] -- Installing: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/package.dsv
+[4.809s] -- Installing: /home/jack/work/install/hiwin_libmodbus/share/ament_index/resource_index/packages/hiwin_libmodbus
+[4.809s] -- Installing: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/export_hiwin_libmodbusExport.cmake
+[4.809s] -- Installing: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/export_hiwin_libmodbusExport-noconfig.cmake
+[4.809s] -- Installing: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.809s] -- Installing: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/ament_cmake_export_libraries-extras.cmake
+[4.809s] -- Installing: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/ament_cmake_export_targets-extras.cmake
+[4.809s] -- Installing: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/hiwin_libmodbusConfig.cmake
+[4.809s] -- Installing: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/hiwin_libmodbusConfig-version.cmake
+[4.809s] -- Installing: /home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/package.xml
+[4.811s] Invoked command in '/home/jack/work/build/hiwin_libmodbus' returned '0': CMAKE_PREFIX_PATH=/home/jack/work/install/hiwin_interfaces:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/detect_interface:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble LD_LIBRARY_PATH=/home/jack/work/install/hiwin_interfaces/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/detect_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --install /home/jack/work/build/hiwin_libmodbus

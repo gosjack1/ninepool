@@ -1,0 +1,54 @@
+[0.035s] Invoking command in '/home/jack/work/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble /usr/bin/cmake --build /home/jack/work/build/realsense2_camera_msgs -- -j16 -l16
+[0.133s] [ 10%] Built target realsense2_camera_msgs__rosidl_generator_c
+[0.154s] [ 12%] Built target realsense2_camera_msgs__rs
+[0.155s] [ 14%] Built target realsense2_camera_msgs__cpp
+[0.193s] [ 14%] Built target ament_cmake_python_copy_realsense2_camera_msgs
+[0.268s] [ 25%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c
+[0.289s] [ 39%] Built target realsense2_camera_msgs__rosidl_typesupport_c
+[0.293s] [ 50%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[0.295s] [ 57%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c
+[0.301s] [ 68%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp
+[0.326s] [ 79%] Built target realsense2_camera_msgs__rosidl_typesupport_cpp
+[0.395s] [ 79%] Built target realsense2_camera_msgs
+[0.465s] [ 81%] Built target realsense2_camera_msgs__py
+[0.551s] [ 82%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_imu_info_s.c.o[0m
+[0.553s] [ 84%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_extrinsics_s.c.o[0m
+[0.566s] [ 85%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_metadata_s.c.o[0m
+[0.600s] [ 89%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_rgbd_s.c.o[0m
+[0.603s] [ 89%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/srv/_device_info_s.c.o[0m
+[0.825s] [01m[K/home/jack/work/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/msg/_extrinsics_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[0.825s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[0.825s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.825s] compilation terminated.
+[0.828s] gmake[2]: *** [CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/build.make:90: CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_extrinsics_s.c.o] Error 1
+[0.828s] gmake[2]: *** Waiting for unfinished jobs....
+[0.828s] [01m[K/home/jack/work/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/msg/_metadata_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[0.829s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[0.829s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.829s] compilation terminated.
+[0.832s] gmake[2]: *** [CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/build.make:104: CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_metadata_s.c.o] Error 1
+[0.876s] [01m[K/home/jack/work/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/msg/_rgbd_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[0.876s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[0.876s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.877s] compilation terminated.
+[0.881s] gmake[2]: *** [CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/build.make:118: CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_rgbd_s.c.o] Error 1
+[0.930s] [01m[K/home/jack/work/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/msg/_imu_info_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[0.930s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[0.930s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.931s] compilation terminated.
+[0.931s] gmake[2]: *** [CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/build.make:76: CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_imu_info_s.c.o] Error 1
+[1.032s] [01m[K/home/jack/work/build/realsense2_camera_msgs/rosidl_generator_py/realsense2_camera_msgs/srv/_device_info_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[1.032s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[1.033s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.033s] compilation terminated.
+[1.036s] gmake[2]: *** [CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/build.make:132: CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/srv/_device_info_s.c.o] Error 1
+[1.036s] gmake[1]: *** [CMakeFiles/Makefile2:494: CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/all] Error 2
+[1.037s] gmake[1]: *** Waiting for unfinished jobs....
+[1.151s] running egg_info
+[1.207s] writing realsense2_camera_msgs.egg-info/PKG-INFO
+[1.208s] writing dependency_links to realsense2_camera_msgs.egg-info/dependency_links.txt
+[1.209s] writing top-level names to realsense2_camera_msgs.egg-info/top_level.txt
+[1.308s] reading manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[1.309s] writing manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[1.374s] [ 89%] Built target ament_cmake_python_build_realsense2_camera_msgs_egg
+[1.377s] gmake: *** [Makefile:146: all] Error 2

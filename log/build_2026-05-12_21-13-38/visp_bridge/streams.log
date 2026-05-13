@@ -1,0 +1,31 @@
+[0.007s] Invoking command in '/home/jack/work/build/visp_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble /usr/bin/cmake /home/jack/work/src/vision_visp/visp_bridge -DCMAKE_INSTALL_PREFIX=/home/jack/work/install/visp_bridge
+[0.018s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.117s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.132s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.134s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.138s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.146s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.156s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.183s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.204s] -- Configuring incomplete, errors occurred!
+[0.205s] See also "/home/jack/work/build/visp_bridge/CMakeFiles/CMakeOutput.log".
+[0.205s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[0.205s]   By not providing "Findcamera_calibration_parsers.cmake" in
+[0.205s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[0.205s]   configuration file provided by "camera_calibration_parsers", but CMake did
+[0.205s]   not find one.
+[0.205s] 
+[0.205s]   Could not find a package configuration file provided by
+[0.205s]   "camera_calibration_parsers" with any of the following names:
+[0.205s] 
+[0.206s]     camera_calibration_parsersConfig.cmake
+[0.206s]     camera_calibration_parsers-config.cmake
+[0.206s] 
+[0.206s]   Add the installation prefix of "camera_calibration_parsers" to
+[0.206s]   CMAKE_PREFIX_PATH or set "camera_calibration_parsers_DIR" to a directory
+[0.206s]   containing one of the above files.  If "camera_calibration_parsers"
+[0.206s]   provides a separate development package or SDK, be sure it has been
+[0.206s]   installed.
+[0.206s] 
+[0.206s] [0m
+[0.208s] Invoked command in '/home/jack/work/build/visp_bridge' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble /usr/bin/cmake /home/jack/work/src/vision_visp/visp_bridge -DCMAKE_INSTALL_PREFIX=/home/jack/work/install/visp_bridge

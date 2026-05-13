@@ -1,0 +1,40 @@
+[1.502s] Invoking command in '/home/jack/work/src/Hiwin_libmodbus/hiwin_example': PYTHONPATH=/home/jack/work/build/hiwin_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/work/install/hiwin_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/hiwin_example build --build-base /home/jack/work/build/hiwin_example/build install --record /home/jack/work/build/hiwin_example/install.log --single-version-externally-managed install_data
+[1.777s] running egg_info
+[1.790s] writing ../../../build/hiwin_example/hiwin_example.egg-info/PKG-INFO
+[1.791s] writing dependency_links to ../../../build/hiwin_example/hiwin_example.egg-info/dependency_links.txt
+[1.791s] writing entry points to ../../../build/hiwin_example/hiwin_example.egg-info/entry_points.txt
+[1.791s] writing requirements to ../../../build/hiwin_example/hiwin_example.egg-info/requires.txt
+[1.791s] writing top-level names to ../../../build/hiwin_example/hiwin_example.egg-info/top_level.txt
+[1.824s] reading manifest file '../../../build/hiwin_example/hiwin_example.egg-info/SOURCES.txt'
+[1.825s] writing manifest file '../../../build/hiwin_example/hiwin_example.egg-info/SOURCES.txt'
+[1.825s] running build
+[1.825s] running build_py
+[1.825s] copying hiwin_example/__init__.py -> /home/jack/work/build/hiwin_example/build/lib/hiwin_example
+[1.825s] copying hiwin_example/YoloDetector_class_node.py -> /home/jack/work/build/hiwin_example/build/lib/hiwin_example
+[1.826s] copying hiwin_example/three_points_calibration_example.py -> /home/jack/work/build/hiwin_example/build/lib/hiwin_example
+[1.826s] copying hiwin_example/strategy_example1.py -> /home/jack/work/build/hiwin_example/build/lib/hiwin_example
+[1.826s] copying hiwin_example/pool_strategy_example.py -> /home/jack/work/build/hiwin_example/build/lib/hiwin_example
+[1.826s] copying hiwin_example/transformations.py -> /home/jack/work/build/hiwin_example/build/lib/hiwin_example
+[1.827s] copying hiwin_example/strategy_example.py -> /home/jack/work/build/hiwin_example/build/lib/hiwin_example
+[1.827s] copying hiwin_example/hand_in_eye_calibration.py -> /home/jack/work/build/hiwin_example/build/lib/hiwin_example
+[1.827s] copying hiwin_example/YoloDetector.py -> /home/jack/work/build/hiwin_example/build/lib/hiwin_example
+[1.828s] running install
+[1.832s] running install_lib
+[1.851s] running install_data
+[1.851s] copying resource/hiwin_example -> /home/jack/work/install/hiwin_example/share/ament_index/resource_index/packages
+[1.851s] copying package.xml -> /home/jack/work/install/hiwin_example/share/hiwin_example
+[1.851s] copying launch/bag_three_points_calibration.launch.py -> /home/jack/work/install/hiwin_example/share/hiwin_example/launch
+[1.851s] copying launch/cup_three_points_calibration.launch.py -> /home/jack/work/install/hiwin_example/share/hiwin_example/launch
+[1.851s] copying config/bag_cali_pose.yaml -> /home/jack/work/install/hiwin_example/share/hiwin_example/config
+[1.851s] copying config/cup_cali_pose.yaml -> /home/jack/work/install/hiwin_example/share/hiwin_example/config
+[1.853s] copying config/bag_cam.yaml -> /home/jack/work/install/hiwin_example/share/hiwin_example/config
+[1.853s] copying config/cup_cam.yaml -> /home/jack/work/install/hiwin_example/share/hiwin_example/config
+[1.853s] running install_egg_info
+[1.870s] removing '/home/jack/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example-0.0.0-py3.10.egg-info' (and everything under it)
+[1.870s] Copying ../../../build/hiwin_example/hiwin_example.egg-info to /home/jack/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example-0.0.0-py3.10.egg-info
+[1.871s] running install_scripts
+[2.056s] Installing hand_in_eye_calibration script to /home/jack/work/install/hiwin_example/lib/hiwin_example
+[2.056s] Installing strategy_example script to /home/jack/work/install/hiwin_example/lib/hiwin_example
+[2.056s] Installing three_points_calibration_example script to /home/jack/work/install/hiwin_example/lib/hiwin_example
+[2.058s] writing list of installed files to '/home/jack/work/build/hiwin_example/install.log'
+[2.096s] Invoked command in '/home/jack/work/src/Hiwin_libmodbus/hiwin_example' returned '0': PYTHONPATH=/home/jack/work/build/hiwin_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/work/install/hiwin_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/hiwin_example build --build-base /home/jack/work/build/hiwin_example/build install --record /home/jack/work/build/hiwin_example/install.log --single-version-externally-managed install_data

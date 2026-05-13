@@ -1,0 +1,60 @@
+[1.825s] Invoking command in '/home/jack/work/src/hiwin_control': CMAKE_PREFIX_PATH=/home/jack/work/install/detect_interface:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/hiwin_interfaces LD_LIBRARY_PATH=/home/jack/work/install/detect_interface/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/hiwin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 PYTHONPATH=/home/jack/work/build/hiwin_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/work/install/hiwin_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hiwin_control build --build-base /home/jack/work/build/hiwin_control/build install --record /home/jack/work/build/hiwin_control/install.log --single-version-externally-managed install_data
+[2.105s] running egg_info
+[2.118s] writing ../../build/hiwin_control/hiwin_control.egg-info/PKG-INFO
+[2.119s] writing dependency_links to ../../build/hiwin_control/hiwin_control.egg-info/dependency_links.txt
+[2.119s] writing entry points to ../../build/hiwin_control/hiwin_control.egg-info/entry_points.txt
+[2.119s] writing requirements to ../../build/hiwin_control/hiwin_control.egg-info/requires.txt
+[2.119s] writing top-level names to ../../build/hiwin_control/hiwin_control.egg-info/top_level.txt
+[2.149s] reading manifest file '../../build/hiwin_control/hiwin_control.egg-info/SOURCES.txt'
+[2.149s] adding license file 'LICENSE'
+[2.150s] writing manifest file '../../build/hiwin_control/hiwin_control.egg-info/SOURCES.txt'
+[2.150s] running build
+[2.150s] running build_py
+[2.151s] copying hiwin_control/pool_strat_v2.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+[2.151s] copying hiwin_control/__init__.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+[2.151s] copying hiwin_control/base_strat.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+[2.151s] copying hiwin_control/nine_arm_controller.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+[2.152s] copying hiwin_control/pool_arm_controller.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+[2.152s] copying hiwin_control/aruco_arm_controller.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+[2.152s] copying hiwin_control/team_selection.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+[2.152s] copying hiwin_control/arm_controller_copy.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+[2.152s] copying hiwin_control/pool_arm_controller_copy.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+[2.152s] copying hiwin_control/testbeat_arm_controller.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+[2.152s] copying hiwin_control/nine_ball_pool0805.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+[2.153s] copying hiwin_control/yaml_test.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+[2.153s] copying hiwin_control/rush_arm_controller.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+[2.153s] copying hiwin_control/aruco_table_cali.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+[2.153s] copying hiwin_control/transformations.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+[2.153s] copying hiwin_control/test_function.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+[2.153s] copying hiwin_control/quaternion_to_rotation.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+[2.153s] copying hiwin_control/yyy_arm_controller.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+[2.154s] copying hiwin_control/aruco_pose_estimator.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+[2.154s] copying hiwin_control/nine_ball_strat.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+[2.154s] copying hiwin_control/stream_rs.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+[2.154s] copying hiwin_control/arm_controller.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+[2.154s] running install
+[2.159s] running install_lib
+[2.175s] byte-compiling /home/jack/work/install/hiwin_control/lib/python3.10/site-packages/hiwin_control/aruco_pose_estimator.py to aruco_pose_estimator.cpython-310.pyc
+[2.177s]   File "/home/jack/work/install/hiwin_control/lib/python3.10/site-packages/hiwin_control/aruco_pose_estimator.py", line 118
+[2.177s]     for i, marker_id in enumerate(ids)
+[2.177s]                                       ^
+[2.177s] SyntaxError: expected ':'
+[2.178s] 
+[2.178s] running install_data
+[2.178s] copying resource/hiwin_control -> /home/jack/work/install/hiwin_control/share/ament_index/resource_index/packages
+[2.178s] copying package.xml -> /home/jack/work/install/hiwin_control/share/hiwin_control
+[2.178s] running install_egg_info
+[2.206s] removing '/home/jack/work/install/hiwin_control/lib/python3.10/site-packages/hiwin_control-0.0.0-py3.10.egg-info' (and everything under it)
+[2.207s] Copying ../../build/hiwin_control/hiwin_control.egg-info to /home/jack/work/install/hiwin_control/lib/python3.10/site-packages/hiwin_control-0.0.0-py3.10.egg-info
+[2.208s] running install_scripts
+[2.320s] Installing arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[2.321s] Installing aruco_table_cali script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[2.321s] Installing nine_arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[2.321s] Installing pool_arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[2.321s] Installing rush_arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[2.321s] Installing stream_rs script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[2.321s] Installing team_selection script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[2.321s] Installing testbeat_arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[2.321s] Installing yyy_arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[2.321s] writing list of installed files to '/home/jack/work/build/hiwin_control/install.log'
+[2.347s] Invoked command in '/home/jack/work/src/hiwin_control' returned '0': CMAKE_PREFIX_PATH=/home/jack/work/install/detect_interface:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/hiwin_interfaces LD_LIBRARY_PATH=/home/jack/work/install/detect_interface/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/hiwin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 PYTHONPATH=/home/jack/work/build/hiwin_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/work/install/hiwin_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hiwin_control build --build-base /home/jack/work/build/hiwin_control/build install --record /home/jack/work/build/hiwin_control/install.log --single-version-externally-managed install_data

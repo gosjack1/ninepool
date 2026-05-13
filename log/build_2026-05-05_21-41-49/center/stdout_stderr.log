@@ -1,0 +1,43 @@
+running egg_info
+writing ../../../build/center/center.egg-info/PKG-INFO
+writing dependency_links to ../../../build/center/center.egg-info/dependency_links.txt
+writing entry points to ../../../build/center/center.egg-info/entry_points.txt
+writing requirements to ../../../build/center/center.egg-info/requires.txt
+writing top-level names to ../../../build/center/center.egg-info/top_level.txt
+reading manifest file '../../../build/center/center.egg-info/SOURCES.txt'
+writing manifest file '../../../build/center/center.egg-info/SOURCES.txt'
+running build
+running build_py
+copying center/tableball0520.py -> /home/jack/work/build/center/build/lib/center
+copying center/__init__.py -> /home/jack/work/build/center/build/lib/center
+copying center/control.py -> /home/jack/work/build/center/build/lib/center
+copying center/publisher_dection_boxes (copy).py -> /home/jack/work/build/center/build/lib/center
+copying center/tableball.py -> /home/jack/work/build/center/build/lib/center
+copying center/strategy.py -> /home/jack/work/build/center/build/lib/center
+copying center/tableball (copy).py -> /home/jack/work/build/center/build/lib/center
+copying center/publisher_dection_boxes.py -> /home/jack/work/build/center/build/lib/center
+copying center/boss_strategy_client.py -> /home/jack/work/build/center/build/lib/center
+copying center/boss_yolo_service.py -> /home/jack/work/build/center/build/lib/center
+copying center/transformations.py -> /home/jack/work/build/center/build/lib/center
+copying center/strategy copy 2.py -> /home/jack/work/build/center/build/lib/center
+copying center/strategy copy.py -> /home/jack/work/build/center/build/lib/center
+copying center/just_pool_think0524.py -> /home/jack/work/build/center/build/lib/center
+copying center/test.py -> /home/jack/work/build/center/build/lib/center
+running install
+running install_lib
+byte-compiling /home/jack/work/install/center/lib/python3.10/site-packages/center/boss_yolo_service.py to boss_yolo_service.cpython-310.pyc
+  File "/home/jack/work/install/center/lib/python3.10/site-packages/center/boss_yolo_service.py", line 543
+    elif NBallInRoute == 2:
+    ^^^^
+SyntaxError: invalid syntax
+
+running install_data
+copying resource/center -> /home/jack/work/install/center/share/ament_index/resource_index/packages
+copying package.xml -> /home/jack/work/install/center/share/center
+running install_egg_info
+removing '/home/jack/work/install/center/lib/python3.10/site-packages/center-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/center/center.egg-info to /home/jack/work/install/center/lib/python3.10/site-packages/center-0.0.0-py3.10.egg-info
+running install_scripts
+Installing publisher_dection_boxes script to /home/jack/work/install/center/lib/center
+Installing strategy script to /home/jack/work/install/center/lib/center
+writing list of installed files to '/home/jack/work/build/center/install.log'

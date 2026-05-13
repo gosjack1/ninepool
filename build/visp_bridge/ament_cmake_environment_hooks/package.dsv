@@ -1,0 +1,4 @@
+source;share/visp_bridge/local_setup.bash
+source;share/visp_bridge/local_setup.dsv
+source;share/visp_bridge/local_setup.sh
+source;share/visp_bridge/local_setup.zsh

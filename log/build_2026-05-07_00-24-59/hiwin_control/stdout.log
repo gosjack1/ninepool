@@ -1,0 +1,28 @@
+running develop
+running egg_info
+writing hiwin_control.egg-info/PKG-INFO
+writing dependency_links to hiwin_control.egg-info/dependency_links.txt
+writing entry points to hiwin_control.egg-info/entry_points.txt
+writing requirements to hiwin_control.egg-info/requires.txt
+writing top-level names to hiwin_control.egg-info/top_level.txt
+reading manifest file 'hiwin_control.egg-info/SOURCES.txt'
+writing manifest file 'hiwin_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jack/work/install/hiwin_control/lib/python3.10/site-packages/hiwin-control.egg-link (link to .)
+Installing arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+Installing arm_controller_v2 script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+Installing aruco_table_cali script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+Installing billiards_planner script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+Installing my_pool script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+Installing nine_arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+Installing pool_arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+Installing rush_arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+Installing stream_rs script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+Installing team_selection script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+Installing testbeat_arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+Installing yyy_arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+
+Installed /home/jack/work/build/hiwin_control
+running symlink_data
+symbolically linking /home/jack/work/build/hiwin_control/resource/hiwin_control -> /home/jack/work/install/hiwin_control/share/ament_index/resource_index/packages
+symbolically linking /home/jack/work/build/hiwin_control/package.xml -> /home/jack/work/install/hiwin_control/share/hiwin_control

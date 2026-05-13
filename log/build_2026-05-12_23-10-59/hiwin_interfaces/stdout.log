@@ -1,0 +1,21 @@
+[  2%] Built target hiwin_interfaces__cpp
+[  5%] Built target hiwin_interfaces__rs
+[ 15%] Built target hiwin_interfaces__rosidl_generator_c
+[ 15%] Built target ament_cmake_python_copy_hiwin_interfaces
+[ 25%] Built target hiwin_interfaces__rosidl_typesupport_introspection_cpp
+[ 35%] Built target hiwin_interfaces__rosidl_typesupport_cpp
+[ 45%] Built target hiwin_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 55%] Built target hiwin_interfaces__rosidl_typesupport_c
+[ 65%] Built target hiwin_interfaces__rosidl_typesupport_introspection_c
+[ 75%] Built target hiwin_interfaces__rosidl_typesupport_fastrtps_c
+[ 75%] Built target hiwin_interfaces
+[ 77%] Built target hiwin_interfaces__py
+[ 82%] [32mBuilding C object CMakeFiles/hiwin_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hiwin_interfaces/srv/_hiwinmodbus_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/hiwin_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hiwin_interfaces/srv/_robot_command_s.c.o[0m
+running egg_info
+writing hiwin_interfaces.egg-info/PKG-INFO
+writing dependency_links to hiwin_interfaces.egg-info/dependency_links.txt
+writing top-level names to hiwin_interfaces.egg-info/top_level.txt
+reading manifest file 'hiwin_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'hiwin_interfaces.egg-info/SOURCES.txt'
+[ 82%] Built target ament_cmake_python_build_hiwin_interfaces_egg

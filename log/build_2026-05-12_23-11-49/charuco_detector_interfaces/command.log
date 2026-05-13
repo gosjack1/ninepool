@@ -1,0 +1,1 @@
+Invoking command in '/home/jack/work/build/charuco_detector_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jack/work/build/charuco_detector_interfaces -- -j16 -l16

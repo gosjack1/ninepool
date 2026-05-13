@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bc3590a840aa7394610d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "charuco_detector",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "charuco_detector_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-charuco_detector_core-9589123ecc3fde62b061.json",
+					"name" : "charuco_detector_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "charuco_detector_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-charuco_detector_node-1434b33f005ee4aa6ad9.json",
+					"name" : "charuco_detector_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "charuco_detector_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-charuco_detector_uninstall-992b3c8c63033cfcedbe.json",
+					"name" : "charuco_detector_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-fab88047b5523b57d243.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jack/work/build/charuco_detector",
+		"source" : "/home/jack/work/src/charuco_detector_ROS2/charuco_detector"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

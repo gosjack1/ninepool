@@ -1,0 +1,58 @@
+running egg_info
+writing ../../build/hiwin_control/hiwin_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/hiwin_control/hiwin_control.egg-info/dependency_links.txt
+writing entry points to ../../build/hiwin_control/hiwin_control.egg-info/entry_points.txt
+writing requirements to ../../build/hiwin_control/hiwin_control.egg-info/requires.txt
+writing top-level names to ../../build/hiwin_control/hiwin_control.egg-info/top_level.txt
+reading manifest file '../../build/hiwin_control/hiwin_control.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/hiwin_control/hiwin_control.egg-info/SOURCES.txt'
+running build
+running build_py
+copying hiwin_control/pool_strat_v2.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+copying hiwin_control/__init__.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+copying hiwin_control/base_strat.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+copying hiwin_control/nine_arm_controller.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+copying hiwin_control/pool_arm_controller.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+copying hiwin_control/aruco_arm_controller.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+copying hiwin_control/team_selection.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+copying hiwin_control/arm_controller_copy.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+copying hiwin_control/pool_arm_controller_copy.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+copying hiwin_control/testbeat_arm_controller.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+copying hiwin_control/nine_ball_pool0805.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+copying hiwin_control/yaml_test.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+copying hiwin_control/rush_arm_controller.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+copying hiwin_control/aruco_table_cali.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+copying hiwin_control/transformations.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+copying hiwin_control/test_function.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+copying hiwin_control/quaternion_to_rotation.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+copying hiwin_control/yyy_arm_controller.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+copying hiwin_control/aruco_pose_estimator.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+copying hiwin_control/nine_ball_strat.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+copying hiwin_control/stream_rs.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+copying hiwin_control/arm_controller.py -> /home/jack/work/build/hiwin_control/build/lib/hiwin_control
+running install
+running install_lib
+byte-compiling /home/jack/work/install/hiwin_control/lib/python3.10/site-packages/hiwin_control/aruco_pose_estimator.py to aruco_pose_estimator.cpython-310.pyc
+  File "/home/jack/work/install/hiwin_control/lib/python3.10/site-packages/hiwin_control/aruco_pose_estimator.py", line 118
+    for i, marker_id in enumerate(ids)
+                                      ^
+SyntaxError: expected ':'
+
+running install_data
+copying resource/hiwin_control -> /home/jack/work/install/hiwin_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/jack/work/install/hiwin_control/share/hiwin_control
+running install_egg_info
+removing '/home/jack/work/install/hiwin_control/lib/python3.10/site-packages/hiwin_control-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/hiwin_control/hiwin_control.egg-info to /home/jack/work/install/hiwin_control/lib/python3.10/site-packages/hiwin_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+Installing aruco_table_cali script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+Installing nine_arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+Installing pool_arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+Installing rush_arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+Installing stream_rs script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+Installing team_selection script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+Installing testbeat_arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+Installing yyy_arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+writing list of installed files to '/home/jack/work/build/hiwin_control/install.log'

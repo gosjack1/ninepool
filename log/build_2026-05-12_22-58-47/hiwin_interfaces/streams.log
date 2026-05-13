@@ -1,0 +1,37 @@
+[0.036s] Invoking command in '/home/jack/work/build/hiwin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble /usr/bin/cmake --build /home/jack/work/build/hiwin_interfaces -- -j16 -l16
+[0.130s] [  2%] Built target hiwin_interfaces__rs
+[0.137s] [ 12%] Built target hiwin_interfaces__rosidl_generator_c
+[0.137s] [ 15%] Built target hiwin_interfaces__cpp
+[0.178s] [ 15%] Built target ament_cmake_python_copy_hiwin_interfaces
+[0.263s] [ 25%] Built target hiwin_interfaces__rosidl_typesupport_introspection_cpp
+[0.264s] [ 35%] Built target hiwin_interfaces__rosidl_typesupport_fastrtps_c
+[0.270s] [ 45%] Built target hiwin_interfaces__rosidl_typesupport_c
+[0.276s] [ 55%] Built target hiwin_interfaces__rosidl_typesupport_introspection_c
+[0.308s] [ 65%] Built target hiwin_interfaces__rosidl_typesupport_cpp
+[0.352s] [ 75%] Built target hiwin_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.416s] [ 75%] Built target hiwin_interfaces
+[0.490s] [ 77%] Built target hiwin_interfaces__py
+[0.586s] [ 80%] [32mBuilding C object CMakeFiles/hiwin_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hiwin_interfaces/srv/_hiwinmodbus_s.c.o[0m
+[0.589s] [ 82%] [32mBuilding C object CMakeFiles/hiwin_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hiwin_interfaces/srv/_robot_command_s.c.o[0m
+[0.889s] [01m[K/home/jack/work/build/hiwin_interfaces/rosidl_generator_py/hiwin_interfaces/srv/_hiwinmodbus_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[0.889s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[0.889s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.892s] compilation terminated.
+[0.892s] [01m[K/home/jack/work/build/hiwin_interfaces/rosidl_generator_py/hiwin_interfaces/srv/_robot_command_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[0.892s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[0.892s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.893s] compilation terminated.
+[0.899s] gmake[2]: *** [CMakeFiles/hiwin_interfaces__rosidl_generator_py.dir/build.make:76: CMakeFiles/hiwin_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hiwin_interfaces/srv/_hiwinmodbus_s.c.o] Error 1
+[0.931s] gmake[2]: *** Waiting for unfinished jobs....
+[0.932s] gmake[2]: *** [CMakeFiles/hiwin_interfaces__rosidl_generator_py.dir/build.make:90: CMakeFiles/hiwin_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hiwin_interfaces/srv/_robot_command_s.c.o] Error 1
+[0.933s] gmake[1]: *** [CMakeFiles/Makefile2:494: CMakeFiles/hiwin_interfaces__rosidl_generator_py.dir/all] Error 2
+[0.933s] gmake[1]: *** Waiting for unfinished jobs....
+[0.935s] running egg_info
+[0.942s] writing hiwin_interfaces.egg-info/PKG-INFO
+[0.944s] writing dependency_links to hiwin_interfaces.egg-info/dependency_links.txt
+[0.944s] writing top-level names to hiwin_interfaces.egg-info/top_level.txt
+[1.045s] reading manifest file 'hiwin_interfaces.egg-info/SOURCES.txt'
+[1.047s] writing manifest file 'hiwin_interfaces.egg-info/SOURCES.txt'
+[1.133s] [ 82%] Built target ament_cmake_python_build_hiwin_interfaces_egg
+[1.136s] gmake: *** [Makefile:146: all] Error 2
+[1.144s] Invoked command in '/home/jack/work/build/hiwin_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble /usr/bin/cmake --build /home/jack/work/build/hiwin_interfaces -- -j16 -l16

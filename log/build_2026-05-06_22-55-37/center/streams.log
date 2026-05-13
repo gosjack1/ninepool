@@ -1,0 +1,39 @@
+[1.528s] Invoking command in '/home/jack/work/src/pool/center': CMAKE_PREFIX_PATH=/home/jack/work/install/detect_interface:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/hiwin_interfaces LD_LIBRARY_PATH=/home/jack/work/install/detect_interface/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/hiwin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 PYTHONPATH=/home/jack/work/build/center/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/work/install/center/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/center build --build-base /home/jack/work/build/center/build install --record /home/jack/work/build/center/install.log --single-version-externally-managed install_data
+[1.750s] running egg_info
+[1.762s] writing ../../../build/center/center.egg-info/PKG-INFO
+[1.762s] writing dependency_links to ../../../build/center/center.egg-info/dependency_links.txt
+[1.762s] writing entry points to ../../../build/center/center.egg-info/entry_points.txt
+[1.762s] writing requirements to ../../../build/center/center.egg-info/requires.txt
+[1.762s] writing top-level names to ../../../build/center/center.egg-info/top_level.txt
+[1.786s] reading manifest file '../../../build/center/center.egg-info/SOURCES.txt'
+[1.786s] writing manifest file '../../../build/center/center.egg-info/SOURCES.txt'
+[1.786s] running build
+[1.786s] running build_py
+[1.786s] copying center/tableball0520.py -> /home/jack/work/build/center/build/lib/center
+[1.786s] copying center/__init__.py -> /home/jack/work/build/center/build/lib/center
+[1.786s] copying center/control.py -> /home/jack/work/build/center/build/lib/center
+[1.786s] copying center/publisher_dection_boxes (copy).py -> /home/jack/work/build/center/build/lib/center
+[1.787s] copying center/tableball.py -> /home/jack/work/build/center/build/lib/center
+[1.787s] copying center/strategy.py -> /home/jack/work/build/center/build/lib/center
+[1.787s] copying center/tableball (copy).py -> /home/jack/work/build/center/build/lib/center
+[1.791s] copying center/publisher_dection_boxes.py -> /home/jack/work/build/center/build/lib/center
+[1.791s] copying center/boss_strategy_client.py -> /home/jack/work/build/center/build/lib/center
+[1.791s] copying center/boss_yolo_service.py -> /home/jack/work/build/center/build/lib/center
+[1.791s] copying center/transformations.py -> /home/jack/work/build/center/build/lib/center
+[1.791s] copying center/strategy copy 2.py -> /home/jack/work/build/center/build/lib/center
+[1.791s] copying center/strategy copy.py -> /home/jack/work/build/center/build/lib/center
+[1.791s] copying center/just_pool_think0524.py -> /home/jack/work/build/center/build/lib/center
+[1.791s] copying center/test.py -> /home/jack/work/build/center/build/lib/center
+[1.791s] running install
+[1.794s] running install_lib
+[1.806s] running install_data
+[1.807s] copying resource/center -> /home/jack/work/install/center/share/ament_index/resource_index/packages
+[1.807s] copying package.xml -> /home/jack/work/install/center/share/center
+[1.807s] running install_egg_info
+[1.820s] removing '/home/jack/work/install/center/lib/python3.10/site-packages/center-0.0.0-py3.10.egg-info' (and everything under it)
+[1.820s] Copying ../../../build/center/center.egg-info to /home/jack/work/install/center/lib/python3.10/site-packages/center-0.0.0-py3.10.egg-info
+[1.821s] running install_scripts
+[1.938s] Installing publisher_dection_boxes script to /home/jack/work/install/center/lib/center
+[1.939s] Installing strategy script to /home/jack/work/install/center/lib/center
+[1.940s] writing list of installed files to '/home/jack/work/build/center/install.log'
+[1.968s] Invoked command in '/home/jack/work/src/pool/center' returned '0': CMAKE_PREFIX_PATH=/home/jack/work/install/detect_interface:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/hiwin_interfaces LD_LIBRARY_PATH=/home/jack/work/install/detect_interface/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/hiwin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 PYTHONPATH=/home/jack/work/build/center/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/work/install/center/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/center build --build-base /home/jack/work/build/center/build install --record /home/jack/work/build/center/install.log --single-version-externally-managed install_data

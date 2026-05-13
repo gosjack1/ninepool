@@ -1,0 +1,31 @@
+[0.014s] Invoking command in '/home/jack/work/build/visp_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jack/work/build/visp_bridge -- -j16 -l16
+[0.060s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.246s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.283s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.286s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.295s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.310s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.323s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.353s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.385s] -- Configuring incomplete, errors occurred!
+[0.385s] See also "/home/jack/work/build/visp_bridge/CMakeFiles/CMakeOutput.log".
+[0.386s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[0.386s]   By not providing "Findcamera_calibration_parsers.cmake" in
+[0.387s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[0.387s]   configuration file provided by "camera_calibration_parsers", but CMake did
+[0.387s]   not find one.
+[0.387s] 
+[0.387s]   Could not find a package configuration file provided by
+[0.387s]   "camera_calibration_parsers" with any of the following names:
+[0.387s] 
+[0.388s]     camera_calibration_parsersConfig.cmake
+[0.388s]     camera_calibration_parsers-config.cmake
+[0.388s] 
+[0.388s]   Add the installation prefix of "camera_calibration_parsers" to
+[0.388s]   CMAKE_PREFIX_PATH or set "camera_calibration_parsers_DIR" to a directory
+[0.388s]   containing one of the above files.  If "camera_calibration_parsers"
+[0.388s]   provides a separate development package or SDK, be sure it has been
+[0.388s]   installed.
+[0.388s] 
+[0.388s] [0m
+[0.388s] gmake: *** [Makefile:254: cmake_check_build_system] Error 1

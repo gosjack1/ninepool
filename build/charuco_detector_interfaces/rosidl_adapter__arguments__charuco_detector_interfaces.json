@@ -1,0 +1,6 @@
+{
+  "package_name": "charuco_detector_interfaces",
+  "non_idl_tuples": [
+    "/home/jack/work/src/charuco_detector_ROS2/charuco_detector_interfaces:srv/Eye2base.srv"
+  ]
+}

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from charuco_detector_interfaces/srv/Eye2base.srv
+// generated code does not contain a copyright notice
+
+
+module charuco_detector_interfaces {
+  module srv {
+    struct Eye2base_Request {
+      sequence<double> ini_pose;
+    };
+    struct Eye2base_Response {
+      sequence<double> trans;
+
+      sequence<double> pos;
+
+      sequence<double> quat;
+    };
+  };
+};

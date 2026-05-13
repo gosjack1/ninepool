@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "charuco_detector_interfaces__rs",
+		"source" : "/home/jack/work/build/charuco_detector_interfaces/charuco_detector_interfaces__rs"
+	}
+}

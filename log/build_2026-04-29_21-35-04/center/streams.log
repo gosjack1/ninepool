@@ -1,0 +1,82 @@
+[1.105s] Invoking command in '/home/jack/work/src/pool/center': CMAKE_PREFIX_PATH=/home/jack/work/install/detect_interface:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/hiwin_interfaces LD_LIBRARY_PATH=/home/jack/work/install/detect_interface/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/hiwin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 PYTHONPATH=/home/jack/work/build/center/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/work/install/center/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/center build --build-base /home/jack/work/build/center/build install --record /home/jack/work/build/center/install.log --single-version-externally-managed install_data
+[1.304s] running egg_info
+[1.304s] creating ../../../build/center/center.egg-info
+[1.314s] writing ../../../build/center/center.egg-info/PKG-INFO
+[1.314s] writing dependency_links to ../../../build/center/center.egg-info/dependency_links.txt
+[1.314s] writing entry points to ../../../build/center/center.egg-info/entry_points.txt
+[1.314s] writing requirements to ../../../build/center/center.egg-info/requires.txt
+[1.314s] writing top-level names to ../../../build/center/center.egg-info/top_level.txt
+[1.315s] writing manifest file '../../../build/center/center.egg-info/SOURCES.txt'
+[1.334s] reading manifest file '../../../build/center/center.egg-info/SOURCES.txt'
+[1.335s] writing manifest file '../../../build/center/center.egg-info/SOURCES.txt'
+[1.335s] running build
+[1.335s] running build_py
+[1.335s] creating /home/jack/work/build/center/build
+[1.335s] creating /home/jack/work/build/center/build/lib
+[1.335s] creating /home/jack/work/build/center/build/lib/center
+[1.336s] copying center/tableball0520.py -> /home/jack/work/build/center/build/lib/center
+[1.336s] copying center/__init__.py -> /home/jack/work/build/center/build/lib/center
+[1.336s] copying center/control.py -> /home/jack/work/build/center/build/lib/center
+[1.336s] copying center/publisher_dection_boxes (copy).py -> /home/jack/work/build/center/build/lib/center
+[1.336s] copying center/tableball.py -> /home/jack/work/build/center/build/lib/center
+[1.336s] copying center/strategy.py -> /home/jack/work/build/center/build/lib/center
+[1.336s] copying center/tableball (copy).py -> /home/jack/work/build/center/build/lib/center
+[1.336s] copying center/publisher_dection_boxes.py -> /home/jack/work/build/center/build/lib/center
+[1.336s] copying center/boss_strategy_client.py -> /home/jack/work/build/center/build/lib/center
+[1.336s] copying center/boss_yolo_service.py -> /home/jack/work/build/center/build/lib/center
+[1.336s] copying center/transformations.py -> /home/jack/work/build/center/build/lib/center
+[1.336s] copying center/strategy copy 2.py -> /home/jack/work/build/center/build/lib/center
+[1.337s] copying center/strategy copy.py -> /home/jack/work/build/center/build/lib/center
+[1.337s] copying center/just_pool_think0524.py -> /home/jack/work/build/center/build/lib/center
+[1.337s] copying center/test.py -> /home/jack/work/build/center/build/lib/center
+[1.337s] running install
+[1.340s] running install_lib
+[1.350s] creating /home/jack/work/install/center/lib/python3.10/site-packages/center
+[1.350s] copying /home/jack/work/build/center/build/lib/center/tableball0520.py -> /home/jack/work/install/center/lib/python3.10/site-packages/center
+[1.350s] copying /home/jack/work/build/center/build/lib/center/__init__.py -> /home/jack/work/install/center/lib/python3.10/site-packages/center
+[1.350s] copying /home/jack/work/build/center/build/lib/center/control.py -> /home/jack/work/install/center/lib/python3.10/site-packages/center
+[1.350s] copying /home/jack/work/build/center/build/lib/center/publisher_dection_boxes (copy).py -> /home/jack/work/install/center/lib/python3.10/site-packages/center
+[1.350s] copying /home/jack/work/build/center/build/lib/center/tableball.py -> /home/jack/work/install/center/lib/python3.10/site-packages/center
+[1.350s] copying /home/jack/work/build/center/build/lib/center/strategy.py -> /home/jack/work/install/center/lib/python3.10/site-packages/center
+[1.350s] copying /home/jack/work/build/center/build/lib/center/tableball (copy).py -> /home/jack/work/install/center/lib/python3.10/site-packages/center
+[1.351s] copying /home/jack/work/build/center/build/lib/center/publisher_dection_boxes.py -> /home/jack/work/install/center/lib/python3.10/site-packages/center
+[1.351s] copying /home/jack/work/build/center/build/lib/center/boss_strategy_client.py -> /home/jack/work/install/center/lib/python3.10/site-packages/center
+[1.351s] copying /home/jack/work/build/center/build/lib/center/boss_yolo_service.py -> /home/jack/work/install/center/lib/python3.10/site-packages/center
+[1.351s] copying /home/jack/work/build/center/build/lib/center/transformations.py -> /home/jack/work/install/center/lib/python3.10/site-packages/center
+[1.351s] copying /home/jack/work/build/center/build/lib/center/strategy copy 2.py -> /home/jack/work/install/center/lib/python3.10/site-packages/center
+[1.351s] copying /home/jack/work/build/center/build/lib/center/strategy copy.py -> /home/jack/work/install/center/lib/python3.10/site-packages/center
+[1.351s] copying /home/jack/work/build/center/build/lib/center/just_pool_think0524.py -> /home/jack/work/install/center/lib/python3.10/site-packages/center
+[1.351s] copying /home/jack/work/build/center/build/lib/center/test.py -> /home/jack/work/install/center/lib/python3.10/site-packages/center
+[1.351s] byte-compiling /home/jack/work/install/center/lib/python3.10/site-packages/center/tableball0520.py to tableball0520.cpython-310.pyc
+[1.356s] byte-compiling /home/jack/work/install/center/lib/python3.10/site-packages/center/__init__.py to __init__.cpython-310.pyc
+[1.356s] byte-compiling /home/jack/work/install/center/lib/python3.10/site-packages/center/control.py to control.cpython-310.pyc
+[1.356s] byte-compiling /home/jack/work/install/center/lib/python3.10/site-packages/center/publisher_dection_boxes (copy).py to publisher_dection_boxes (copy).cpython-310.pyc
+[1.357s] byte-compiling /home/jack/work/install/center/lib/python3.10/site-packages/center/tableball.py to tableball.cpython-310.pyc
+[1.359s] byte-compiling /home/jack/work/install/center/lib/python3.10/site-packages/center/strategy.py to strategy.cpython-310.pyc
+[1.360s] byte-compiling /home/jack/work/install/center/lib/python3.10/site-packages/center/tableball (copy).py to tableball (copy).cpython-310.pyc
+[1.362s] byte-compiling /home/jack/work/install/center/lib/python3.10/site-packages/center/publisher_dection_boxes.py to publisher_dection_boxes.cpython-310.pyc
+[1.363s] byte-compiling /home/jack/work/install/center/lib/python3.10/site-packages/center/boss_strategy_client.py to boss_strategy_client.cpython-310.pyc
+[1.367s] byte-compiling /home/jack/work/install/center/lib/python3.10/site-packages/center/boss_yolo_service.py to boss_yolo_service.cpython-310.pyc
+[1.370s]   File "/home/jack/work/install/center/lib/python3.10/site-packages/center/boss_yolo_service.py", line 543
+[1.370s]     elif NBallInRoute == 2:
+[1.370s]     ^^^^
+[1.371s] SyntaxError: invalid syntax
+[1.371s] 
+[1.371s] byte-compiling /home/jack/work/install/center/lib/python3.10/site-packages/center/transformations.py to transformations.cpython-310.pyc
+[1.376s] byte-compiling /home/jack/work/install/center/lib/python3.10/site-packages/center/strategy copy 2.py to strategy copy 2.cpython-310.pyc
+[1.377s] byte-compiling /home/jack/work/install/center/lib/python3.10/site-packages/center/strategy copy.py to strategy copy.cpython-310.pyc
+[1.377s] byte-compiling /home/jack/work/install/center/lib/python3.10/site-packages/center/just_pool_think0524.py to just_pool_think0524.cpython-310.pyc
+[1.380s] byte-compiling /home/jack/work/install/center/lib/python3.10/site-packages/center/test.py to test.cpython-310.pyc
+[1.380s] running install_data
+[1.380s] creating /home/jack/work/install/center/share/ament_index
+[1.381s] creating /home/jack/work/install/center/share/ament_index/resource_index
+[1.381s] creating /home/jack/work/install/center/share/ament_index/resource_index/packages
+[1.381s] copying resource/center -> /home/jack/work/install/center/share/ament_index/resource_index/packages
+[1.381s] copying package.xml -> /home/jack/work/install/center/share/center
+[1.381s] running install_egg_info
+[1.392s] Copying ../../../build/center/center.egg-info to /home/jack/work/install/center/lib/python3.10/site-packages/center-0.0.0-py3.10.egg-info
+[1.392s] running install_scripts
+[1.490s] Installing publisher_dection_boxes script to /home/jack/work/install/center/lib/center
+[1.491s] Installing strategy script to /home/jack/work/install/center/lib/center
+[1.491s] writing list of installed files to '/home/jack/work/build/center/install.log'
+[1.521s] Invoked command in '/home/jack/work/src/pool/center' returned '0': CMAKE_PREFIX_PATH=/home/jack/work/install/detect_interface:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/hiwin_interfaces LD_LIBRARY_PATH=/home/jack/work/install/detect_interface/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/hiwin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 PYTHONPATH=/home/jack/work/build/center/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/work/install/center/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/center build --build-base /home/jack/work/build/center/build install --record /home/jack/work/build/center/install.log --single-version-externally-managed install_data

@@ -1,0 +1,71 @@
+[0.011s] Invoking command in '/home/jack/work/build/realsense2_description': CMAKE_PREFIX_PATH=/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/hiwin_interfaces:/home/jack/work/install/detect_interface:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble LD_LIBRARY_PATH=/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/hiwin_interfaces/lib:/home/jack/work/install/detect_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake /home/jack/work/src/pool/realsense-ros/realsense2_description -DCMAKE_INSTALL_PREFIX=/home/jack/work/install/realsense2_description
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.132s] -- The CXX compiler identification is GNU 11.4.0
+[0.141s] -- Detecting C compiler ABI info
+[0.215s] -- Detecting C compiler ABI info - done
+[0.224s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.224s] -- Detecting C compile features
+[0.225s] -- Detecting C compile features - done
+[0.228s] -- Detecting CXX compiler ABI info
+[0.324s] -- Detecting CXX compiler ABI info - done
+[0.333s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.333s] -- Detecting CXX compile features
+[0.334s] -- Detecting CXX compile features - done
+[0.338s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.749s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.886s] -- Configuring done
+[0.887s] -- Generating done
+[0.889s] -- Build files have been written to: /home/jack/work/build/realsense2_description
+[0.892s] Invoked command in '/home/jack/work/build/realsense2_description' returned '0': CMAKE_PREFIX_PATH=/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/hiwin_interfaces:/home/jack/work/install/detect_interface:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble LD_LIBRARY_PATH=/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/hiwin_interfaces/lib:/home/jack/work/install/detect_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake /home/jack/work/src/pool/realsense-ros/realsense2_description -DCMAKE_INSTALL_PREFIX=/home/jack/work/install/realsense2_description
+[0.894s] Invoking command in '/home/jack/work/build/realsense2_description': CMAKE_PREFIX_PATH=/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/hiwin_interfaces:/home/jack/work/install/detect_interface:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble LD_LIBRARY_PATH=/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/hiwin_interfaces/lib:/home/jack/work/install/detect_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --build /home/jack/work/build/realsense2_description -- -j16 -l16
+[0.931s] Invoked command in '/home/jack/work/build/realsense2_description' returned '0': CMAKE_PREFIX_PATH=/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/hiwin_interfaces:/home/jack/work/install/detect_interface:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble LD_LIBRARY_PATH=/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/hiwin_interfaces/lib:/home/jack/work/install/detect_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --build /home/jack/work/build/realsense2_description -- -j16 -l16
+[0.933s] Invoking command in '/home/jack/work/build/realsense2_description': CMAKE_PREFIX_PATH=/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/hiwin_interfaces:/home/jack/work/install/detect_interface:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble LD_LIBRARY_PATH=/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/hiwin_interfaces/lib:/home/jack/work/install/detect_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --install /home/jack/work/build/realsense2_description
+[0.938s] -- Install configuration: ""
+[0.938s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/launch
+[0.938s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/launch/view_model.launch.py
+[0.938s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/launch/launch_utils.py
+[0.938s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/meshes
+[0.938s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/meshes/plug_collision.stl
+[0.939s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/meshes/d455.stl
+[0.942s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/meshes/d405.stl
+[0.942s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/meshes/plug.stl
+[0.943s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/meshes/d435.dae
+[0.965s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/meshes/d415.stl
+[0.995s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/meshes/l515.dae
+[1.037s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/rviz
+[1.038s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/rviz/urdf.rviz
+[1.038s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/urdf
+[1.038s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/urdf/_materials.urdf.xacro
+[1.038s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/urdf/test_d435_multiple_cameras.urdf.xacro
+[1.038s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/urdf/_d435i_imu_modules.urdf.xacro
+[1.038s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/urdf/test_d435i_camera.urdf.xacro
+[1.038s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/urdf/test_r410_camera.urdf.xacro
+[1.038s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/urdf/_d405.urdf.xacro
+[1.038s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/urdf/_r430.urdf.xacro
+[1.038s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/urdf/_d455.urdf.xacro
+[1.038s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/urdf/test_d435_camera.urdf.xacro
+[1.038s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/urdf/_r410.urdf.xacro
+[1.039s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/urdf/test_d455_camera.urdf.xacro
+[1.039s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/urdf/test_r430_camera.urdf.xacro
+[1.039s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/urdf/_d415.urdf.xacro
+[1.039s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/urdf/test_d415_camera.urdf.xacro
+[1.039s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/urdf/_usb_plug.urdf.xacro
+[1.039s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/urdf/_d435i.urdf.xacro
+[1.039s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/urdf/test_d405_camera.urdf.xacro
+[1.039s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/urdf/_d435.urdf.xacro
+[1.040s] -- Installing: /home/jack/work/install/realsense2_description/share/ament_index/resource_index/package_run_dependencies/realsense2_description
+[1.040s] -- Installing: /home/jack/work/install/realsense2_description/share/ament_index/resource_index/parent_prefix_path/realsense2_description
+[1.040s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/environment/ament_prefix_path.sh
+[1.040s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/environment/ament_prefix_path.dsv
+[1.040s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/environment/path.sh
+[1.040s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/environment/path.dsv
+[1.040s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/local_setup.bash
+[1.040s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/local_setup.sh
+[1.040s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/local_setup.zsh
+[1.040s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/local_setup.dsv
+[1.040s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/package.dsv
+[1.040s] -- Installing: /home/jack/work/install/realsense2_description/share/ament_index/resource_index/packages/realsense2_description
+[1.040s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/cmake/realsense2_descriptionConfig.cmake
+[1.041s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/cmake/realsense2_descriptionConfig-version.cmake
+[1.041s] -- Installing: /home/jack/work/install/realsense2_description/share/realsense2_description/package.xml
+[1.042s] Invoked command in '/home/jack/work/build/realsense2_description' returned '0': CMAKE_PREFIX_PATH=/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/hiwin_interfaces:/home/jack/work/install/detect_interface:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble LD_LIBRARY_PATH=/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/hiwin_interfaces/lib:/home/jack/work/install/detect_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --install /home/jack/work/build/realsense2_description

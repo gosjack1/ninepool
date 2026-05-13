@@ -1,0 +1,61 @@
+running egg_info
+writing ../../../../build/yolov7_obj_detect/yolov7_obj_detect.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/yolov7_obj_detect/yolov7_obj_detect.egg-info/dependency_links.txt
+writing entry points to ../../../../build/yolov7_obj_detect/yolov7_obj_detect.egg-info/entry_points.txt
+writing requirements to ../../../../build/yolov7_obj_detect/yolov7_obj_detect.egg-info/requires.txt
+writing top-level names to ../../../../build/yolov7_obj_detect/yolov7_obj_detect.egg-info/top_level.txt
+reading manifest file '../../../../build/yolov7_obj_detect/yolov7_obj_detect.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/yolov7_obj_detect/yolov7_obj_detect.egg-info/SOURCES.txt'
+running build
+running build_py
+copying yolov7_obj_detect/__init__.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/yolov7_obj_detect
+copying yolov7_obj_detect/len.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/yolov7_obj_detect
+copying yolov7_obj_detect/object_detection.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/yolov7_obj_detect
+copying models/__init__.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/models
+copying models/experimental.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/models
+copying models/yolo.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/models
+copying models/common.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/models
+copying utils/loss.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils
+copying utils/general.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils
+copying utils/activations.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils
+copying utils/__init__.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils
+copying utils/add_nms.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils
+copying utils/metrics.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils
+copying utils/plots.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils
+copying utils/torch_utils.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils
+copying utils/datasets.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils
+copying utils/autoanchor.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils
+copying utils/google_utils.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils
+copying utils/aws/__init__.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils/aws
+copying utils/aws/resume.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils/aws
+copying utils/wandb_logging/__init__.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils/wandb_logging
+copying utils/wandb_logging/log_dataset.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils/wandb_logging
+copying utils/wandb_logging/wandb_utils.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils/wandb_logging
+running install
+running install_lib
+running install_data
+copying resource/yolov7_obj_detect -> /home/jack/work/install/yolov7_obj_detect/share/ament_index/resource_index/packages
+copying package.xml -> /home/jack/work/install/yolov7_obj_detect/share/yolov7_obj_detect
+copying launch/object_detection_launch.py -> /home/jack/work/install/yolov7_obj_detect/share/yolov7_obj_detect/launch
+copying weights/best.pt -> /home/jack/work/install/yolov7_obj_detect/share/yolov7_obj_detect/weights
+copying weights/alldone.pt -> /home/jack/work/install/yolov7_obj_detect/share/yolov7_obj_detect/weights
+copying weights/yolov7.pt -> /home/jack/work/install/yolov7_obj_detect/share/yolov7_obj_detect/weights
+copying models/experimental.py -> /home/jack/work/install/yolov7_obj_detect/lib/yolov7_obj_detect/models/
+copying models/common.py -> /home/jack/work/install/yolov7_obj_detect/lib/yolov7_obj_detect/models/
+copying models/yolo.py -> /home/jack/work/install/yolov7_obj_detect/lib/yolov7_obj_detect/models/
+copying utils/general.py -> /home/jack/work/install/yolov7_obj_detect/lib/yolov7_obj_detect/utils/
+copying utils/torch_utils.py -> /home/jack/work/install/yolov7_obj_detect/lib/yolov7_obj_detect/utils/
+copying utils/plots.py -> /home/jack/work/install/yolov7_obj_detect/lib/yolov7_obj_detect/utils/
+copying utils/datasets.py -> /home/jack/work/install/yolov7_obj_detect/lib/yolov7_obj_detect/utils/
+copying utils/google_utils.py -> /home/jack/work/install/yolov7_obj_detect/lib/yolov7_obj_detect/utils/
+copying utils/activations.py -> /home/jack/work/install/yolov7_obj_detect/lib/yolov7_obj_detect/utils/
+copying utils/add_nms.py -> /home/jack/work/install/yolov7_obj_detect/lib/yolov7_obj_detect/utils/
+copying utils/autoanchor.py -> /home/jack/work/install/yolov7_obj_detect/lib/yolov7_obj_detect/utils/
+copying utils/loss.py -> /home/jack/work/install/yolov7_obj_detect/lib/yolov7_obj_detect/utils/
+copying utils/metrics.py -> /home/jack/work/install/yolov7_obj_detect/lib/yolov7_obj_detect/utils/
+running install_egg_info
+removing '/home/jack/work/install/yolov7_obj_detect/lib/python3.10/site-packages/yolov7_obj_detect-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../../build/yolov7_obj_detect/yolov7_obj_detect.egg-info to /home/jack/work/install/yolov7_obj_detect/lib/python3.10/site-packages/yolov7_obj_detect-0.0.0-py3.10.egg-info
+running install_scripts
+Installing object_detection script to /home/jack/work/install/yolov7_obj_detect/lib/yolov7_obj_detect
+writing list of installed files to '/home/jack/work/build/yolov7_obj_detect/install.log'

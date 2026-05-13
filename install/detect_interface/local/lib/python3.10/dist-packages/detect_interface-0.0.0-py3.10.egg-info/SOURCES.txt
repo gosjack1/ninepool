@@ -1,0 +1,9 @@
+setup.py
+detect_interface/__init__.py
+detect_interface.egg-info/PKG-INFO
+detect_interface.egg-info/SOURCES.txt
+detect_interface.egg-info/dependency_links.txt
+detect_interface.egg-info/top_level.txt
+detect_interface/msg/__init__.py
+detect_interface/msg/_bounding_box.py
+detect_interface/msg/_detection_results.py

@@ -1,0 +1,29 @@
+[0.410s] Invoking command in '/home/jack/work/build/hiwin_control': AMENT_PREFIX_PATH=/home/jack/work/install/detect_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jack/work/install/detect_interface LD_LIBRARY_PATH=/home/jack/work/install/detect_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jack/work/build/hiwin_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/work/install/hiwin_control/lib/python3.10/site-packages:/home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jack/work/build/hiwin_control/build --no-deps symlink_data --force
+[0.582s] running develop
+[0.669s] running egg_info
+[0.675s] writing hiwin_control.egg-info/PKG-INFO
+[0.675s] writing dependency_links to hiwin_control.egg-info/dependency_links.txt
+[0.675s] writing entry points to hiwin_control.egg-info/entry_points.txt
+[0.675s] writing requirements to hiwin_control.egg-info/requires.txt
+[0.676s] writing top-level names to hiwin_control.egg-info/top_level.txt
+[0.690s] reading manifest file 'hiwin_control.egg-info/SOURCES.txt'
+[0.690s] writing manifest file 'hiwin_control.egg-info/SOURCES.txt'
+[0.697s] running build_ext
+[0.697s] Creating /home/jack/work/install/hiwin_control/lib/python3.10/site-packages/hiwin-control.egg-link (link to .)
+[0.698s] Installing arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[0.698s] Installing aruco_table_cali script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[0.698s] Installing billiards_planner script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[0.698s] Installing my_pool script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[0.698s] Installing nine_arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[0.698s] Installing pool_arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[0.698s] Installing rush_arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[0.698s] Installing stream_rs script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[0.698s] Installing team_selection script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[0.698s] Installing testbeat_arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[0.698s] Installing yyy_arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[0.698s] 
+[0.698s] Installed /home/jack/work/build/hiwin_control
+[0.698s] running symlink_data
+[0.698s] symbolically linking /home/jack/work/build/hiwin_control/resource/hiwin_control -> /home/jack/work/install/hiwin_control/share/ament_index/resource_index/packages
+[0.698s] symbolically linking /home/jack/work/build/hiwin_control/package.xml -> /home/jack/work/install/hiwin_control/share/hiwin_control
+[0.718s] Invoked command in '/home/jack/work/build/hiwin_control' returned '0': AMENT_PREFIX_PATH=/home/jack/work/install/detect_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jack/work/install/detect_interface LD_LIBRARY_PATH=/home/jack/work/install/detect_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jack/work/build/hiwin_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/work/install/hiwin_control/lib/python3.10/site-packages:/home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jack/work/build/hiwin_control/build --no-deps symlink_data --force

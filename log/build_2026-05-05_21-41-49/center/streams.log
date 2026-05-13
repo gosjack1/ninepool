@@ -1,0 +1,45 @@
+[0.804s] Invoking command in '/home/jack/work/src/pool/center': AMENT_PREFIX_PATH=/home/jack/work/install/detect_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jack/work/install/detect_interface LD_LIBRARY_PATH=/home/jack/work/install/detect_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jack/work/build/center/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/work/install/center/lib/python3.10/site-packages:/home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/center build --build-base /home/jack/work/build/center/build install --record /home/jack/work/build/center/install.log --single-version-externally-managed install_data
+[0.948s] running egg_info
+[0.955s] writing ../../../build/center/center.egg-info/PKG-INFO
+[0.956s] writing dependency_links to ../../../build/center/center.egg-info/dependency_links.txt
+[0.956s] writing entry points to ../../../build/center/center.egg-info/entry_points.txt
+[0.956s] writing requirements to ../../../build/center/center.egg-info/requires.txt
+[0.956s] writing top-level names to ../../../build/center/center.egg-info/top_level.txt
+[0.972s] reading manifest file '../../../build/center/center.egg-info/SOURCES.txt'
+[0.972s] writing manifest file '../../../build/center/center.egg-info/SOURCES.txt'
+[0.972s] running build
+[0.972s] running build_py
+[0.973s] copying center/tableball0520.py -> /home/jack/work/build/center/build/lib/center
+[0.973s] copying center/__init__.py -> /home/jack/work/build/center/build/lib/center
+[0.973s] copying center/control.py -> /home/jack/work/build/center/build/lib/center
+[0.973s] copying center/publisher_dection_boxes (copy).py -> /home/jack/work/build/center/build/lib/center
+[0.973s] copying center/tableball.py -> /home/jack/work/build/center/build/lib/center
+[0.973s] copying center/strategy.py -> /home/jack/work/build/center/build/lib/center
+[0.973s] copying center/tableball (copy).py -> /home/jack/work/build/center/build/lib/center
+[0.973s] copying center/publisher_dection_boxes.py -> /home/jack/work/build/center/build/lib/center
+[0.973s] copying center/boss_strategy_client.py -> /home/jack/work/build/center/build/lib/center
+[0.974s] copying center/boss_yolo_service.py -> /home/jack/work/build/center/build/lib/center
+[0.974s] copying center/transformations.py -> /home/jack/work/build/center/build/lib/center
+[0.974s] copying center/strategy copy 2.py -> /home/jack/work/build/center/build/lib/center
+[0.974s] copying center/strategy copy.py -> /home/jack/work/build/center/build/lib/center
+[0.974s] copying center/just_pool_think0524.py -> /home/jack/work/build/center/build/lib/center
+[0.974s] copying center/test.py -> /home/jack/work/build/center/build/lib/center
+[0.974s] running install
+[0.976s] running install_lib
+[0.984s] byte-compiling /home/jack/work/install/center/lib/python3.10/site-packages/center/boss_yolo_service.py to boss_yolo_service.cpython-310.pyc
+[0.988s]   File "/home/jack/work/install/center/lib/python3.10/site-packages/center/boss_yolo_service.py", line 543
+[0.988s]     elif NBallInRoute == 2:
+[0.988s]     ^^^^
+[0.988s] SyntaxError: invalid syntax
+[0.988s] 
+[0.988s] running install_data
+[0.988s] copying resource/center -> /home/jack/work/install/center/share/ament_index/resource_index/packages
+[0.989s] copying package.xml -> /home/jack/work/install/center/share/center
+[0.989s] running install_egg_info
+[0.997s] removing '/home/jack/work/install/center/lib/python3.10/site-packages/center-0.0.0-py3.10.egg-info' (and everything under it)
+[0.997s] Copying ../../../build/center/center.egg-info to /home/jack/work/install/center/lib/python3.10/site-packages/center-0.0.0-py3.10.egg-info
+[0.998s] running install_scripts
+[1.067s] Installing publisher_dection_boxes script to /home/jack/work/install/center/lib/center
+[1.067s] Installing strategy script to /home/jack/work/install/center/lib/center
+[1.067s] writing list of installed files to '/home/jack/work/build/center/install.log'
+[1.087s] Invoked command in '/home/jack/work/src/pool/center' returned '0': AMENT_PREFIX_PATH=/home/jack/work/install/detect_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jack/work/install/detect_interface LD_LIBRARY_PATH=/home/jack/work/install/detect_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jack/work/build/center/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/work/install/center/lib/python3.10/site-packages:/home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/center build --build-base /home/jack/work/build/center/build install --record /home/jack/work/build/center/install.log --single-version-externally-managed install_data

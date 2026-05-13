@@ -1,0 +1,359 @@
+[0.000000] (-) TimerEvent: {}
+[0.000126] (-) JobUnselected: {'identifier': 'center'}
+[0.000304] (-) JobUnselected: {'identifier': 'charuco_detector_interfaces'}
+[0.000325] (-) JobUnselected: {'identifier': 'detect_interface'}
+[0.000343] (-) JobUnselected: {'identifier': 'hiwin_control'}
+[0.000361] (-) JobUnselected: {'identifier': 'hiwin_example'}
+[0.000379] (-) JobUnselected: {'identifier': 'hiwin_interfaces'}
+[0.000408] (-) JobUnselected: {'identifier': 'hiwin_libmodbus'}
+[0.000428] (-) JobUnselected: {'identifier': 'hiwin_service_client'}
+[0.000446] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.000462] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.000479] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.000496] (-) JobUnselected: {'identifier': 'yolov7_obj_detect'}
+[0.000515] (charuco_detector) JobQueued: {'identifier': 'charuco_detector', 'dependencies': OrderedDict([('charuco_detector_interfaces', '/home/jack/work/install/charuco_detector_interfaces')])}
+[0.000538] (charuco_detector) JobStarted: {'identifier': 'charuco_detector'}
+[0.008901] (charuco_detector) JobProgress: {'identifier': 'charuco_detector', 'progress': 'cmake'}
+[0.009402] (charuco_detector) Command: {'cmd': ['/usr/bin/cmake', '/home/jack/work/src/charuco_detector_ROS2/charuco_detector', '-DCMAKE_INSTALL_PREFIX=/home/jack/work/install/charuco_detector'], 'cwd': '/home/jack/work/build/charuco_detector', 'env': OrderedDict([('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('NV_LIBCUBLAS_VERSION', '11.11.3.6-1'), ('NV_NVPROF_DEV_PACKAGE', 'cuda-nvprof-11-8=11.8.87-1'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-8'), ('NV_CUDA_NSIGHT_COMPUTE_VERSION', '11.8.0-1'), ('HOSTNAME', 'jack-Nitro-AN515-58'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jack/work/install/charuco_detector_interfaces/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/hiwin_interfaces/lib:/home/jack/work/install/detect_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.15.5-1'), ('HOME', '/home/jack'), ('NV_CUDNN_PACKAGE_NAME', 'libcudnn8'), ('NV_LIBCUBLAS_DEV_VERSION', '11.11.3.6-1'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('NV_LIBNCCL_DEV_PACKAGE_VERSION', '2.15.5-1'), ('COLORTERM', 'truecolor'), ('NV_LIBNPP_PACKAGE', 'libnpp-11-8=11.8.0.86-1'), ('NV_CUDNN_PACKAGE', 'libcudnn8=8.9.6.50-1+cuda11.8'), ('CUDA_VERSION', '11.8.0'), ('COLCON_PREFIX_PATH', '/home/jack/work/install'), ('NV_NVPROF_VERSION', '11.8.87-1'), ('ROS_DISTRO', 'humble'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-8'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.8 brand=tesla,driver>=470,driver<471 brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,driver<471 brand=geforce,driver>=470,driver<471 brand=geforcertx,driver>=470,driver<471 brand=quadro,driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471 brand=titanrtx,driver>=470,driver<471'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NV_LIBCUSPARSE_VERSION', '11.7.5.86-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('NV_CUDA_LIB_VERSION', '11.8.0-1'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('NV_NVML_DEV_VERSION', '11.8.86-1'), ('NV_LIBNPP_DEV_PACKAGE', 'libnpp-dev-11-8=11.8.0.86-1'), ('TERM', 'xterm-256color'), ('NV_CUDA_CUDART_VERSION', '11.8.89-1'), ('NV_CUDNN_PACKAGE_DEV', 'libcudnn8-dev=8.9.6.50-1+cuda11.8'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NV_LIBCUBLAS_DEV_PACKAGE_NAME', 'libcublas-dev-11-8'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-8=11.11.3.6-1'), ('NVARCH', 'x86_64'), ('NV_LIBNCCL_DEV_PACKAGE_NAME', 'libnccl-dev'), ('NV_LIBCUSPARSE_DEV_VERSION', '11.7.5.86-1'), ('DISPLAY', ':1'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.15.5-1+cuda11.8'), ('NVIDIA_PRODUCT_NAME', 'CUDA'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('NV_CUDA_CUDART_DEV_VERSION', '11.8.89-1'), ('XAUTHORITY', '/home/jack/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jack/work/install/charuco_detector_interfaces:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/hiwin_interfaces:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/home/jack/work/install/detect_interface:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('NV_LIBCUBLAS_DEV_PACKAGE', 'libcublas-dev-11-8=11.11.3.6-1'), ('TERMINATOR_UUID', 'urn:uuid:0b749ea3-1ac6-47a5-9a4b-299cfd614ca0'), ('NV_CUDA_NSIGHT_COMPUTE_DEV_PACKAGE', 'cuda-nsight-compute-11-8=11.8.0-1'), ('NV_LIBNCCL_DEV_PACKAGE', 'libnccl-dev=2.15.5-1+cuda11.8'), ('NV_NVTX_VERSION', '11.8.86-1'), ('NV_LIBNPP_VERSION', '11.8.0.86-1'), ('NV_CUDNN_VERSION', '8.9.6.50'), ('PWD', '/home/jack/work/build/charuco_detector'), ('PYTHONPATH', '/home/jack/work/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages:/home/jack/work/install/yolov7_obj_detect/lib/python3.10/site-packages:/home/jack/work/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/jack/work/install/hiwin_libmodbus/local/lib/python3.10/dist-packages:/home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages:/home/jack/work/install/hiwin_example/lib/python3.10/site-packages:/home/jack/work/build/hiwin_control:/home/jack/work/install/hiwin_control/lib/python3.10/site-packages:/home/jack/work/install/center/lib/python3.10/site-packages:/home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NCCL_VERSION', '2.15.5-1'), ('TZ', 'Asia/Taipei'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('NV_LIBNPP_DEV_VERSION', '11.8.0.86-1'), ('CMAKE_PREFIX_PATH', '/home/jack/work/install/charuco_detector_interfaces:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/hiwin_interfaces:/home/jack/work/install/detect_interface:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble')]), 'shell': False}
+[0.055609] (charuco_detector) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.098891] (charuco_detector) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.099328] (-) TimerEvent: {}
+[0.104026] (charuco_detector) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.159232] (charuco_detector) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.163791] (charuco_detector) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.163927] (charuco_detector) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.164079] (charuco_detector) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.165912] (charuco_detector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199498] (-) TimerEvent: {}
+[0.228857] (charuco_detector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.233351] (charuco_detector) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.233533] (charuco_detector) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.233759] (charuco_detector) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.235866] (charuco_detector) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299605] (-) TimerEvent: {}
+[0.399819] (-) TimerEvent: {}
+[0.500158] (-) TimerEvent: {}
+[0.514600] (charuco_detector) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600257] (-) TimerEvent: {}
+[0.603961] (charuco_detector) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.657570] (charuco_detector) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.661341] (charuco_detector) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.667757] (charuco_detector) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.677205] (charuco_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.689465] (charuco_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700513] (-) TimerEvent: {}
+[0.731547] (charuco_detector) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.734488] (charuco_detector) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.758011] (charuco_detector) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.768099] (charuco_detector) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.800741] (-) TimerEvent: {}
+[0.825604] (charuco_detector) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.825907] (charuco_detector) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.883870] (charuco_detector) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.884349] (charuco_detector) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.900830] (-) TimerEvent: {}
+[0.927819] (charuco_detector) StdoutLine: {'line': b'-- Found charuco_detector_interfaces: 0.0.0 (/home/jack/work/install/charuco_detector_interfaces/share/charuco_detector_interfaces/cmake)\n'}
+[0.961313] (charuco_detector) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[0.963055] (charuco_detector) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.982268] (charuco_detector) StdoutLine: {'line': b'-- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[1.000938] (-) TimerEvent: {}
+[1.017425] (charuco_detector) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.101031] (-) TimerEvent: {}
+[1.108300] (charuco_detector) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.185183] (charuco_detector) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.186429] (charuco_detector) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/jack/work/src/charuco_detector_ROS2/charuco_detector/include;$<BUILD_INTERFACE:/home/jack/work/src/charuco_detector_ROS2/charuco_detector/include>\n'}
+[1.186535] (charuco_detector) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.187320] (charuco_detector) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.188502] (charuco_detector) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.189208] (charuco_detector) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.191983] (charuco_detector) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.192094] (charuco_detector) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.192674] (charuco_detector) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.194459] (charuco_detector) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.201140] (-) TimerEvent: {}
+[1.212659] (charuco_detector) StdoutLine: {'line': b'-- Generating done\n'}
+[1.217772] (charuco_detector) StdoutLine: {'line': b'-- Build files have been written to: /home/jack/work/build/charuco_detector\n'}
+[1.224396] (charuco_detector) CommandEnded: {'returncode': 0}
+[1.225036] (charuco_detector) JobProgress: {'identifier': 'charuco_detector', 'progress': 'build'}
+[1.226410] (charuco_detector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jack/work/build/charuco_detector', '--', '-j16', '-l16'], 'cwd': '/home/jack/work/build/charuco_detector', 'env': OrderedDict([('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('NV_LIBCUBLAS_VERSION', '11.11.3.6-1'), ('NV_NVPROF_DEV_PACKAGE', 'cuda-nvprof-11-8=11.8.87-1'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-8'), ('NV_CUDA_NSIGHT_COMPUTE_VERSION', '11.8.0-1'), ('HOSTNAME', 'jack-Nitro-AN515-58'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jack/work/install/charuco_detector_interfaces/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/hiwin_interfaces/lib:/home/jack/work/install/detect_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.15.5-1'), ('HOME', '/home/jack'), ('NV_CUDNN_PACKAGE_NAME', 'libcudnn8'), ('NV_LIBCUBLAS_DEV_VERSION', '11.11.3.6-1'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('NV_LIBNCCL_DEV_PACKAGE_VERSION', '2.15.5-1'), ('COLORTERM', 'truecolor'), ('NV_LIBNPP_PACKAGE', 'libnpp-11-8=11.8.0.86-1'), ('NV_CUDNN_PACKAGE', 'libcudnn8=8.9.6.50-1+cuda11.8'), ('CUDA_VERSION', '11.8.0'), ('COLCON_PREFIX_PATH', '/home/jack/work/install'), ('NV_NVPROF_VERSION', '11.8.87-1'), ('ROS_DISTRO', 'humble'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-8'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.8 brand=tesla,driver>=470,driver<471 brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,driver<471 brand=geforce,driver>=470,driver<471 brand=geforcertx,driver>=470,driver<471 brand=quadro,driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471 brand=titanrtx,driver>=470,driver<471'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NV_LIBCUSPARSE_VERSION', '11.7.5.86-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('NV_CUDA_LIB_VERSION', '11.8.0-1'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('NV_NVML_DEV_VERSION', '11.8.86-1'), ('NV_LIBNPP_DEV_PACKAGE', 'libnpp-dev-11-8=11.8.0.86-1'), ('TERM', 'xterm-256color'), ('NV_CUDA_CUDART_VERSION', '11.8.89-1'), ('NV_CUDNN_PACKAGE_DEV', 'libcudnn8-dev=8.9.6.50-1+cuda11.8'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NV_LIBCUBLAS_DEV_PACKAGE_NAME', 'libcublas-dev-11-8'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-8=11.11.3.6-1'), ('NVARCH', 'x86_64'), ('NV_LIBNCCL_DEV_PACKAGE_NAME', 'libnccl-dev'), ('NV_LIBCUSPARSE_DEV_VERSION', '11.7.5.86-1'), ('DISPLAY', ':1'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.15.5-1+cuda11.8'), ('NVIDIA_PRODUCT_NAME', 'CUDA'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('NV_CUDA_CUDART_DEV_VERSION', '11.8.89-1'), ('XAUTHORITY', '/home/jack/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jack/work/install/charuco_detector_interfaces:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/hiwin_interfaces:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/home/jack/work/install/detect_interface:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('NV_LIBCUBLAS_DEV_PACKAGE', 'libcublas-dev-11-8=11.11.3.6-1'), ('TERMINATOR_UUID', 'urn:uuid:0b749ea3-1ac6-47a5-9a4b-299cfd614ca0'), ('NV_CUDA_NSIGHT_COMPUTE_DEV_PACKAGE', 'cuda-nsight-compute-11-8=11.8.0-1'), ('NV_LIBNCCL_DEV_PACKAGE', 'libnccl-dev=2.15.5-1+cuda11.8'), ('NV_NVTX_VERSION', '11.8.86-1'), ('NV_LIBNPP_VERSION', '11.8.0.86-1'), ('NV_CUDNN_VERSION', '8.9.6.50'), ('PWD', '/home/jack/work/build/charuco_detector'), ('PYTHONPATH', '/home/jack/work/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages:/home/jack/work/install/yolov7_obj_detect/lib/python3.10/site-packages:/home/jack/work/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/jack/work/install/hiwin_libmodbus/local/lib/python3.10/dist-packages:/home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages:/home/jack/work/install/hiwin_example/lib/python3.10/site-packages:/home/jack/work/build/hiwin_control:/home/jack/work/install/hiwin_control/lib/python3.10/site-packages:/home/jack/work/install/center/lib/python3.10/site-packages:/home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NCCL_VERSION', '2.15.5-1'), ('TZ', 'Asia/Taipei'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('NV_LIBNPP_DEV_VERSION', '11.8.0.86-1'), ('CMAKE_PREFIX_PATH', '/home/jack/work/install/charuco_detector_interfaces:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/hiwin_interfaces:/home/jack/work/install/detect_interface:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble')]), 'shell': False}
+[1.271217] (charuco_detector) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/charuco_detector_core.dir/src/charuco_detector.cpp.o\x1b[0m\n'}
+[1.301233] (-) TimerEvent: {}
+[1.401583] (-) TimerEvent: {}
+[1.501875] (-) TimerEvent: {}
+[1.602242] (-) TimerEvent: {}
+[1.702533] (-) TimerEvent: {}
+[1.802956] (-) TimerEvent: {}
+[1.903352] (-) TimerEvent: {}
+[1.950031] (charuco_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/include/charuco_detector/charuco_detector.hpp:20\x1b[m\x1b[K,\n'}
+[1.950216] (charuco_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/src/charuco_detector.cpp:9\x1b[m\x1b[K:\n'}
+[1.950289] (charuco_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/include/ini/ini.h:264:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers\x07-Wignored-qualifiers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.950357] (charuco_detector) StderrLine: {'line': b'  264 |      \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool BoolConverter(std::string s) const;\n'}
+[1.950419] (charuco_detector) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.958629] (charuco_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/include/ini/ini.h:466:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers\x07-Wignored-qualifiers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.958790] (charuco_detector) StderrLine: {'line': b'  466 |  inline \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool INIReader::BoolConverter(std::string s) const {\n'}
+[1.958861] (charuco_detector) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.003521] (-) TimerEvent: {}
+[2.103810] (-) TimerEvent: {}
+[2.204169] (-) TimerEvent: {}
+[2.304565] (-) TimerEvent: {}
+[2.404995] (-) TimerEvent: {}
+[2.505382] (-) TimerEvent: {}
+[2.605756] (-) TimerEvent: {}
+[2.706048] (-) TimerEvent: {}
+[2.806369] (-) TimerEvent: {}
+[2.906682] (-) TimerEvent: {}
+[3.006985] (-) TimerEvent: {}
+[3.107283] (-) TimerEvent: {}
+[3.207554] (-) TimerEvent: {}
+[3.307841] (-) TimerEvent: {}
+[3.408126] (-) TimerEvent: {}
+[3.508435] (-) TimerEvent: {}
+[3.608667] (-) TimerEvent: {}
+[3.708931] (-) TimerEvent: {}
+[3.809185] (-) TimerEvent: {}
+[3.892414] (charuco_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/include/charuco_detector/charuco_detector.hpp:39\x1b[m\x1b[K,\n'}
+[3.892576] (charuco_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/src/charuco_detector.cpp:9\x1b[m\x1b[K:\n'}
+[3.892672] (charuco_detector) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead\x1b[m\x1b[K\xe2\x80\x99\n"}
+[3.892739] (charuco_detector) StderrLine: {'line': b'   32 | arning: This header is deprecated. Use \'image_transport.hpp\' instead"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[3.892798] (charuco_detector) StderrLine: {'line': b'      |                                                                      \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.892853] (charuco_detector) StderrLine: {'line': b'\n'}
+[3.909317] (-) TimerEvent: {}
+[4.009587] (-) TimerEvent: {}
+[4.023194] (charuco_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/src/charuco_detector.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ChArUcoDetector::imageCallback(const ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.023343] (charuco_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/src/charuco_detector.cpp:309:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.023413] (charuco_detector) StderrLine: {'line': b'  309 |                         sensor_msgs::msg::Image::Ptr \x1b[01;35m\x1b[Kimage_results_msg\x1b[m\x1b[K = cv_bridge::CvImage(_msg->header, "bgr8", image_results).toImageMsg();\n'}
+[4.023475] (charuco_detector) StderrLine: {'line': b'      |                                                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.023532] (charuco_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7\x1b[m\x1b[K,\n'}
+[4.023587] (charuco_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40\x1b[m\x1b[K,\n'}
+[4.023651] (charuco_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/include/charuco_detector/charuco_detector.hpp:34\x1b[m\x1b[K,\n'}
+[4.023708] (charuco_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/src/charuco_detector.cpp:9\x1b[m\x1b[K:\n'}
+[4.023763] (charuco_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:171:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.023818] (charuco_detector) StderrLine: {'line': b'  171 |     \x1b[01;36m\x1b[KPtr\x1b[m\x1b[K;\n'}
+[4.023873] (charuco_detector) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.025359] (charuco_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/src/charuco_detector.cpp:312:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::Ptr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.025471] (charuco_detector) StderrLine: {'line': b'  312 |                         sensor_msgs::msg::Image::Ptr \x1b[01;35m\x1b[Kimage_filtered_msg\x1b[m\x1b[K = cv_bridge::CvImage(_msg->header, "mono8", image_grayscale).toImageMsg();\n'}
+[4.025530] (charuco_detector) StderrLine: {'line': b'      |                                                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.025588] (charuco_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7\x1b[m\x1b[K,\n'}
+[4.025652] (charuco_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40\x1b[m\x1b[K,\n'}
+[4.025715] (charuco_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/include/charuco_detector/charuco_detector.hpp:34\x1b[m\x1b[K,\n'}
+[4.025770] (charuco_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/src/charuco_detector.cpp:9\x1b[m\x1b[K:\n'}
+[4.025825] (charuco_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:171:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.025880] (charuco_detector) StderrLine: {'line': b'  171 |     \x1b[01;36m\x1b[KPtr\x1b[m\x1b[K;\n'}
+[4.025935] (charuco_detector) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.109722] (-) TimerEvent: {}
+[4.210089] (-) TimerEvent: {}
+[4.310434] (-) TimerEvent: {}
+[4.410721] (-) TimerEvent: {}
+[4.511037] (-) TimerEvent: {}
+[4.611293] (-) TimerEvent: {}
+[4.711535] (-) TimerEvent: {}
+[4.811756] (-) TimerEvent: {}
+[4.911982] (-) TimerEvent: {}
+[5.012304] (-) TimerEvent: {}
+[5.112619] (-) TimerEvent: {}
+[5.212862] (-) TimerEvent: {}
+[5.313088] (-) TimerEvent: {}
+[5.413384] (-) TimerEvent: {}
+[5.513645] (-) TimerEvent: {}
+[5.613930] (-) TimerEvent: {}
+[5.714212] (-) TimerEvent: {}
+[5.814490] (-) TimerEvent: {}
+[5.914754] (-) TimerEvent: {}
+[6.015028] (-) TimerEvent: {}
+[6.115307] (-) TimerEvent: {}
+[6.215596] (-) TimerEvent: {}
+[6.315839] (-) TimerEvent: {}
+[6.416118] (-) TimerEvent: {}
+[6.516358] (-) TimerEvent: {}
+[6.616693] (-) TimerEvent: {}
+[6.716977] (-) TimerEvent: {}
+[6.817260] (-) TimerEvent: {}
+[6.917536] (-) TimerEvent: {}
+[7.017794] (-) TimerEvent: {}
+[7.118047] (-) TimerEvent: {}
+[7.218407] (-) TimerEvent: {}
+[7.318744] (-) TimerEvent: {}
+[7.418981] (-) TimerEvent: {}
+[7.519333] (-) TimerEvent: {}
+[7.619612] (-) TimerEvent: {}
+[7.720038] (-) TimerEvent: {}
+[7.820263] (-) TimerEvent: {}
+[7.920534] (-) TimerEvent: {}
+[8.020790] (-) TimerEvent: {}
+[8.121064] (-) TimerEvent: {}
+[8.221406] (-) TimerEvent: {}
+[8.321688] (-) TimerEvent: {}
+[8.421972] (-) TimerEvent: {}
+[8.522213] (-) TimerEvent: {}
+[8.622460] (-) TimerEvent: {}
+[8.722795] (-) TimerEvent: {}
+[8.735287] (charuco_detector) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libcharuco_detector_core.so\x1b[0m\n'}
+[8.822888] (-) TimerEvent: {}
+[8.923125] (-) TimerEvent: {}
+[9.023401] (-) TimerEvent: {}
+[9.123710] (-) TimerEvent: {}
+[9.173251] (charuco_detector) StdoutLine: {'line': b'[ 50%] Built target charuco_detector_core\n'}
+[9.190885] (charuco_detector) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/charuco_detector_node.dir/src/charuco_detector_node.cpp.o\x1b[0m\n'}
+[9.223795] (-) TimerEvent: {}
+[9.324037] (-) TimerEvent: {}
+[9.424273] (-) TimerEvent: {}
+[9.524503] (-) TimerEvent: {}
+[9.624697] (-) TimerEvent: {}
+[9.724962] (-) TimerEvent: {}
+[9.825222] (-) TimerEvent: {}
+[9.925471] (-) TimerEvent: {}
+[10.025659] (-) TimerEvent: {}
+[10.125879] (-) TimerEvent: {}
+[10.226105] (-) TimerEvent: {}
+[10.326334] (-) TimerEvent: {}
+[10.426572] (-) TimerEvent: {}
+[10.526891] (-) TimerEvent: {}
+[10.627111] (-) TimerEvent: {}
+[10.727307] (-) TimerEvent: {}
+[10.808518] (charuco_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/include/charuco_detector/charuco_detector.hpp:20\x1b[m\x1b[K,\n'}
+[10.808690] (charuco_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/src/charuco_detector_node.cpp:11\x1b[m\x1b[K:\n'}
+[10.808758] (charuco_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/include/ini/ini.h:264:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers\x07-Wignored-qualifiers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.808856] (charuco_detector) StderrLine: {'line': b'  264 |      \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool BoolConverter(std::string s) const;\n'}
+[10.808915] (charuco_detector) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.817749] (charuco_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/include/ini/ini.h:466:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers\x07-Wignored-qualifiers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.817924] (charuco_detector) StderrLine: {'line': b'  466 |  inline \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool INIReader::BoolConverter(std::string s) const {\n'}
+[10.817999] (charuco_detector) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.827423] (-) TimerEvent: {}
+[10.927806] (-) TimerEvent: {}
+[11.028111] (-) TimerEvent: {}
+[11.128344] (-) TimerEvent: {}
+[11.228591] (-) TimerEvent: {}
+[11.328838] (-) TimerEvent: {}
+[11.429258] (-) TimerEvent: {}
+[11.529602] (-) TimerEvent: {}
+[11.629822] (-) TimerEvent: {}
+[11.632749] (charuco_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/include/charuco_detector/charuco_detector.hpp:39\x1b[m\x1b[K,\n'}
+[11.632846] (charuco_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jack/work/src/charuco_detector_ROS2/charuco_detector/src/charuco_detector_node.cpp:11\x1b[m\x1b[K:\n'}
+[11.632883] (charuco_detector) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead\x1b[m\x1b[K\xe2\x80\x99\n"}
+[11.632917] (charuco_detector) StderrLine: {'line': b'   32 | arning: This header is deprecated. Use \'image_transport.hpp\' instead"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[11.632948] (charuco_detector) StderrLine: {'line': b'      |                                                                      \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[11.632976] (charuco_detector) StderrLine: {'line': b'\n'}
+[11.729956] (-) TimerEvent: {}
+[11.830264] (-) TimerEvent: {}
+[11.930574] (-) TimerEvent: {}
+[12.030780] (-) TimerEvent: {}
+[12.131024] (-) TimerEvent: {}
+[12.201760] (charuco_detector) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable charuco_detector_node\x1b[0m\n'}
+[12.231146] (-) TimerEvent: {}
+[12.331344] (-) TimerEvent: {}
+[12.431545] (-) TimerEvent: {}
+[12.531766] (-) TimerEvent: {}
+[12.556949] (charuco_detector) StdoutLine: {'line': b'[100%] Built target charuco_detector_node\n'}
+[12.566125] (charuco_detector) CommandEnded: {'returncode': 0}
+[12.566934] (charuco_detector) JobProgress: {'identifier': 'charuco_detector', 'progress': 'install'}
+[12.573197] (charuco_detector) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jack/work/build/charuco_detector'], 'cwd': '/home/jack/work/build/charuco_detector', 'env': OrderedDict([('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('NV_LIBCUBLAS_VERSION', '11.11.3.6-1'), ('NV_NVPROF_DEV_PACKAGE', 'cuda-nvprof-11-8=11.8.87-1'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-8'), ('NV_CUDA_NSIGHT_COMPUTE_VERSION', '11.8.0-1'), ('HOSTNAME', 'jack-Nitro-AN515-58'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jack/work/install/charuco_detector_interfaces/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/hiwin_interfaces/lib:/home/jack/work/install/detect_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.15.5-1'), ('HOME', '/home/jack'), ('NV_CUDNN_PACKAGE_NAME', 'libcudnn8'), ('NV_LIBCUBLAS_DEV_VERSION', '11.11.3.6-1'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('NV_LIBNCCL_DEV_PACKAGE_VERSION', '2.15.5-1'), ('COLORTERM', 'truecolor'), ('NV_LIBNPP_PACKAGE', 'libnpp-11-8=11.8.0.86-1'), ('NV_CUDNN_PACKAGE', 'libcudnn8=8.9.6.50-1+cuda11.8'), ('CUDA_VERSION', '11.8.0'), ('COLCON_PREFIX_PATH', '/home/jack/work/install'), ('NV_NVPROF_VERSION', '11.8.87-1'), ('ROS_DISTRO', 'humble'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-8'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.8 brand=tesla,driver>=470,driver<471 brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,driver<471 brand=geforce,driver>=470,driver<471 brand=geforcertx,driver>=470,driver<471 brand=quadro,driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471 brand=titanrtx,driver>=470,driver<471'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NV_LIBCUSPARSE_VERSION', '11.7.5.86-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('NV_CUDA_LIB_VERSION', '11.8.0-1'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('NV_NVML_DEV_VERSION', '11.8.86-1'), ('NV_LIBNPP_DEV_PACKAGE', 'libnpp-dev-11-8=11.8.0.86-1'), ('TERM', 'xterm-256color'), ('NV_CUDA_CUDART_VERSION', '11.8.89-1'), ('NV_CUDNN_PACKAGE_DEV', 'libcudnn8-dev=8.9.6.50-1+cuda11.8'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NV_LIBCUBLAS_DEV_PACKAGE_NAME', 'libcublas-dev-11-8'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-8=11.11.3.6-1'), ('NVARCH', 'x86_64'), ('NV_LIBNCCL_DEV_PACKAGE_NAME', 'libnccl-dev'), ('NV_LIBCUSPARSE_DEV_VERSION', '11.7.5.86-1'), ('DISPLAY', ':1'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.15.5-1+cuda11.8'), ('NVIDIA_PRODUCT_NAME', 'CUDA'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('NV_CUDA_CUDART_DEV_VERSION', '11.8.89-1'), ('XAUTHORITY', '/home/jack/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jack/work/install/charuco_detector_interfaces:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/hiwin_interfaces:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/home/jack/work/install/detect_interface:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('NV_LIBCUBLAS_DEV_PACKAGE', 'libcublas-dev-11-8=11.11.3.6-1'), ('TERMINATOR_UUID', 'urn:uuid:0b749ea3-1ac6-47a5-9a4b-299cfd614ca0'), ('NV_CUDA_NSIGHT_COMPUTE_DEV_PACKAGE', 'cuda-nsight-compute-11-8=11.8.0-1'), ('NV_LIBNCCL_DEV_PACKAGE', 'libnccl-dev=2.15.5-1+cuda11.8'), ('NV_NVTX_VERSION', '11.8.86-1'), ('NV_LIBNPP_VERSION', '11.8.0.86-1'), ('NV_CUDNN_VERSION', '8.9.6.50'), ('PWD', '/home/jack/work/build/charuco_detector'), ('PYTHONPATH', '/home/jack/work/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages:/home/jack/work/install/yolov7_obj_detect/lib/python3.10/site-packages:/home/jack/work/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/jack/work/install/hiwin_libmodbus/local/lib/python3.10/dist-packages:/home/jack/work/install/hiwin_interfaces/local/lib/python3.10/dist-packages:/home/jack/work/install/hiwin_example/lib/python3.10/site-packages:/home/jack/work/build/hiwin_control:/home/jack/work/install/hiwin_control/lib/python3.10/site-packages:/home/jack/work/install/center/lib/python3.10/site-packages:/home/jack/work/install/detect_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NCCL_VERSION', '2.15.5-1'), ('TZ', 'Asia/Taipei'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('NV_LIBNPP_DEV_VERSION', '11.8.0.86-1'), ('CMAKE_PREFIX_PATH', '/home/jack/work/install/charuco_detector_interfaces:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/hiwin_interfaces:/home/jack/work/install/detect_interface:/home/jack/work/install/yolov7_obj_detect:/home/jack/work/install/hiwin_example:/home/jack/work/install/hiwin_control:/home/jack/work/install/center:/opt/ros/humble')]), 'shell': False}
+[12.578495] (charuco_detector) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.578697] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/include/charuco_detector/\n'}
+[12.578768] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/include/charuco_detector//charuco_detector.hpp\n'}
+[12.578829] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/lib/libcharuco_detector_core.so\n'}
+[12.582811] (charuco_detector) StdoutLine: {'line': b'-- Set runtime path of "/home/jack/work/install/charuco_detector/lib/libcharuco_detector_core.so" to ""\n'}
+[12.582954] (charuco_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jack/work/install/charuco_detector/include/\n'}
+[12.583027] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/include//ini\n'}
+[12.583084] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/include//ini/ini.h\n'}
+[12.583154] (charuco_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jack/work/install/charuco_detector/include//charuco_detector\n'}
+[12.583228] (charuco_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jack/work/install/charuco_detector/include//charuco_detector/charuco_detector.hpp\n'}
+[12.583326] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/lib/charuco_detector/charuco_detector_node\n'}
+[12.583393] (charuco_detector) StdoutLine: {'line': b'-- Set runtime path of "/home/jack/work/install/charuco_detector/lib/charuco_detector/charuco_detector_node" to ""\n'}
+[12.583459] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector/launch\n'}
+[12.583565] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector/launch/hand_eye_calibration.launch.py\n'}
+[12.583633] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector/launch/ur5_hand_eye_calibration.launch\n'}
+[12.583800] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector/launch/ur5_eye_in_hand.launch\n'}
+[12.583864] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector/launch/charuco_detector (another copy).launch\n'}
+[12.583926] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector/launch/ur5_eye_to_hand.launch\n'}
+[12.583989] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector/launch/charuco_detector.launch (copy).py\n'}
+[12.584051] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector/launch/charuco_detector.launch.py\n'}
+[12.584112] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector/launch/charuco_detector (copy).launch\n'}
+[12.584174] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector/launch/draft.launch.py\n'}
+[12.584235] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector/package.xml\n'}
+[12.584297] (charuco_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//launch\n'}
+[12.584360] (charuco_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//launch/hand_eye_calibration.launch.py\n'}
+[12.584422] (charuco_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//launch/ur5_hand_eye_calibration.launch\n'}
+[12.584498] (charuco_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//launch/ur5_eye_in_hand.launch\n'}
+[12.584560] (charuco_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//launch/charuco_detector (another copy).launch\n'}
+[12.584626] (charuco_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//launch/ur5_eye_to_hand.launch\n'}
+[12.584733] (charuco_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//launch/charuco_detector.launch (copy).py\n'}
+[12.584798] (charuco_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//launch/charuco_detector.launch.py\n'}
+[12.584859] (charuco_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//launch/charuco_detector (copy).launch\n'}
+[12.584921] (charuco_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector//launch/draft.launch.py\n'}
+[12.584983] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config\n'}
+[12.585044] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/hand_eye_calibration\n'}
+[12.585124] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/hand_eye_calibration/realsense_eye_in_hand.ini\n'}
+[12.585187] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/hand_eye_calibration/eye_to_hand_calibration (copy).ini\n'}
+[12.585260] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/hand_eye_calibration/eye_in_hand_calibration.ini\n'}
+[12.585318] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/hand_eye_calibration/eye_to_hand_calibration.ini\n'}
+[12.585379] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/hand_eye_calibration/hand_eye_calibration (copy).ini\n'}
+[12.585441] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/hand_eye_calibration/master_hand_eye_calibration.ini\n'}
+[12.585504] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/hand_eye_calibration/top_hand_eye_calibration.ini\n'}
+[12.585566] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/hand_eye_calibration/sub_hand_eye_calibration.ini\n'}
+[12.585637] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/hand_eye_calibration/hand_in_eye_calibration (manual).ini\n'}
+[12.585721] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/hand_eye_calibration.ini\n'}
+[12.585782] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration\n'}
+[12.585844] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/camera_calibration (3rd copy).ini\n'}
+[12.585906] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/calibration.yaml\n'}
+[12.585967] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic\n'}
+[12.586029] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-28.jpg\n'}
+[12.586090] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-22.jpg\n'}
+[12.586152] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-9.jpg\n'}
+[12.586214] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-10.jpg\n'}
+[12.586276] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-17.jpg\n'}
+[12.586338] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-5.jpg\n'}
+[12.586400] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-12.jpg\n'}
+[12.586482] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-19.jpg\n'}
+[12.586572] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-11.jpg\n'}
+[12.586646] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-6.jpg\n'}
+[12.586722] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-1.jpg\n'}
+[12.586879] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-16.jpg\n'}
+[12.587074] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-26.jpg\n'}
+[12.587282] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-29.jpg\n'}
+[12.587506] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-8.jpg\n'}
+[12.587711] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-18.jpg\n'}
+[12.587928] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-7.jpg\n'}
+[12.588134] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-14.jpg\n'}
+[12.588333] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-21.jpg\n'}
+[12.588540] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-27.jpg\n'}
+[12.588755] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-30.jpg\n'}
+[12.588982] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-24.jpg\n'}
+[12.589206] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-15.jpg\n'}
+[12.589419] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-4.jpg\n'}
+[12.589641] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-25.jpg\n'}
+[12.589855] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-20.jpg\n'}
+[12.590076] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-3.jpg\n'}
+[12.590285] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-13.jpg\n'}
+[12.590485] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-2.jpg\n'}
+[12.590720] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/pic/camera-pic-of-charucoboard-23.jpg\n'}
+[12.590939] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/camera_calibration (no1).ini\n'}
+[12.591020] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/camera_calibration.ini\n'}
+[12.591088] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/calibration.pckl\n'}
+[12.591176] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/camera_calibration/camera_calibration (another copy).ini\n'}
+[12.591255] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//config/ros.yaml\n'}
+[12.591300] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//yaml\n'}
+[12.591341] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//yaml/charuco.yaml\n'}
+[12.591411] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector//yaml/charuco (copy).yaml\n'}
+[12.591542] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector/environment/library_path.sh\n'}
+[12.591598] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector/environment/library_path.dsv\n'}
+[12.591689] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/ament_index/resource_index/package_run_dependencies/charuco_detector\n'}
+[12.591743] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/ament_index/resource_index/parent_prefix_path/charuco_detector\n'}
+[12.591819] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector/environment/ament_prefix_path.sh\n'}
+[12.591904] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector/environment/ament_prefix_path.dsv\n'}
+[12.591956] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector/environment/path.sh\n'}
+[12.592013] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector/environment/path.dsv\n'}
+[12.592064] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector/local_setup.bash\n'}
+[12.592110] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector/local_setup.sh\n'}
+[12.592160] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector/local_setup.zsh\n'}
+[12.592228] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector/local_setup.dsv\n'}
+[12.592323] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector/package.dsv\n'}
+[12.592455] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/ament_index/resource_index/packages/charuco_detector\n'}
+[12.592531] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.592598] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.592788] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.592858] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector/cmake/charuco_detectorConfig.cmake\n'}
+[12.592921] (charuco_detector) StdoutLine: {'line': b'-- Installing: /home/jack/work/install/charuco_detector/share/charuco_detector/cmake/charuco_detectorConfig-version.cmake\n'}
+[12.593065] (charuco_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jack/work/install/charuco_detector/share/charuco_detector/package.xml\n'}
+[12.593912] (charuco_detector) CommandEnded: {'returncode': 0}
+[12.604630] (charuco_detector) JobEnded: {'identifier': 'charuco_detector', 'rc': 0}
+[12.605136] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+source;share/charuco_detector/local_setup.bash
+source;share/charuco_detector/local_setup.dsv
+source;share/charuco_detector/local_setup.sh
+source;share/charuco_detector/local_setup.zsh

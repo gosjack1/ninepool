@@ -1,0 +1,4 @@
+Invoking command in '/home/jack/work/build/detect_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jack/work/build/detect_interface -- -j16 -l16
+Invoked command in '/home/jack/work/build/detect_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jack/work/build/detect_interface -- -j16 -l16
+Invoking command in '/home/jack/work/build/detect_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jack/work/build/detect_interface
+Invoked command in '/home/jack/work/build/detect_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jack/work/build/detect_interface

@@ -1,4 +1,4 @@
-FROM nvidia/cuda:12.4.1-cudnn-devel-ubuntu22.04
+FROM nvidia/cuda:11.8.0-cudnn8-devel-ubuntu22.04
 ############################## SYSTEM PARAMETERS ##############################
 # * Arguments
 ARG USER=initial
@@ -84,43 +84,33 @@ RUN add-apt-repository universe \
     && apt install -y python3-colcon-common-extensions
 
 ############################### LIBREALSENSE #######################################
-# RUN sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE || sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE
-# RUN sudo add-apt-repository "deb https://librealsense.intel.com/Debian/apt-repo $(lsb_release -cs) main" -u
-# RUN sudo apt update && apt install -y --no-install-recommends \
-#   #Realsense SDK depend
-#   librealsense2-dkms \
-#   librealsense2-utils \
+# Ensure the directory exists
+RUN sudo mkdir -p /etc/apt/keyrings && \
+# Download and dearmor
+    curl -sSf https://librealsense.realsenseai.com/Debian/librealsenseai.asc | \
+    gpg --dearmor | sudo tee /etc/apt/keyrings/librealsenseai.gpg > /dev/null && \
+    echo "deb [signed-by=/etc/apt/keyrings/librealsenseai.gpg] https://librealsense.realsenseai.com/Debian/apt-repo `lsb_release -cs` main" | \
+    sudo tee /etc/apt/sources.list.d/librealsense.list && \
+    sudo apt-get update
+RUN apt update && apt install -y --no-install-recommends \
+  #Realsense SDK depend
+  librealsense2-dkms \
+  librealsense2-utils \
 #   librealsense2-dev \
 #   librealsense2-dbg \
-#   ros-humble-librealsense2* \
-#   ros-humble-diagnostic-updater \
-#   ros-humble-vision-msgs \
-#   ros-humble-dynamixel-sdk* \
-#   && apt-get clean \
-#   && rm -rf /var/lib/apt/lists
-RUN sudo mkdir -p /etc/apt/keyrings 
-RUN curl -sSf https://librealsense.intel.com/Debian/librealsense.pgp | sudo tee /etc/apt/keyrings/librealsense.pgp > /dev/null 
-RUN echo "deb [signed-by=/etc/apt/keyrings/librealsense.pgp] https://librealsense.intel.com/Debian/apt-repo `lsb_release -cs` main" | \
-    sudo tee /etc/apt/sources.list.d/librealsense.list 
-RUN sudo apt-get update 
-RUN sudo apt-get install -y --no-install-recommends \
-    librealsense2-utils \
-    librealsense2-dev \
-    librealsense2-dbg \
-    ros-humble-librealsense2* \
-    ros-humble-diagnostic-updater \
-    ros-humble-vision-msgs \
-    ros-humble-visp \
-    ros-humble-camera-calibration-parsers \
-    && apt-get clean \
-    && rm -rf /var/lib/apt/lists/*
-
-
-############################### PtTorch #######################################
-RUN pip3 install --ignore-install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+  ros-humble-librealsense2* \
+  ros-humble-diagnostic-updater \
+  ros-humble-vision-msgs \
+  ros-humble-dynamixel-sdk* \
+  && apt-get clean \
+  && rm -rf /var/lib/apt/lists
 
 RUN ./config/pip/pip_setup.sh
 RUN pip3 install opencv-python
+
+############################### PtTorch #######################################
+# RUN pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+RUN pip3 install --no-cache-dir --upgrade --ignore-installed torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ############################## USER CONFIG ####################################
 # * Switch user to ${USER}
 USER ${USER}

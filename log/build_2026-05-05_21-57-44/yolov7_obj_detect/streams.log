@@ -1,0 +1,63 @@
+[1.420s] Invoking command in '/home/jack/work/src/pool/detect/yolov7_obj_detect': CMAKE_PREFIX_PATH=/home/jack/work/install/detect_interface:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/hiwin_interfaces LD_LIBRARY_PATH=/home/jack/work/install/detect_interface/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/hiwin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 PYTHONPATH=/home/jack/work/build/yolov7_obj_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/work/install/yolov7_obj_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/yolov7_obj_detect build --build-base /home/jack/work/build/yolov7_obj_detect/build install --record /home/jack/work/build/yolov7_obj_detect/install.log --single-version-externally-managed install_data
+[1.778s] running egg_info
+[1.793s] writing ../../../../build/yolov7_obj_detect/yolov7_obj_detect.egg-info/PKG-INFO
+[1.794s] writing dependency_links to ../../../../build/yolov7_obj_detect/yolov7_obj_detect.egg-info/dependency_links.txt
+[1.794s] writing entry points to ../../../../build/yolov7_obj_detect/yolov7_obj_detect.egg-info/entry_points.txt
+[1.794s] writing requirements to ../../../../build/yolov7_obj_detect/yolov7_obj_detect.egg-info/requires.txt
+[1.794s] writing top-level names to ../../../../build/yolov7_obj_detect/yolov7_obj_detect.egg-info/top_level.txt
+[1.826s] reading manifest file '../../../../build/yolov7_obj_detect/yolov7_obj_detect.egg-info/SOURCES.txt'
+[1.828s] writing manifest file '../../../../build/yolov7_obj_detect/yolov7_obj_detect.egg-info/SOURCES.txt'
+[1.828s] running build
+[1.828s] running build_py
+[1.828s] copying yolov7_obj_detect/__init__.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/yolov7_obj_detect
+[1.828s] copying yolov7_obj_detect/len.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/yolov7_obj_detect
+[1.829s] copying yolov7_obj_detect/object_detection.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/yolov7_obj_detect
+[1.829s] copying models/__init__.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/models
+[1.829s] copying models/experimental.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/models
+[1.829s] copying models/yolo.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/models
+[1.829s] copying models/common.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/models
+[1.829s] copying utils/loss.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils
+[1.830s] copying utils/general.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils
+[1.830s] copying utils/activations.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils
+[1.830s] copying utils/__init__.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils
+[1.830s] copying utils/add_nms.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils
+[1.830s] copying utils/metrics.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils
+[1.830s] copying utils/plots.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils
+[1.831s] copying utils/torch_utils.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils
+[1.831s] copying utils/datasets.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils
+[1.831s] copying utils/autoanchor.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils
+[1.831s] copying utils/google_utils.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils
+[1.832s] copying utils/aws/__init__.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils/aws
+[1.832s] copying utils/aws/resume.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils/aws
+[1.832s] copying utils/wandb_logging/__init__.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils/wandb_logging
+[1.832s] copying utils/wandb_logging/log_dataset.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils/wandb_logging
+[1.833s] copying utils/wandb_logging/wandb_utils.py -> /home/jack/work/build/yolov7_obj_detect/build/lib/utils/wandb_logging
+[1.834s] running install
+[1.842s] running install_lib
+[1.858s] running install_data
+[1.859s] copying resource/yolov7_obj_detect -> /home/jack/work/install/yolov7_obj_detect/share/ament_index/resource_index/packages
+[1.859s] copying package.xml -> /home/jack/work/install/yolov7_obj_detect/share/yolov7_obj_detect
+[1.859s] copying launch/object_detection_launch.py -> /home/jack/work/install/yolov7_obj_detect/share/yolov7_obj_detect/launch
+[1.859s] copying weights/best.pt -> /home/jack/work/install/yolov7_obj_detect/share/yolov7_obj_detect/weights
+[1.927s] copying weights/alldone.pt -> /home/jack/work/install/yolov7_obj_detect/share/yolov7_obj_detect/weights
+[1.994s] copying weights/yolov7.pt -> /home/jack/work/install/yolov7_obj_detect/share/yolov7_obj_detect/weights
+[2.058s] copying models/experimental.py -> /home/jack/work/install/yolov7_obj_detect/lib/yolov7_obj_detect/models/
+[2.058s] copying models/common.py -> /home/jack/work/install/yolov7_obj_detect/lib/yolov7_obj_detect/models/
+[2.058s] copying models/yolo.py -> /home/jack/work/install/yolov7_obj_detect/lib/yolov7_obj_detect/models/
+[2.058s] copying utils/general.py -> /home/jack/work/install/yolov7_obj_detect/lib/yolov7_obj_detect/utils/
+[2.059s] copying utils/torch_utils.py -> /home/jack/work/install/yolov7_obj_detect/lib/yolov7_obj_detect/utils/
+[2.059s] copying utils/plots.py -> /home/jack/work/install/yolov7_obj_detect/lib/yolov7_obj_detect/utils/
+[2.059s] copying utils/datasets.py -> /home/jack/work/install/yolov7_obj_detect/lib/yolov7_obj_detect/utils/
+[2.059s] copying utils/google_utils.py -> /home/jack/work/install/yolov7_obj_detect/lib/yolov7_obj_detect/utils/
+[2.059s] copying utils/activations.py -> /home/jack/work/install/yolov7_obj_detect/lib/yolov7_obj_detect/utils/
+[2.059s] copying utils/add_nms.py -> /home/jack/work/install/yolov7_obj_detect/lib/yolov7_obj_detect/utils/
+[2.060s] copying utils/autoanchor.py -> /home/jack/work/install/yolov7_obj_detect/lib/yolov7_obj_detect/utils/
+[2.060s] copying utils/loss.py -> /home/jack/work/install/yolov7_obj_detect/lib/yolov7_obj_detect/utils/
+[2.060s] copying utils/metrics.py -> /home/jack/work/install/yolov7_obj_detect/lib/yolov7_obj_detect/utils/
+[2.060s] running install_egg_info
+[2.075s] removing '/home/jack/work/install/yolov7_obj_detect/lib/python3.10/site-packages/yolov7_obj_detect-0.0.0-py3.10.egg-info' (and everything under it)
+[2.075s] Copying ../../../../build/yolov7_obj_detect/yolov7_obj_detect.egg-info to /home/jack/work/install/yolov7_obj_detect/lib/python3.10/site-packages/yolov7_obj_detect-0.0.0-py3.10.egg-info
+[2.076s] running install_scripts
+[2.206s] Installing object_detection script to /home/jack/work/install/yolov7_obj_detect/lib/yolov7_obj_detect
+[2.207s] writing list of installed files to '/home/jack/work/build/yolov7_obj_detect/install.log'
+[2.238s] Invoked command in '/home/jack/work/src/pool/detect/yolov7_obj_detect' returned '0': CMAKE_PREFIX_PATH=/home/jack/work/install/detect_interface:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/hiwin_interfaces LD_LIBRARY_PATH=/home/jack/work/install/detect_interface/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/hiwin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 PYTHONPATH=/home/jack/work/build/yolov7_obj_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/work/install/yolov7_obj_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/yolov7_obj_detect build --build-base /home/jack/work/build/yolov7_obj_detect/build install --record /home/jack/work/build/yolov7_obj_detect/install.log --single-version-externally-managed install_data

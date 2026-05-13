@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0802f694eb93383b1ced.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "charuco_detector_interfaces__py",
+					"jsonFile" : "directory-charuco_detector_interfaces__py-4c26c7686894ae0144c6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/jack/work/build/charuco_detector_interfaces/charuco_detector_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "charuco_detector_interfaces__rs",
+					"jsonFile" : "directory-charuco_detector_interfaces__rs-21dfd7ee501a91b5d506.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/jack/work/build/charuco_detector_interfaces/charuco_detector_interfaces__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "charuco_detector_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_charuco_detector_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_charuco_detector_interfaces_egg-bcd0eefd7d78fd6e4409.json",
+					"name" : "ament_cmake_python_build_charuco_detector_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_charuco_detector_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_charuco_detector_interfaces-46eaa4a6d525ea3d4e4c.json",
+					"name" : "ament_cmake_python_copy_charuco_detector_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "charuco_detector_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-charuco_detector_interfaces-dd993252baf9af15e088.json",
+					"name" : "charuco_detector_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "charuco_detector_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-charuco_detector_interfaces__cpp-bb36c6b56be191b56c6b.json",
+					"name" : "charuco_detector_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "charuco_detector_interfaces__py::@99f7da3b88dc0efb3436",
+					"jsonFile" : "target-charuco_detector_interfaces__py-bf7c093d3abe6511110c.json",
+					"name" : "charuco_detector_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "charuco_detector_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-charuco_detector_interfaces__rosidl_generator_c-2f29c9561d7c83633eb8.json",
+					"name" : "charuco_detector_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "charuco_detector_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-charuco_detector_interfaces__rosidl_generator_py-69599b19780eb50f7597.json",
+					"name" : "charuco_detector_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "charuco_detector_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-charuco_detector_interfaces__rosidl_typesupport_c-d25c4627592dd6a37e17.json",
+					"name" : "charuco_detector_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "charuco_detector_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-charuco_detector_interfaces__rosidl_typesupport_c__pyext-af9d8ad6afd391966e72.json",
+					"name" : "charuco_detector_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "charuco_detector_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-charuco_detector_interfaces__rosidl_typesupport_cpp-3bb8d872203e8efb6908.json",
+					"name" : "charuco_detector_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "charuco_detector_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-charuco_detector_interfaces__rosidl_typesupport_fastrtps_c-c2097847ebba7384f716.json",
+					"name" : "charuco_detector_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "charuco_detector_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-charuco_detector_interfaces__rosidl_typesupport_fastrtps_c__pyext-ba696be2885eb4ad2394.json",
+					"name" : "charuco_detector_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "charuco_detector_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-charuco_detector_interfaces__rosidl_typesupport_fastrtps_cpp-652a863d56d19382d00f.json",
+					"name" : "charuco_detector_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "charuco_detector_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-charuco_detector_interfaces__rosidl_typesupport_introspection_c-53fe2aa63807da165b9c.json",
+					"name" : "charuco_detector_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "charuco_detector_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-charuco_detector_interfaces__rosidl_typesupport_introspection_c__pyext-7cbd5a272a9a0ad6810c.json",
+					"name" : "charuco_detector_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "charuco_detector_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-charuco_detector_interfaces__rosidl_typesupport_introspection_cpp-6a54e2a7434ec308da68.json",
+					"name" : "charuco_detector_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "charuco_detector_interfaces__rs::@f841b12214763f229456",
+					"jsonFile" : "target-charuco_detector_interfaces__rs-6027adcb556e4c0eb461.json",
+					"name" : "charuco_detector_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "charuco_detector_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-charuco_detector_interfaces_uninstall-7d9b58d93e2ce4a5eaab.json",
+					"name" : "charuco_detector_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-573299bc43c02317949f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jack/work/build/charuco_detector_interfaces",
+		"source" : "/home/jack/work/src/charuco_detector_ROS2/charuco_detector_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

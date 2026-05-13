@@ -1,0 +1,30 @@
+[0.970s] Invoking command in '/home/jack/work/build/hiwin_control': CMAKE_PREFIX_PATH=/home/jack/work/install/detect_interface:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/hiwin_interfaces LD_LIBRARY_PATH=/home/jack/work/install/detect_interface/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/hiwin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 PYTHONPATH=/home/jack/work/build/hiwin_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/work/install/hiwin_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jack/work/build/hiwin_control/build --no-deps symlink_data --force
+[1.302s] running develop
+[1.452s] running egg_info
+[1.463s] writing hiwin_control.egg-info/PKG-INFO
+[1.464s] writing dependency_links to hiwin_control.egg-info/dependency_links.txt
+[1.464s] writing entry points to hiwin_control.egg-info/entry_points.txt
+[1.464s] writing requirements to hiwin_control.egg-info/requires.txt
+[1.464s] writing top-level names to hiwin_control.egg-info/top_level.txt
+[1.486s] reading manifest file 'hiwin_control.egg-info/SOURCES.txt'
+[1.487s] writing manifest file 'hiwin_control.egg-info/SOURCES.txt'
+[1.499s] running build_ext
+[1.500s] Creating /home/jack/work/install/hiwin_control/lib/python3.10/site-packages/hiwin-control.egg-link (link to .)
+[1.500s] Installing arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[1.500s] Installing arm_controller_v2 script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[1.500s] Installing aruco_table_cali script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[1.500s] Installing billiards_planner script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[1.500s] Installing my_pool script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[1.501s] Installing nine_arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[1.501s] Installing pool_arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[1.501s] Installing rush_arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[1.501s] Installing stream_rs script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[1.501s] Installing team_selection script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[1.501s] Installing testbeat_arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[1.504s] Installing yyy_arm_controller script to /home/jack/work/install/hiwin_control/lib/hiwin_control
+[1.504s] 
+[1.504s] Installed /home/jack/work/build/hiwin_control
+[1.504s] running symlink_data
+[1.507s] symbolically linking /home/jack/work/build/hiwin_control/resource/hiwin_control -> /home/jack/work/install/hiwin_control/share/ament_index/resource_index/packages
+[1.507s] symbolically linking /home/jack/work/build/hiwin_control/package.xml -> /home/jack/work/install/hiwin_control/share/hiwin_control
+[1.533s] Invoked command in '/home/jack/work/build/hiwin_control' returned '0': CMAKE_PREFIX_PATH=/home/jack/work/install/detect_interface:/home/jack/work/install/realsense2_description:/home/jack/work/install/realsense2_camera:/home/jack/work/install/realsense2_camera_msgs:/home/jack/work/install/hiwin_service_client:/home/jack/work/install/hiwin_libmodbus:/home/jack/work/install/hiwin_interfaces LD_LIBRARY_PATH=/home/jack/work/install/detect_interface/lib:/home/jack/work/install/realsense2_camera/lib:/home/jack/work/install/realsense2_camera_msgs/lib:/home/jack/work/install/hiwin_libmodbus/lib:/home/jack/work/install/hiwin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 PYTHONPATH=/home/jack/work/build/hiwin_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/work/install/hiwin_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jack/work/build/hiwin_control/build --no-deps symlink_data --force

@@ -1,0 +1,29 @@
+[0.015s] Invoking command in '/home/jack/work/build/charuco_detector_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jack/work/build/charuco_detector_interfaces -- -j16 -l16
+[0.061s] [  3%] Built target charuco_detector_interfaces__rs
+[0.066s] [ 12%] Built target charuco_detector_interfaces__rosidl_generator_c
+[0.077s] [ 15%] Built target charuco_detector_interfaces__cpp
+[0.085s] [ 15%] Built target ament_cmake_python_copy_charuco_detector_interfaces
+[0.090s] [ 25%] Built target charuco_detector_interfaces__rosidl_typesupport_introspection_c
+[0.098s] [ 34%] Built target charuco_detector_interfaces__rosidl_typesupport_fastrtps_c
+[0.098s] [ 43%] Built target charuco_detector_interfaces__rosidl_typesupport_c
+[0.108s] [ 53%] Built target charuco_detector_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.110s] [ 71%] Built target charuco_detector_interfaces__rosidl_typesupport_cpp
+[0.110s] [ 71%] Built target charuco_detector_interfaces__rosidl_typesupport_introspection_cpp
+[0.124s] [ 71%] Built target charuco_detector_interfaces
+[0.137s] [ 75%] Built target charuco_detector_interfaces__py
+[0.152s] [ 78%] [32mBuilding C object CMakeFiles/charuco_detector_interfaces__rosidl_generator_py.dir/rosidl_generator_py/charuco_detector_interfaces/srv/_eye2base_s.c.o[0m
+[0.236s] [01m[K/home/jack/work/build/charuco_detector_interfaces/rosidl_generator_py/charuco_detector_interfaces/srv/_eye2base_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: No such file or directory
+[0.236s]    11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+[0.236s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.236s] compilation terminated.
+[0.238s] gmake[2]: *** [CMakeFiles/charuco_detector_interfaces__rosidl_generator_py.dir/build.make:76: CMakeFiles/charuco_detector_interfaces__rosidl_generator_py.dir/rosidl_generator_py/charuco_detector_interfaces/srv/_eye2base_s.c.o] Error 1
+[0.238s] gmake[1]: *** [CMakeFiles/Makefile2:494: CMakeFiles/charuco_detector_interfaces__rosidl_generator_py.dir/all] Error 2
+[0.238s] gmake[1]: *** Waiting for unfinished jobs....
+[0.291s] running egg_info
+[0.298s] writing charuco_detector_interfaces.egg-info/PKG-INFO
+[0.299s] writing dependency_links to charuco_detector_interfaces.egg-info/dependency_links.txt
+[0.299s] writing top-level names to charuco_detector_interfaces.egg-info/top_level.txt
+[0.322s] reading manifest file 'charuco_detector_interfaces.egg-info/SOURCES.txt'
+[0.322s] writing manifest file 'charuco_detector_interfaces.egg-info/SOURCES.txt'
+[0.348s] [ 78%] Built target ament_cmake_python_build_charuco_detector_interfaces_egg
+[0.350s] gmake: *** [Makefile:146: all] Error 2

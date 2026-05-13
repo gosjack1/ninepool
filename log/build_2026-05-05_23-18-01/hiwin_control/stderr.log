@@ -1,0 +1,5 @@
+  File "/home/jack/work/install/hiwin_control/lib/python3.10/site-packages/hiwin_control/aruco_pose_estimator.py", line 118
+    for i, marker_id in enumerate(ids)
+                                      ^
+SyntaxError: expected ':'
+
