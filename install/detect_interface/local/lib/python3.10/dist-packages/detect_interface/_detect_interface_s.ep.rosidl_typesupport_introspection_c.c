@@ -1,0 +1,1 @@
+/home/jack/work/build/detect_interface/rosidl_generator_py/detect_interface/_detect_interface_s.ep.rosidl_typesupport_introspection_c.c

@@ -1,0 +1,32 @@
+# Solenoid force calibration data (nine-ball robotic arm).
+#
+# Two independent voltage regimes are stored here and MUST be calibrated
+# separately -- their impulse curves are not comparable and must never
+# fall back on one another:
+#   main : primary strike solenoid (48V)
+#   aux  : auxiliary solenoid      (12V / 24V)
+#
+# `trials` is appended to by the measurement tool (e.g. solenoid_speed_test.py)
+# and read (with r_squared filtering) by force_model.py.
+# `thresholds` is filled in by calibrate_weights.py and consumed by
+# force_model.recommend_tier().
+#
+# Trial schema (one list item per measured shot):
+#   trial_id:       int    unique id
+#   solenoid:       str    "main" | "aux"           (required, regime selector)
+#   voltage_tier:   str    "weak" | "medium" | "strong"
+#   v0_mm_s:        float   extrapolated initial speed (mm/s)
+#   direction_deg:  float   measured strike-direction offset (deg, for repeatability checks)
+#   r_squared:      float   R^2 of the linear extrapolation (samples < 0.8 are discarded)
+#   n_frames_used:  int     frames used in the extrapolation
+#   timestamp:      str     ISO-8601 with timezone
+
+trials: []
+
+thresholds:
+  main:
+    weak_max_distance_mm: null
+    medium_max_distance_mm: null
+  aux:
+    weak_max_distance_mm: null
+    medium_max_distance_mm: null

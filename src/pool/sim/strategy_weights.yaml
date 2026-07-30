@@ -1,0 +1,7 @@
+angle_weight: 102.61109163553738
+baseline_overall_success_rate: 0.30851063829787234
+best_overall_success_rate: 0.30851063829787234
+dist_weight: 19.58025778370951
+n_weight: 150.2624892698825
+score_offset: 2000.0
+v0_fixed_during_calibration: 2.5

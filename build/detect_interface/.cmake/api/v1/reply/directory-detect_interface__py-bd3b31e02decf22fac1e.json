@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "detect_interface__py",
+		"source" : "/home/jack/work/build/detect_interface/detect_interface__py"
+	}
+}

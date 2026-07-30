@@ -1,0 +1,1 @@
+/home/jack/work/build/hiwin_interfaces/rosidl_generator_rs/hiwin_interfaces/rust/src/lib.rs

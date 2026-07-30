@@ -1,0 +1,1 @@
+/home/jack/work/build/detect_interface/rosidl_generator_rs/detect_interface/rust/src/lib.rs

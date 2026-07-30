@@ -1,0 +1,95 @@
+<mujoco model="RT605-710-GB_full">
+  <!-- 完整版本:DH 骨架(已驗證) + 真實連桿 STL 碰撞網格
+       假設:每個零件的局部設計原點,恰好落在該零件對應的 DH 關節軸線上
+       (Link1 已用 bounding box 對稱性驗證過這個假設成立;其餘連桿的假設
+       正確性,要靠這份檔案 render 出來後肉眼檢查外形是否合理連續)
+       單位:長度 mm -->
+  <compiler angle="degree" meshdir="meshes/"/>
+  <visual>
+    <global offwidth="960" offheight="720"/>
+  </visual>
+
+  <default>
+    <joint damping="1" frictionloss="0.5"/>
+    <geom rgba="0.8 0.8 0.82 1" contype="1" conaffinity="1"/>
+  </default>
+
+  <asset>
+    <mesh name="mesh_base"  file="RT605-001.stl"/>
+    <mesh name="mesh_link1" file="RT605-002.stl"/>
+    <mesh name="mesh_link2" file="RT605-003.stl"/>
+    <mesh name="mesh_link3" file="RT605-004.stl"/>
+    <mesh name="mesh_link4" file="RT605-005.stl"/>
+    <mesh name="mesh_link5" file="RT605-006.stl"/>
+    <mesh name="mesh_link6" file="RT605-007.stl"/>
+    <mesh name="mesh_ee_main"  file="end_effector_main.stl"/>
+  </asset>
+
+  <worldbody>
+    <light pos="0 0 1500" dir="0 0 -1"/>
+    <camera name="viewcam" pos="1400 -1400 900" xyaxes="0.707 0.707 0 -0.35 0.35 0.87"/>
+    <geom name="floor" type="plane" size="1000 1000 10" rgba="0.3 0.3 0.32 1" contype="0" conaffinity="0"/>
+
+    <body name="base" pos="0 0 0">
+      <geom name="geom_base" type="mesh" mesh="mesh_base" rgba="0.55 0.55 0.6 1"/>
+
+      <body name="link1" pos="0.000 0.000 338.000" quat="1.0000 0.0000 0.0000 0.0000">
+        <joint name="J1" type="hinge" axis="0 0 1" range="-165 165" ref="0"/>
+        <geom name="geom_link1" type="mesh" mesh="mesh_link1" rgba="0.85 0.3 0.3 0.9"/>
+
+        <body name="link2" pos="67.000 0.000 0.000" quat="0.7071 -0.7071 0.0000 0.0000">
+          <joint name="J2" type="hinge" axis="0 0 1" range="-125 85" ref="0"/>
+        <!-- 注意:此關節不使用 ref 做 -90 偏移,呼叫端須自行換算:
+             qpos_J2 = controller_J2_degrees - 90,再轉成弧度餵進來 -->
+          <geom name="geom_link2" type="mesh" mesh="mesh_link2" rgba="0.95 0.6 0.2 0.9"/>
+
+          <body name="link3" pos="375.000 0.000 0.000" quat="1.0000 0.0000 0.0000 0.0000">
+            <joint name="J3" type="hinge" axis="0 0 1" range="-55 185" ref="0"/>
+            <geom name="geom_link3" type="mesh" mesh="mesh_link3" rgba="0.95 0.9 0.2 0.9"/>
+
+            <body name="link4" pos="0.000 375.000 0.000" quat="0.7071 -0.7071 0.0000 0.0000">
+              <joint name="J4" type="hinge" axis="0 0 1" range="-190 190" ref="0"/>
+              <geom name="geom_link4" type="mesh" mesh="mesh_link4" rgba="0.4 0.9 0.4 0.9"/>
+
+              <body name="link5" pos="0.000 0.000 0.000" quat="0.7071 0.7071 0.0000 0.0000">
+                <joint name="J5" type="hinge" axis="0 0 1" range="-115 115" ref="0"/>
+                <geom name="geom_link5" type="mesh" mesh="mesh_link5" rgba="0.3 0.6 0.95 0.9"/>
+
+                <body name="link6" pos="0.000 60.000 0.000" quat="0.7071 -0.7071 0.0000 0.0000">
+                  <joint name="J6" type="hinge" axis="0 0 1" range="-360 360" ref="0"/>
+                  <geom name="geom_link6" type="mesh" mesh="mesh_link6" rgba="0.7 0.4 0.9 0.9"/>
+                  <site name="flange" pos="0 0 0" size="10" rgba="1 0 1 1"/>
+                  <!-- 連接板:用實測的連接面覆蓋範圍(48x66mm)做成實心平板,
+                       取代還沒量到的四孔精確座標;平板從 J6 (z=0) 延伸到
+                       末端安裝面 (z=2),兩邊相切,不留空隙也不重疊 -->
+                  <geom name="mount_plate" type="box" size="24 33 1" pos="0 0 1"
+                        rgba="0.6 0.6 0.65 1"/>
+                  <!-- 新末端:用「頂部連接板法向量對齊 J6 局部 +Z、留 2mm 間隙貼合」的近似對齊方式掛上,
+                       等孔位精確座標量出來後,這裡的角度/位置要重新微調精修 -->
+                  <geom name="ee_main" type="mesh" mesh="mesh_ee_main" rgba="0.9 0.3 0.9 0.85"/>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+
+  <contact>
+    <exclude body1="base"  body2="link1"/>
+    <exclude body1="link1" body2="link2"/>
+    <exclude body1="link2" body2="link3"/>
+    <exclude body1="link3" body2="link4"/>
+    <exclude body1="link4" body2="link5"/>
+    <exclude body1="link5" body2="link6"/>
+  </contact>
+
+  <!-- 註:ee_main / ee_small 的 geom 定義在 link6 body 內部,同一個 body 底下的 geom
+       彼此之間不會互相檢查碰撞(MuJoCo 預設同 body 內部自動略過),不需額外 exclude -->
+  <keyframe>
+    <!-- key 0:DH 零位(手臂完全伸直),flange 應落在 (502,0,713)
+         J2 弧度 -1.5708 對應控制器角度 0(物理角度 -90) -->
+    <key name="dh_zero" qpos="0 -1.5708 0 0 0 0"/>
+  </keyframe>
+</mujoco>

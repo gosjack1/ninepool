@@ -1,0 +1,1 @@
+/home/jack/work/build/detect_interface/rosidl_generator_py/detect_interface/msg/__init__.py

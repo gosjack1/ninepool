@@ -1,0 +1,1 @@
+/home/jack/work/build/detect_interface/rosidl_generator_cpp/detect_interface/msg/detail/bounding_box__type_support.hpp

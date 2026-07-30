@@ -1,0 +1,8 @@
+build/
+install/
+log/
+*.zip
+__pycache__/
+**/.venv/
+src.tar.xz
+**/libllvmlite.so

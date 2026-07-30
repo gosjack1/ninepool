@@ -1,0 +1,26 @@
+package.xml
+setup.cfg
+setup.py
+center/__init__.py
+center/boss_strategy_client.py
+center/boss_yolo_service.py
+center/control.py
+center/just_pool_think0524.py
+center/publisher_dection_boxes (copy).py
+center/publisher_dection_boxes.py
+center/strategy copy 2.py
+center/strategy copy.py
+center/strategy.py
+center/tableball (copy).py
+center/tableball.py
+center/tableball0520.py
+center/test.py
+center/transformations.py
+center.egg-info/PKG-INFO
+center.egg-info/SOURCES.txt
+center.egg-info/dependency_links.txt
+center.egg-info/entry_points.txt
+center.egg-info/requires.txt
+center.egg-info/top_level.txt
+center.egg-info/zip-safe
+resource/center

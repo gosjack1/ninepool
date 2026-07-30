@@ -1,0 +1,4 @@
+/home/jack/work/install/hiwin_libmodbus/lib/libhiwin_libmodbus.so
+/home/jack/work/install/hiwin_libmodbus/lib/libhiwin_libmodbus_ctype_wrapper.so
+/home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/export_hiwin_libmodbusExport.cmake
+/home/jack/work/install/hiwin_libmodbus/share/hiwin_libmodbus/cmake/export_hiwin_libmodbusExport-noconfig.cmake
